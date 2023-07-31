@@ -1,0 +1,239 @@
+.pricing {
+    @extend %of-hidden,
+    %p-rel;
+
+    &__wrapper {
+        @include breakpoint(sm) {
+            .col-lg-4 {
+                &:first-child {
+                    margin-top: 100px;
+                }
+            }
+        }
+
+        @include breakpoint(lg) {
+            .col-lg-4 {
+                &:not(:nth-child(2)) {
+                    margin-top: 100px;
+                }
+            }
+        }
+    }
+
+    &__item {
+        @extend %p-rel;
+        z-index: 2;
+
+        &-inner {
+            @extend %py-30,
+            %px-25;
+            @include add-prefix(transition, $transition);
+            background-color: $wh-color;
+            border: 3px solid transparent;
+            box-shadow: 0px 16px 40px 0px rgba(26, 64, 137, 0.06);
+            border-radius: 16px;
+
+
+            // &.active,
+            // &:hover {
+            //     border: 3px solid $secondary-color;
+            //     // box-shadow: 0px 32px 80px 0px rgba(26, 64, 137, 0.12);
+
+            // }
+
+            @include breakpoint(sm) {
+                padding-block: 32px;
+                padding-inline: 25px;
+            }
+
+            // &--style2 {
+            //     @include add-prefix(transition, $transition);
+
+            //     &.active,
+            //     &:hover {
+            //         border: 3px solid $secondary-color;
+            //         // box-shadow: 0px 32px 80px 0px rgba(26, 64, 137, 0.12);
+            //     }
+            // }
+        }
+
+        &-focus {
+            @extend %p-rel,
+            %d-grid,
+            %place-i-center;
+            @include add-prefix(transition, $transition);
+            top: -62px;
+            opacity: 0;
+
+            span {
+                @extend %text-capitalize,
+                %text-bold;
+                @include font-size(18px);
+                color: $bg-white;
+                background-color: $secondary-color;
+                padding: 13px 18px;
+                border-radius: 99px;
+            }
+        }
+
+
+        &-top {
+            @extend %p-rel;
+            // border-bottom: 1px solid rgba($brand-color,.1);
+            border-bottom: 1px solid $border-color-3;
+
+            h5 {
+                text-transform: capitalize;
+            }
+
+            h3 {
+                color: $brand-color;
+            }
+
+            img {
+                @extend %p-abs;
+                @include add-prefix(transition, $transition);
+                right: 30px;
+                top: -15px;
+                opacity: 0;
+            }
+        }
+
+        &-middle {
+            @extend %py-40;
+        }
+
+        &.active,
+        &:hover {
+            .pricing {
+                &__item {
+                    &-inner {
+                        border: 3px solid $secondary-color;
+                        // box-shadow: 0px 32px 80px 0px rgba(26, 64, 137, 0.12);
+
+                    }
+
+                    &-focus {
+                        opacity: 1;
+                    }
+
+                    &-top {
+                        img {
+                            opacity: 1;
+                        }
+                    }
+                }
+
+            }
+        }
+
+
+    }
+
+    &__list {
+        @extend %mb-0,
+        %ps-0;
+
+        &-item {
+            @extend %text-clamp-1;
+            color: $title-color;
+
+            span {
+                @extend %me-5;
+            }
+
+
+            &:not(:last-child) {
+                @extend %mb-15;
+            }
+        }
+    }
+
+
+    // shape
+    &__shape {
+
+        &-item {
+            @extend %p-abs;
+
+            &--1 {
+                // width: 40px;
+                bottom: 0%;
+                right: 0%;
+                // @include animation(floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+
+                @include breakpoint(sm) {
+                    bottom: 0%;
+                    right: 0%;
+                }
+
+                @include breakpoint(md) {
+                    width: auto;
+                    bottom: 0%;
+                    right: 0%;
+                }
+
+                @include breakpoint(lg) {
+                    right: auto;
+                    bottom: auto;
+                    left: -9%;
+                    top: 0%;
+                }
+
+                @include breakpoint(xl) {
+                    top: 0%;
+                    left: 0%;
+                }
+
+                @include breakpoint(xxl) {
+                    top: 0%;
+                    left: 0%;
+                }
+            }
+
+            &--2 {
+                // width: 40px;
+                top: 0%;
+                right: 0%;
+                @include animation(floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+
+                @include breakpoint(sm) {
+                    top: 9%;
+                    right: -17.5%;
+                }
+
+                @include breakpoint(md) {
+                    width: auto;
+                    top: 53%;
+                    right: 0%;
+                }
+
+                @include breakpoint(lg) {
+                    top: 21%;
+                    right: -13%;
+                }
+
+                @include breakpoint(xl) {
+                    top: 21%;
+                    right: -13%;
+                }
+
+                @include breakpoint(xxl) {
+                    top: 21%;
+                    right: 2%;
+                }
+
+                @include breakpoint(xxxl) {
+                    top: 17%;
+                    right: 6%;
+
+                }
+            }
+
+        }
+
+
+    }
+
+
+}

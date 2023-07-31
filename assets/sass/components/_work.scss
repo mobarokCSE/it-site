@@ -1,0 +1,339 @@
+.work {
+    @extend %p-rel,
+    %of-hidden;
+
+    &--style1 {
+        .work {
+            &__item {
+                @extend %p-rel;
+
+                &-inner {
+                    @extend %p-rel,
+                    %d-grid,
+                    %place-i-end;
+                    justify-items: left;
+                }
+
+                &-thumb {
+                    @extend %p-rel;
+
+                    &::after {
+                        @extend %p-abs;
+                        @include add-prefix(transition, $transition);
+                        content: "";
+                        top: 0;
+                        left: 0;
+                        height: 0%;
+                        width: 100%;
+                        border-radius: 8px;
+                        background: linear-gradient(0deg, rgba(83, 126, 253, 0.70) 0%, rgba(83, 126, 253, 0.70) 100%);
+                        opacity: 0;
+                    }
+                }
+
+                &-content {
+                    @extend %p-abs,
+                    %py-10,
+                    %px-15,
+                    %d-flex,
+                    %align-i-center,
+                    %justify-between;
+                    bottom: 24px;
+                    left: 24px;
+                    @include add-prefix(transition, $transition);
+                    border-radius: 8px;
+                    background-color: rgba(17, 21, 33, 0.80);
+                    color: $title-color;
+                    gap: 30px;
+                    opacity: 0;
+
+                    @include breakpoint(sm) {
+                        @include breakpoint(max-md) {
+                            padding: 12px 24px;
+                        }
+                    }
+
+                    @include breakpoint(lg) {
+                        padding: 12px 24px;
+                    }
+
+                    h5 {
+                        a {
+                            @extend %text-capitalize,
+                            %text-medium;
+                            // flex: 1;
+                            // width: 100%;
+                            color: $bg-white;
+
+                            @include font-size(18px);
+
+                            @include breakpoint(sm) {
+                                @include breakpoint(max-md) {
+                                    @include font-size(16px);
+                                }
+                            }
+
+                            @include breakpoint(lg) {
+                                @include breakpoint(max-xl) {
+                                    @include font-size(18px);
+                                }
+                            }
+
+                            @include breakpoint(xl) {
+                                @include font-size(24px);
+                            }
+                        }
+                    }
+
+                    span {
+                        svg {
+                            rect {
+                                fill: $brand-color;
+                            }
+
+                            @include breakpoint(sm) {
+                                @include breakpoint(max-md) {
+                                    @include box(30px);
+                                }
+                            }
+
+                            @include breakpoint(md) {
+                                @include breakpoint(max-lg) {
+                                    @include box(24px);
+                                }
+                            }
+                        }
+                    }
+
+
+
+                }
+
+                &-category {
+                    @extend %p-abs;
+                    @include add-prefix(transition, $transition);
+                    top: 24px;
+                    left: 24px;
+                    opacity: 0;
+
+                    @include breakpoint(md) {
+                        @include breakpoint(max-lg) {
+                            left: 10px;
+                        }
+                    }
+                }
+
+
+                &:hover {
+                    .work {
+                        &__item {
+                            &-inner {
+                                cursor: pointer;
+                            }
+
+                            &-thumb {
+                                &::after {
+                                    height: 100%;
+                                    opacity: 1;
+                                }
+                            }
+
+                            &-content { 
+                                opacity: 1;
+                            }
+
+                            &-category {
+                                opacity: 1;
+                                cursor: auto;
+                            }
+                        }
+                    }
+                }
+
+
+
+            }
+        }
+    }
+
+    &--style2 {
+        .work {
+            &__tab {
+                @extend %mb-60,
+                %d-grid;
+                background-color: $thm-black-color;
+                padding-block: 68px;
+                border-radius: 4px;
+                gap: 15px;
+
+                @include breakpoint(md) {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                }
+
+                @include breakpoint(lg) {
+                    margin-block-end: 110px;
+                }
+
+                li {
+
+
+
+                    button {
+                        @extend %d-inline-flex,
+                        %align-i-center;
+                        @include add-prefix(transition, $transition);
+                        background-color: transparent;
+                        color: $bg-white;
+                        @include font-size(24px);
+                        gap: 15px;
+
+                        span {
+                            @extend %d-grid,
+                            %place-i-center;
+                            background-color: $work-count-bg-color;
+                            color: $bg-white;
+                            @include box(46px);
+                            border-radius: 99px;
+
+                        }
+
+                        &.active {
+                            @extend %d-inline-flex,
+                            %align-i-center;
+                            background-color: transparent;
+                            color: $bg-white;
+                            @include font-size(24px);
+                            gap: 15px;
+
+                            span {
+                                @extend %d-grid,
+                                %place-i-center;
+                                background-color: $brand-color;
+                                color: $bg-white;
+                                @include box(46px);
+                                border-radius: 99px;
+
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            &__content {
+                h4 {
+                    @extend %text-capitalize,
+                    %mb-20;
+                    line-height: 1.25;
+
+                    span {
+                        color: $brand-color;
+                    }
+
+                    @include breakpoint(xl) {
+                        margin-block-end: 30px;
+                    }
+                }
+
+                p {
+                    color: $title-color;
+                    opacity: 0.6;
+                }
+            }
+
+            &__shape {
+
+                &-item {
+                    @extend %p-abs;
+
+                    &--1 {
+                        top: 71%;
+                        right: 2%;
+                        rotate: 72deg;
+
+                        @include breakpoint(sm) {
+                            top: 62%;
+                            right: 2%;
+                            rotate: 72deg;
+                        }
+
+                        @include breakpoint(md) {
+                            top: 52%;
+                            right: 2%;
+                            rotate: 72deg;
+                        }
+
+                        @include breakpoint(lg) {
+                            top: 33%;
+                            right: 2%;
+                            rotate: 72deg;
+                        }
+
+                        @include breakpoint(xl) {
+                            top: 34%;
+                            right: 2%;
+                        }
+
+                        @include breakpoint(xxl) {
+                            top: 34%;
+                            right: 2%;
+                            rotate: 72deg;
+                        }
+
+                        @include breakpoint(xxxl) {
+                            top: 34%;
+                            right: 2%;
+
+                        }
+                    }
+
+                    &--2 {
+                        bottom: -5%;
+                        right: -19%;
+                        rotate: -45deg;
+                        z-index: -1;
+
+                        @include breakpoint(sm) {
+                            bottom: -5%;
+                            right: -10%;
+                            rotate: -45deg;
+                        }
+
+                        @include breakpoint(md) {
+                            bottom: -5%;
+                            right: 0%;
+                        }
+
+                        @include breakpoint(lg) {
+                            bottom: 9%;
+                            right: 27%;
+                            rotate: -4deg;
+                        }
+
+                        @include breakpoint(xl) {
+                            bottom: 2%;
+                            right: 35%;
+                        }
+
+                        @include breakpoint(xxl) {
+                            bottom: 2%;
+                            right: 35%;
+                        }
+
+                        @include breakpoint(xxxl) {
+                            bottom: 2%;
+                            right: 35%;
+
+                        }
+                    }
+
+                }
+
+
+            }
+        }
+    }
+
+}

@@ -1,0 +1,545 @@
+.sidebar {
+    @extend %of-hidden;
+
+    &__head {
+        @extend %p-rel;
+
+        h3 {
+            @extend %pb-15,
+            %mb-0;
+            border-bottom: 1px solid $border-color-5;
+        }
+
+        h5 {
+            @extend %text-semibold,
+            %text-capitalize,
+            %pb-5,
+            %mb-0;
+        }
+
+        h6 {
+            @extend %text-semibold,
+            %pb-15,
+            %mb-0;
+            border-bottom: 1px solid $border-color-5;
+        }
+
+        h4 {
+            @extend %mb-0;
+        }
+    }
+
+    &__search {
+        @extend %p-25;
+        background-color: $wh-color;
+        // box-shadow: 0px -16px 48px rgba(6, 35, 63, 0.03), 0px 16px 48px rgba(6, 35, 63, 0.03);
+        border-radius: 8px;
+
+        @include breakpoint(xl) {
+            padding: 40px;
+        }
+
+
+        form {
+            @extend %p-rel;
+            background-color: $wh-color;
+            border-radius: 8px;
+
+            input {
+                @extend %p-20;
+                // background-color: transparent;
+                background-color: $form-bg-color;
+                border-color: $brand-color;
+                border-radius: 8px;
+                cursor: text;
+
+
+                &:focus {
+                    box-shadow: none;
+                    // trk-rgba 
+                    // border-color: rgba($brand-color, $alpha: 0.50);
+                    // border-color: $brand-color;
+                    border-color: $brand-color;
+                }
+            }
+
+            button {
+                @extend %p-abs;
+                content: "";
+                padding: 23px;
+                top: 0px;
+                right: 0px;
+                line-height: 10px;
+                border: 1px solid $brand-color;
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+                outline: none;
+                // border-radius: 99px;
+                background-color: $brand-color;
+                color: $wh-color;
+
+                // @include transform(translateY(-50%));
+                i,
+                svg {
+                    @include font-size(18px);
+                }
+
+            }
+        }
+    }
+
+    &__recentpost {
+        @extend %p-25;
+        background-color: $bg-color-3;
+        box-shadow: none;
+        border-radius: 16px;
+
+        @include breakpoint(xl) {
+            padding: 40px;
+        }
+
+        &--style2 {
+            background-color: $wh-color;
+            border-radius: 8px;
+        }
+
+        // box-shadow: 0px -16px 48px rgba(6, 35, 63, 0.03),
+        // 0px 16px 48px rgba(6, 35, 63, 0.03);
+
+        &-body {
+            @extend %pt-25;
+
+            ul {
+                li {
+                    @extend %mb-30;
+
+                    &:last-child {
+                        margin-block-end: 0;
+                    }
+                }
+            }
+        }
+
+        &-inner {
+            @extend %d-flex,
+            %align-i-center;
+            gap: 15px;
+
+            @include breakpoint(lg) {
+                gap: 10px;
+            }
+
+            @include breakpoint(xl) {
+                gap: 15px;
+            }
+        }
+
+        &-thumb {
+            @extend %of-hidden;
+            max-width: 90px;
+            border-radius: 8px;
+
+            @include breakpoint (lg) {
+                max-width: 59px;
+            }
+
+            @include breakpoint (xl) {
+                max-width: 90px;
+            }
+
+            img {
+                @extend %w-100;
+                @include add-prefix(transition, $transition);
+                object-fit: cover;
+
+                &:hover {
+                    @include add-prefix(transform, scale(1.09));
+                }
+            }
+        }
+
+        &-content {
+
+            p {
+                @extend %mb-0,
+                %text-medium;
+                @include font-size(20px);
+                color: $title-color;
+                font-family: $title-font;
+
+                @include breakpoint(lg) {
+                    @include breakpoint(max-xl) {
+                        @include font-size(18px);
+                    }
+                }
+
+                a {
+                    @extend %text-clamp-3;
+                    @include add-prefix(transition, $transition);
+                    color: $title-color;
+                }
+            }
+
+            span {
+                @include font-size(16px);
+                @include add-prefix(transition, $transition);
+                color: $title-color;
+                opacity: 0.6;
+
+            }
+
+            &:hover {
+                p {
+                    a {
+                        color: $brand-color;
+                    }
+                }
+
+                // span {
+                //     color: $brand-color;
+                // }
+            }
+        }
+
+        &-contentdate {
+            @extend %d-flex,
+            %align-i-center;
+            gap: 5px;
+
+            span {
+                @extend %mt-5;
+            }
+
+            svg {
+                path {
+                    stroke: $brand-color;
+                }
+            }
+        }
+
+    }
+
+    &__categorie {
+        @extend %p-25;
+        background-color: $wh-color;
+        // box-shadow: 0px -16px 48px rgba(6, 35, 63, 0.03), 0px 16px 48px rgba(6, 35, 63, 0.03);
+        border-radius: 8px;
+
+        @include breakpoint(xl) {
+            padding: 40px;
+        }
+
+        &-body {
+            @extend %mt-30;
+
+            ul {
+                li {
+                    @extend %mb-15,
+                    %d-flex,
+                    %align-i-center,
+                    %justify-between;
+                    padding: 8px 16px;
+                    background-color: $bg-color-3;
+                    border-radius: 4px;
+
+                    &:last-child {
+                        margin-block-end: 0;
+                    }
+
+                    span,
+                    a {
+                        @extend %of-hidden,
+                        %text-regular,
+                        %text-clamp-1;
+                        @include font-size(16px);
+                        @include add-prefix(transition, $transition);
+                        color: $title-color;
+                    }
+
+                    &.active,
+                    &:hover {
+                        background-color: $brand-color;
+
+                        span,
+                        a {
+                            @extend %text-medium;
+                            color: $bg-white;
+                        }
+                    }
+
+                    a {
+                        i {
+                            @extend %me-5;
+                            color: $text-color-light;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__social {
+        @extend %p-25;
+        background-color: $wh-color;
+        // trk-rgba 
+        box-shadow: 0px -16px 48px rgba(6, 35, 63, 0.03), 0px 16px 48px rgba(6, 35, 63, 0.03);
+        border-radius: 4px;
+    }
+
+    &__tags {
+        @extend %p-25;
+        background-color: $wh-color;
+        // box-shadow: 0px -16px 48px rgba(6, 35, 63, 0.03), 0px 16px 48px rgba(6, 35, 63, 0.03);
+        border-radius: 8px;
+
+        @include breakpoint(xl) {
+            padding: 40px;
+        }
+
+        &-body {
+            @extend %mt-30;
+        }
+    }
+
+
+
+    &__comment {
+        @extend %p-30,
+        %mt-40;
+        background-color: $tertiary-color3;
+        border-radius: 16px;
+
+        @include breakpoint(lg) {
+            padding: 40px;
+        }
+
+        &-body {
+            @extend %pt-25;
+        }
+
+        &-item {
+            @extend %mb-40;
+
+            &:last-child {
+                margin-block-end: 0;
+            }
+
+            &--reply {
+                @extend %ms-30;
+
+                @include breakpoint(sm) {
+                    margin-inline-start: 50px;
+                }
+            }
+        }
+
+    }
+
+
+    &__author {
+        @extend %p-25,
+        %text-center;
+        background-color: $bg-color-3;
+        border-radius: 16px;
+
+        @include breakpoint(xl) {
+            padding: 40px;
+        }
+
+        &-heading {
+            h5 {
+                @extend %text-capitalize,
+                %mb-40;
+            }
+        }
+
+        &-designation {
+            @extend %pb-30,
+            %pt-25,
+            %mb-30;
+
+            @include breakpoint(lg) {
+                padding-block-end: 40px;
+            }
+
+            border-bottom: 1px solid $border-color-2;
+
+            h6 {
+                @extend %text-capitalize,
+                %text-medium,
+                %mb-0;
+            }
+
+            p {
+                @extend %text-capitalize,
+                %mb-0;
+                color: $title-color;
+                opacity: 0.6;
+            }
+
+        }
+
+        &-social {
+            @extend %d-inline-flex;
+        }
+    }
+
+    &__info {
+        @extend %p-25;
+        background-color: $bg-color-3;
+        border-radius: 16px;
+
+        @include breakpoint(xl) {
+            padding: 40px;
+        }
+
+        &-body {
+
+            ul {
+                li {
+                    @extend %mb-30;
+
+                    &:last-child {
+                        margin-block-end: 0;
+                    }
+                }
+            }
+        }
+
+        &-inner {
+            @extend %d-flex,
+            %align-i-center;
+            gap: 15px;
+
+            @include breakpoint(lg) {
+                gap: 10px;
+            }
+
+            @include breakpoint(xl) {
+                gap: 15px;
+            }
+        }
+
+        &-thumb {
+            @extend %of-hidden;
+            max-width: 100px;
+            border-radius: 8px;
+
+            // @include breakpoint (lg) {
+            //     max-width: 45px;
+            // }
+
+            @include breakpoint (xl) {
+                max-width: 100px;
+            }
+
+            img {
+                @extend %w-100;
+                @include add-prefix(transition, $transition);
+                padding: 16px;
+                border-radius: 4px;
+                background-color: $wh-color;
+            }
+        }
+
+        &-content {
+            // @extend %ps-15;
+
+            p {
+                @extend %mb-0,
+                %text-bold;
+                @include font-size(20px);
+                color: $title-color;
+                font-family: $title-font;
+            }
+
+            span {
+                @include font-size(18px);
+                @include add-prefix(transition, $transition);
+                color: $text-color;
+            }
+        }
+
+    }
+
+}
+
+
+
+
+// tag for global
+.tags {
+    ul {
+        @extend %d-flex;
+        gap: 16px 8px;
+
+        li {
+            border: none;
+
+            h6 {
+                @include font-size(18px);
+                font-family: $text-font;
+            }
+
+            a {
+                @extend %text-regular,
+                %text-capitalize;
+                @include add-prefix(transition, $transition);
+                @include font-size(16px);
+                padding: 8px 16px;
+                color: $title-color;
+                background-color: $bg-color-3;
+                border-radius: 4px;
+                // border: 1px solid $border-color-5;
+
+                outline: none;
+                // border-radius: 99px;
+
+                &.active,
+                &:hover {
+                    background-color: $brand-color;
+                    border-color: $brand-color;
+                    color: $bg-white;
+                }
+            }
+        }
+    }
+
+    &--style2 {
+        ul {
+            @extend %d-flex;
+            gap: 25px 10px;
+
+            li {
+                border: none;
+
+                h6 {
+                    @include font-size(18px);
+                    font-family: $text-font;
+                }
+
+                a {
+                    @extend %text-regular,
+                    %text-capitalize;
+                    @include add-prefix(transition, $transition);
+                    @include font-size(16px);
+                    padding: 8px 16px;
+                    color: $text-color;
+                    border: 1px solid $border-color-5;
+
+                    outline: none;
+                    border-radius: 99px;
+
+                    &.active,
+                    &:hover {
+                        background-color: $tag-bg-color;
+                        border-color: $border-color-6;
+                        color: $brand-color;
+                    }
+                }
+
+
+            }
+        }
+    }
+}

@@ -1,0 +1,445 @@
+.about {
+    @extend %p-rel,
+    %of-hidden;
+
+    &--style1 {
+        padding-block-end: 235px;
+
+        @include breakpoint(sm) {
+            padding-block-end: 260px;
+        }
+
+        @include breakpoint(md) {
+            padding-block-end: 250px;
+        }
+
+        @include breakpoint(lg) {
+            padding-block-end: 240px;
+        }
+
+        .about {
+            &__thumb {
+                @extend %p-rel;
+
+                &-inner {
+                    position: relative;
+                    // left: -100px;
+                    display: flex;
+                    gap: 20px;
+
+                    @include breakpoint(lg) {
+                        left: -20px;
+                    }
+
+                    @include breakpoint(xl) {
+                        left: -20px;
+                    }
+
+                    @include breakpoint(xxl) {
+                        left: -60px;
+                    }
+
+                    @include breakpoint(xxxl) {
+                        left: -100px;
+                    }
+
+                }
+
+                &-image {
+                    img {
+                        max-width: auto !important;
+                    }
+
+                    &:first-child {
+                        @extend %mt-80;
+
+                        @include breakpoint(xl) {
+                            margin-block-start: 100px;
+                        }
+                    }
+                }
+            }
+
+            &__content {
+                h3 {
+                    @extend %mb-30,
+                    %text-capitalize;
+                    color: $bg-white;
+
+                    span {
+                        color: $brand-color;
+                    }
+                }
+
+                p {
+                    color: $text-color-light;
+                }
+
+                &--style2 {
+                    h3 {
+                        @extend %mb-30,
+                        %text-capitalize;
+                        color: $title-color;
+
+                        span {
+                            color: $brand-color;
+                        }
+                    }
+
+                    p {
+                        color: $text-color;
+                    }
+                }
+            }
+
+            &__shape {
+
+                &-item {
+                    @extend %p-abs;
+
+                    &--1 {
+                        z-index: 4;
+                        bottom: 59%;
+                        left: 76%;
+                        @include animation(light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+
+
+                        @include breakpoint(sm) {
+                            bottom: 52%;
+                            left: 76%;
+                        }
+
+                        @include breakpoint(md) {
+                            bottom: 46%;
+                            left: 76%;
+                        }
+
+                        @include breakpoint(lg) {
+                            @include animation(floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+                            bottom: 17%;
+                            left: 1%;
+                        }
+
+                        @include breakpoint(xl) {
+                            bottom: 12%;
+                            left: 1%;
+                        }
+
+                        @include breakpoint(xxl) {
+                            bottom: 11%;
+                            left: 5%;
+                        }
+
+                        @include breakpoint(xxxl) {
+                            bottom: 10%;
+                            left: 15%;
+                        }
+                    }
+
+                    &--2 {
+                        bottom: 15%;
+                        right: -6%;
+                        width: 200px;
+                        @include animation(light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+
+                        @include breakpoint(sm) {
+                            width: 250px;
+                            bottom: 14%;
+                            right: 18%;
+                        }
+
+                        @include breakpoint(md) {
+                            width: auto;
+                            bottom: 6%;
+                            right: 22%;
+                        }
+
+                        @include breakpoint(lg) {
+                            bottom: 7%;
+                            right: -11%;
+                        }
+
+                        @include breakpoint(xl) {
+                            bottom: 14%;
+                            right: 0%;
+                        }
+
+                        @include breakpoint(xxl) {
+                            bottom: 14%;
+                            right: 7%;
+                        }
+
+                        @include breakpoint(xxxl) {
+                            bottom: 14%;
+                            right: 17%;
+                        }
+                    }
+
+                    &--3 {
+                        bottom: 0%;
+                        right: 0%;
+
+                        @include breakpoint(sm) {
+                            bottom: 0%;
+                            right: 0%;
+                        }
+
+                        @include breakpoint(md) {
+                            bottom: 0%;
+                            right: 0%;
+                        }
+
+                        @include breakpoint(lg) {
+                            bottom: 0%;
+                            right: 0%;
+                        }
+
+                        @include breakpoint(xl) {
+                            bottom: 0%;
+                            right: 0%;
+                        }
+
+                        @include breakpoint(xxl) {
+                            bottom: 0%;
+                            right: 0%;
+                        }
+
+                        @include breakpoint(xxxl) {
+                            bottom: 0%;
+                            right: 0%;
+
+                        }
+                    }
+
+                    &--4 {
+                        top: 0%;
+                        left: -15%;
+                        @include animation(floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+                        // z-index: -1;
+
+                        @include breakpoint(sm) {
+                            top: -3%;
+                            left: -28%;
+                        }
+
+                        @include breakpoint(md) {
+                            top: -3%;
+                            left: -16%;
+                        }
+
+                        @include breakpoint(lg) {
+                            left: auto;
+                            top: -1%;
+                            right: 1%;
+                        }
+
+                        @include breakpoint(xl) {
+                            top: -1%;
+                            right: 1%;
+                        }
+
+                        @include breakpoint(xxl) {
+                            top: 8%;
+                            right: 6%;
+                        }
+
+                        @include breakpoint(xxxl) {
+                            top: 8%;
+                            right: 6%;
+
+                        }
+                    }
+
+
+                }
+
+
+            }
+        }
+    }
+
+
+
+    &__shape {
+        &--style1 {
+            .about__shape {
+                &-item {
+                    @extend %p-abs;
+                    width: 40px;
+                    top: 5%;
+                    right: 6%;
+                    @include animation(rotate 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+
+                    @include breakpoint(sm) {
+                        top: 5%;
+                        right: 7%;
+                    }
+
+                    @include breakpoint(md) {
+                        width: auto;
+                        top: 6%;
+                        right: 6%;
+                    }
+
+                    @include breakpoint(lg) {
+                        right: 5%;
+                        top: 16%;
+                    }
+
+                    @include breakpoint(xl) {
+                        top: 16%;
+                        right: 6%;
+                    }
+
+                    @include breakpoint(xxl) {
+                        top: 16%;
+                        right: 9%;
+                    }
+                }
+            }
+        }
+
+        &--style2 {
+            .about__shape {
+                &-item {
+                    @extend %p-abs;
+
+                    &--1 {
+                        width: 80px;
+                        top: 52%;
+                        right: 71%;
+                        @include animation(floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+
+                        @include breakpoint(sm) {
+                            width: auto;
+                            top: 45%;
+                            right: 71%;
+                        }
+
+                        @include breakpoint(md) {
+                            top: 45%;
+                            right: 77%;
+                        }
+
+                        @include breakpoint(lg) {
+                            right: 43%;
+                            top: 8%;
+                        }
+
+                        @include breakpoint(xl) {
+                            top: 3%;
+                            right: 40%;
+                        }
+
+                        @include breakpoint(xxl) {
+                            top: -1%;
+                            right: 3%;
+                        }
+
+                        @include breakpoint(xxxl) {
+                            top: 0%;
+                            right: 9%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    &--style3 {
+        .about {
+            &__content {
+                &-icon {
+                    @extend %mb-30;
+
+                    img {
+                        width: 70px;
+                        @include animation(left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+
+                        @include breakpoint (sm) {
+                            width: 73px;
+                        }
+
+                        @include breakpoint (md) {
+                            width: 70px;
+                        }
+
+                        @include breakpoint (lg) {
+                            width: 90px;
+                        }
+
+                        @include breakpoint (xl) {
+                            width: auto;
+                        }
+                    }
+                }
+
+                h2 {
+                    @extend %text-capitalize;
+                }
+
+                p {
+                    color: $text-color;
+                }
+
+                a {
+                    @extend %mt-30;
+
+                    @include breakpoint(md) {
+                        margin-block-start: 40px;
+                    }
+                }
+
+                ul {
+                    @extend %mt-25,
+                    %mb-5;
+
+                    li {
+                        @extend %text-semibold,
+                        %d-block,
+                        %align-i-center;
+                        @include font-size(18px);
+                        color: $title-color-style2;
+                        font-family: $text-font;
+
+                        span {
+
+                            img {
+                                @extend %me-5;
+                                max-width: 25px;
+
+
+                                @include breakpoint(sm) {
+                                    max-width: 26px;
+                                }
+
+                                @include breakpoint(md) {
+                                    margin-inline-end: 5px;
+                                }
+
+                                @include breakpoint(lg) {
+                                    max-width: 100%;
+                                    margin-inline-end: 10px;
+                                }
+                            }
+                        }
+
+                        @include breakpoint(lg) {
+                            @include font-size(20px);
+                        }
+
+                        &:not(:last-child) {
+                            @extend %mb-15;
+
+                            @include breakpoint(lg) {
+                                margin-block-end: 20px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

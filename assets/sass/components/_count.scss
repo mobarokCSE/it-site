@@ -1,0 +1,137 @@
+.count {
+    &--style1 {
+        @extend %p-rel;
+        margin-top: -175px;
+        z-index: 3;
+
+        @include breakpoint(sm) {
+            margin-top: -185px;
+        }
+
+        @include breakpoint(md) {
+            margin-top: -165px;
+        }
+
+        @include breakpoint(lg) {
+            margin-top: -110px;
+        }
+
+        
+
+        .count {
+            &__wrapper {
+                @extend %p-rel,
+                %py-40,
+                %px-30;
+                border-radius: 24px;
+                border: 1px solid rgba(17, 21, 33, 0.04);
+                background-color: $wh-color;
+                box-shadow: 0px 16px 80px 0px rgba(149, 156, 176, 0.18);
+
+                @include breakpoint(sm) {
+                    padding: 60px 40px;
+                }
+
+                @include breakpoint(md) {
+                    padding: 60px 80px;
+                }
+
+                @include breakpoint(lg) {
+                    padding: 60px 40px;
+                }
+
+                @include breakpoint(xl) {
+                    padding: 60px 100px;
+                }
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    height: 100%;
+                    width: 100%;
+                    left: 10px;
+                    bottom: -115px;
+                    background-image: url(../../../assets/images/count/shape/1.png);
+                    background-repeat: no-repeat;
+                    background-position: left;
+
+                    @include breakpoint(sm) {
+                        bottom: -107px;
+                    }
+
+                    @include breakpoint(md) {
+                        bottom: -114px;
+                    }
+
+                    @include breakpoint(lg) {
+                        bottom: -47px;
+                    }
+
+                    @include breakpoint(xl) {
+                        bottom: -50px;
+                    }
+
+                    @include breakpoint(xxl) {
+                        bottom: -53px;
+                        left: 10px;
+                    }
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    height: 100%;
+                    width: 100%;
+                    right: 10px;
+                    top: -115px;
+                    background-image: url(../../../assets/images/count/shape/2.png);
+                    background-repeat: no-repeat;
+                    background-position: right;
+
+                    @include breakpoint(sm) {
+                        top: -107px;
+                    }
+
+                    @include breakpoint(md) {
+                        top: -114px;
+                    }
+
+                    @include breakpoint(lg) {
+                        top: -48px;
+                    }
+
+                    @include breakpoint(xl) {
+                        top: -50px;
+                    }
+
+                    @include breakpoint(xxl) {
+                        top: -55px;
+                    }
+                }
+
+            }
+
+            &__item {
+                &-inner {
+                    @extend %text-center;
+                }
+
+                &-number {
+                    h2 {
+                        color: $brand-color;
+                    }
+                }
+
+                &-content {
+                    p {
+                        @extend %mb-0,
+                        %text-capitalize,
+                        %text-medium;
+                        @include font-size(20px);
+                        color: $title-color;
+                    }
+                }
+            }
+        }
+    }
+}

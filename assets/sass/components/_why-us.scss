@@ -1,0 +1,60 @@
+.choose {
+    @extend %p-rel,
+    %of-hidden;
+
+    &__item {
+
+        &-inner {
+            @extend %p-rel,
+            %py-30,
+            %px-15;
+            @include add-prefix(transition, $transition);
+            background-color: $bg-white;
+            border-radius: 16px;
+
+            @include breakpoint(sm) {
+                padding-block: 40px;
+                padding-inline: 20px;
+            }
+
+            @include breakpoint(lg) {
+                padding-block: 60px;
+                padding-inline: 30px;
+            }
+            @include breakpoint(xxxl) {
+                padding-block: 80px;
+                padding-inline: 40px;
+            }
+
+            &:hover {
+                cursor: pointer;
+                transform: translateY(-5px);
+                // box-shadow: 0px 16px 24px rgba(200, 209, 222, 0.4);
+            }
+        }
+
+
+
+    }
+
+    &__thumb {
+        @extend %mb-25;
+
+        @include breakpoint(lg){
+            margin-block-end: 35px;
+        }
+    }
+
+    &__content {
+        h5 {
+            @extend %text-bold, %text-capitalize;
+            color: $thm-title-color;
+            @include add-prefix(transition, $transition);
+        }
+        p{
+            color: $thm-title-color;
+            opacity: 0.6;
+        }
+
+    }
+}

@@ -1,0 +1,572 @@
+        .team {
+            @extend %of-hidden;
+
+            &--style1 {
+                .team {
+
+                    &__item {
+                        @extend %p-rel;
+
+                        &-thumb {
+                            border-radius: 12px;
+
+                            img {
+                                @extend %p-rel;
+                                z-index: 1;
+                                left: 14%;
+
+                                @include breakpoint(sm) {
+                                    left: auto;
+                                }
+
+
+                            }
+
+                            &::after {
+                                @extend %p-abs;
+                                @include add-prefix(transition, $transition);
+                                content: "";
+                                top: 15%;
+                                left: 5%;
+                                height: 90%;
+                                width: 73%;
+                                background-color: $team-bg-color;
+                                border-radius: 16px;
+                                box-shadow: 0px 27.713207244873047px 69.28302001953125px 0px rgba(0, 0, 0, 0.08);
+
+                                @include breakpoint(sm) {
+                                    left: -12%;
+                                    height: 90%;
+                                    width: 100%;
+                                }
+                            }
+
+
+                        }
+
+
+                        &-content {
+                            @extend %p-rel;
+                            left: 14%;
+
+                            @include breakpoint(sm) {
+                                left: auto;
+                            }
+
+                            h6 {
+                                @extend %text-semibold,
+                                %mt-20,
+                                %p-rel,
+                                %mb-5;
+                                z-index: 1;
+
+                                a {
+                                    @extend %text-capitalize;
+                                    color: $title-color;
+                                }
+                            }
+
+                            p {
+                                @extend %mb-0,
+                                %text-capitalize;
+                                @include font-size(14px);
+                                color: $title-color;
+                                opacity: 0.6;
+                            }
+
+                        }
+
+                        &.active,
+                        &:hover {
+                            .team__item {
+
+                                &-thumb {
+
+                                    &::after {
+                                        background-color: $brand-color;
+
+                                        @include breakpoint(sm) {
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+
+                                &-content {
+
+                                    h6 {
+                                        a {
+
+                                            color: $thm-title-color-dark;
+                                        }
+                                    }
+
+                                    p {
+                                        color: $thm-title-color-dark;
+                                        opacity: 0.6;
+
+                                    }
+                                }
+                            }
+                        }
+
+
+
+                    }
+                }
+            }
+
+            &--style2 {
+                .team {
+                    &__item {
+                        &-inner {
+                            @extend %p-rel,
+                            %of-hidden;
+                            background-color: $team-bg-color;
+                            border-radius: 12px;
+                            @include add-prefix(transition, $transition);
+                        }
+
+                        &-thumb {
+                            @extend %of-hidden,
+                            %p-rel;
+                            border-radius: 8px;
+
+                            img {
+                                @extend %w-100;
+                                // @include add-prefix(transition, $transition);
+
+                                transition: all 0.3s ease-in-out;
+                                object-fit: cover;
+                            }
+
+                            &--style1 {
+                                img {
+                                    transform: translateY(15px);
+                                }
+                            }
+                        }
+
+                        &-content {
+                            @extend %p-abs;
+                            @include add-prefix(transition, $transition);
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+
+                            &--style1 {
+                                padding: 8px;
+                            }
+
+                        }
+
+                        &-author {
+                            @extend %text-center;
+                            @include add-prefix(transition, $transition);
+                            // trk-rgba 
+
+
+                            &--style1 {
+                                // background-color: $team-bg-color;
+                                // background-color: rgba($wh-color, $alpha 0.8);
+                                background-color: rgba(255, 255, 255, 0.8);
+                                // border: 1px solid rgba($border-color, $alpha 0.1);
+                                backdrop-filter: blur(5px);
+                                padding: 12px 8px;
+                                border-radius: 8px;
+                            }
+
+                            &--style2 {
+                                background-color: $wh-color;
+                                border-top-left-radius: 16px;
+                                border-top-right-radius: 16px;
+                                border-bottom-left-radius: 8px;
+                                border-bottom-right-radius: 8px;
+                                border: 2px solid $social-border-color;
+
+                                .team__item {
+                                    &-authorinfo {
+                                        @extend %p-15;
+
+                                        h6 {
+                                            @extend %text-bold;
+                                            @include add-prefix(transition, $transition);
+                                            font-family: $title-font;
+                                            color: $title-color;
+
+                                            &:hover {
+                                                color: $brand-color;
+                                            }
+                                        }
+
+                                    }
+
+                                    &-authorsocial {
+                                        @extend %px-20,
+                                        %pb-25;
+                                    }
+                                }
+
+                            }
+
+
+                        }
+
+                        &-authorinfo {
+                            h6 {
+                                @extend %text-semibold;
+                                @include add-prefix(transition, $transition);
+                                font-family: $text-font;
+                                color: $title-color;
+                                z-index: 2;
+
+                                &:hover {
+                                    color: $brand-color;
+                                }
+
+                            }
+
+                            p {
+                                @include font-size(14px);
+                            }
+
+                        }
+
+                        // shape 
+                        &-shape1 {
+                            @extend %p-abs;
+                            @include add-prefix(transition, $transition);
+                            opacity: 0.5;
+                            top: 45px;
+                            left: 18px;
+
+                            @include breakpoint(md) {
+                                top: 45px;
+                                left: 18px;
+                            }
+
+                            @include breakpoint(lg) {
+                                width: 35px;
+                                top: 25px;
+                                left: 20px;
+                            }
+
+                            @include breakpoint(xl) {
+                                width: auto;
+                                top: 45px;
+                                left: 18px;
+                            }
+                        }
+
+                        &-shape2 {
+                            @extend %p-abs;
+                            @include add-prefix(transition, $transition);
+                            opacity: 0.1;
+                            top: 70px;
+                            right: 25px;
+
+                            @include breakpoint(md) {
+                                top: 70px;
+                                right: 25px;
+                            }
+
+                            @include breakpoint(lg) {
+                                width: 35px;
+                                top: 60px;
+                                right: 18px;
+                            }
+
+                            @include breakpoint(xl) {
+                                width: auto;
+                                top: 70px;
+                                right: 25px;
+                            }
+
+                        }
+
+                        &-shape3 {
+                            @extend %p-abs;
+                            @include add-prefix(transition, $transition);
+                            opacity: 0.1;
+                            bottom: 200px;
+                            left: 25px;
+
+                            @include breakpoint(sm) {
+                                bottom: 136px;
+                                left: 25px;
+                            }
+
+                            @include breakpoint(md) {
+                                bottom: 200px;
+                                left: 25px;
+                            }
+
+                            @include breakpoint(lg) {
+                                width: 35px;
+                                bottom: 130px;
+                                left: 17px;
+                            }
+
+                            @include breakpoint(xl) {
+                                width: auto;
+                                bottom: 136px;
+                                left: 25px;
+                            }
+
+                        }
+
+
+                        &--bgcolor2 {
+                            .team {
+                                &__item {
+                                    &-inner {
+                                        background-color: $tertiary-color;
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover {
+                            .team__item {
+
+                                &-author {
+                                    h6 {
+                                        color: $brand-color;
+                                    }
+                                }
+
+                                &-thumb {
+                                    &--style1 {
+                                        img {
+                                            transform: translateY(0);
+                                        }
+                                    }
+
+                                    &--style2 {
+                                        img {
+
+                                            @include add-prefix(transform, scale(1.06));
+                                        }
+                                    }
+                                }
+
+                                &-shape1,
+                                &-shape2,
+                                &-shape3 {
+                                    opacity: 1;
+                                    transform: rotate(45deg);
+                                }
+                            }
+
+                        }
+
+                    }
+                }
+            }
+
+
+            &--details {
+                .team {
+                    &__details {
+                        &-bio {
+                            @extend %p-20;
+                            background-color: $thm-bg-color-2-dark;
+                            border-radius: 16px;
+
+                            @include breakpoint(sm) {
+                                padding: 30px;
+                            }
+
+                            @include breakpoint(md) {
+                                padding: 40px;
+                            }
+                        }
+                        &-description{
+                            @extend %mt-95;
+                            h3{
+                                @extend %text-capitalize, %mb-15;
+                            }
+                            p{
+                                @extend %mb-0;
+                                color: $title-color;
+                                opacity: 0.6;
+
+                                &.style2{
+                                    @extend %mb-5;
+                                    @include font-size(24px);
+                                    line-height: 1.6;
+                                    letter-spacing: 0.48px;
+                                }
+                            }
+                        }
+                    }
+
+                    &__thumb {
+                        @extend %of-hidden;
+                        border-radius: 20px;
+
+                        img {
+                            @extend %w-100;
+                            @include add-prefix(transition, $transition);
+                            object-fit: cover;
+
+                            &:hover {
+                                @include add-prefix(transform, scale(1.05));
+                            }
+                        }
+                    }
+
+                    &__content {
+                        h3 {
+                            @extend %text-semibold,
+                            %text-capitalize;
+                            color: $bg-white;
+                        }
+
+                        &-designation {
+                            @extend %mb-0;
+                            color: $brand-color;
+                        }
+
+                        >span {
+                            @extend %text-semibold;
+                            color: $warning;
+
+                            i,
+                            svg {
+                                color: $warning;
+                            }
+                        }
+
+                        &-info {
+                            @extend %my-35;
+                            color: $bg-white;
+                            opacity: 0.6;
+                        }
+
+                        &-biodata {
+                            @extend %pb-35,
+                            %mb-30;
+                            border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+
+                            li {
+                                @extend %d-flex,
+                                %align-i-center;
+
+                                &:not(:last-child) {
+                                    @extend %mb-15;
+                                }
+
+                                p {
+                                    @extend %mb-0,
+                                    %p-rel;
+                                    color: $bg-white;
+                                    width: 40%;
+                                    margin-inline-end: 30px;
+
+                                    @include breakpoint(sm) {
+                                        width: 30%;
+                                        margin-inline-end: 30px;
+                                    }
+
+                                    @include breakpoint(md) {
+                                        width: 30%;
+                                        margin-inline-end: 40px;
+                                    }
+
+                                    @include breakpoint(lg) {
+                                        width: 25%;
+                                        margin-inline-end: 40px;
+                                    }
+
+                                    &::after {
+                                        @extend %p-abs;
+                                        content: ":";
+                                        height: 100%;
+                                        right: 0;
+                                        top: -2px;
+                                        color: $bg-white;
+                                        opacity: 0.6;
+                                    }
+                                }
+
+                                span {
+                                    color: $bg-white;
+                                    opacity: 0.6;
+                                }
+
+                                span {
+                                    &:not(:last-child) {
+                                        @extend %me-10;
+                                    }
+
+
+                                    a {
+                                        @extend %px-5;
+                                        padding-block: 8px;
+                                        @include font-size(14px);
+                                        color: $bg-white;
+                                        opacity: 0.6;
+                                        border-radius: 99px;
+                                        border: 1px solid $bg-white;
+
+                                        @include breakpoint(sm) {
+                                            @include font-size(16px);
+                                            padding-inline: 10px;
+                                            padding-block: 8px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &.social {
+                        @extend %mt-30;
+                    }
+
+                    &__skill {
+                        @extend %p-40;
+                        background-color: $bg-color-3;
+
+                        @include breakpoint(lg){
+                            padding: 56px;
+                        }
+
+                        h3{
+                            @extend %text-capitalize, %mb-25;
+                        }
+
+                        &-item {
+                            &:not(:last-child){
+                                @extend %mb-25;
+                                @include breakpoint(lg){
+                                    margin-block-end: 28px;
+                                }
+                            }
+
+                        }
+                        &-content{
+                            @extend %mb-0, %d-flex, %align-i-center, %justify-between, %w-100;
+                            p{
+                                @extend %mb-0, %text-medium, %text-capitalize;
+                                color: $title-color;
+                            }
+                        }
+
+                        .progress{
+                            @extend %mt-5;
+                            height: 6px;
+                            border-radius: 0;
+
+                            &-bar{
+                                width: 80%; 
+                            }
+
+                        }
+
+                    }
+                }
+            }
+
+
+        }

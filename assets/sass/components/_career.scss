@@ -1,0 +1,232 @@
+.career {
+    &--style1 {
+        .career {
+            &__thumb {
+                @extend %d-flex,
+                %align-i-end;
+                flex-wrap: nowrap;
+                gap: 20px;
+            }
+
+            &__content {
+                @extend %mt-40;
+
+                @include breakpoint(lg) {
+                    margin-block-start: 56px;
+                }
+
+                h3 {
+                    @extend %text-center,
+                    %text-capitalize,
+                    %mb-10;
+
+                    span {
+                        color: $brand-color;
+                    }
+                }
+
+                p {
+                    @extend %text-center;
+                    color: $title-color;
+                    opacity: 0.6;
+                    max-inline-size: 100ch;
+                    margin: auto;
+                }
+
+
+            }
+        }
+    }
+
+    &--style2 {
+        .career {
+            &__header {
+                &-category {
+                    margin-block-end: 24px;
+
+                    a {
+                        @extend %text-capitalize;
+                        padding: 12px 24px;
+                        background-color: $tag-bg-color;
+                        // background-color: $wh-color;
+                        border-radius: 4px;
+                        color: $title-color;
+                    }
+                }
+
+                &-name {
+                    h3 {
+                        @extend %text-capitalize,
+                        %mb-10;
+                    }
+                }
+
+                &-others {
+                    @extend %d-flex,
+                    %align-i-center;
+                    column-gap: 30px;
+                    row-gap: 20px;
+
+                    @include breakpoint(sm) {
+                        column-gap: 50px;
+                    }
+
+                    @include breakpoint(xl) {
+                        column-gap: 80px;
+                    }
+
+                    padding-block-end: 24px;
+                    border-bottom: 1px solid $border-color-3;
+                }
+
+                &-time {
+                    @extend %d-flex,
+                    %align-i-center;
+                    gap: 5px;
+
+                    span {
+                        svg {
+                            path {
+                                stroke: $title-color;
+                                opacity: 0.6;
+                            }
+                        }
+                    }
+
+                    p {
+                        @extend %mb-0,
+                        %text-capitalize;
+                        color: $title-color;
+                        margin-block-start: 4px;
+                        opacity: 0.6;
+                    }
+                }
+
+                &-location {
+                    @extend %d-flex,
+                    %align-i-center;
+                    gap: 5px;
+
+                    span {
+                        svg {
+                            path {
+                                stroke: $title-color;
+                                opacity: 0.6;
+                            }
+                        }
+                    }
+
+                    p {
+                        @extend %mb-0,
+                        %text-uppercase;
+                        color: $title-color;
+                        margin-block-start: 4px;
+                        opacity: 0.6;
+                    }
+                }
+
+
+                &-position {
+                    p {
+                        @extend %mb-0,
+                        %text-capitalize;
+                        color: $title-color;
+                        margin-block-start: 4px;
+                        opacity: 0.6;
+                    }
+                }
+
+            }
+
+            &__content {
+                @extend %mt-100;
+
+                &-item {
+                    &:not(:last-child) {
+                        margin-block-end: 64px;
+                    }
+
+                    h5 {
+                        @extend %text-capitalize,
+                        %mb-10;
+                    }
+
+                    >p {
+                        @extend %mb-0;
+                        color: $title-color;
+                        opacity: 0.6;
+                    }
+
+                    ul {
+                        @extend %mt-30,
+                        %d-grid;
+
+                        @include breakpoint(lg) {
+                            margin-block-start: 32px;
+                        }
+
+                        li {
+                            @extend %d-flex;
+                            gap: 10px;
+
+
+                            &:not(:last-child) {
+                                @extend %mb-15;
+                            }
+
+
+                            p {
+                                @extend %mb-0,
+                                %text-capitalize;
+                                flex: 1;
+                                color: $title-color;
+                                opacity: 1;
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            &__action {
+                &-inner {
+                    background-color: $tag-bg-color;
+                    padding: 40px;
+                    border-radius: 16px;
+
+                    @include breakpoint(max-lg) {
+                        text-align: center;
+                    }
+
+                    @include breakpoint(xl) {
+                        padding: 48px;
+                    }
+
+                    .trk-btn {
+                        @extend %mb-50;
+
+                        @include breakpoint(lg) {
+                            margin-block-end: 56px;
+                        }
+                    }
+
+                    .social {
+                        margin-block-end: 24px;
+
+                        @include breakpoint(max-lg) {
+                            display: flex;
+                            justify-content: center;
+                        }
+                    }
+
+                    p {
+                        @extend %mb-0,
+                        %text-capitalize;
+                        color: $title-color;
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+}
