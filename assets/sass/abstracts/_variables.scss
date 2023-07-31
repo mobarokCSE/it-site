@@ -58,14 +58,14 @@
 
   $thm-bg-color-2:#F8F9FD;
   $thm-bg-color-2-dark:#0F1B41;
+  
+  $thm-bg-color-4-light: #fff;
+  $thm-bg-color-4-dark: #1B1D2E;
 
 
+  
 
-
-  // todo for rpba
-  $thm-bg-color-4-light: linear-gradient(150.39deg, rgba(237, 242, 248, 0.22) 15.02%, #{$thm-bg-color-light} 99.59%);
-  $thm-bg-color-4-dark: linear-gradient(150.39deg, rgba(237, 242, 248, 0.0264) 15.02%, rgba(237, 242, 248, 0.12) 99.59%);
-
+  
   $thm-bg-color-5-light: linear-gradient(218.82deg, rgba(255, 255, 255, 0) 14.16%, #FFFFFF 101.06%);
   $thm-bg-color-5-dark:linear-gradient(150.39deg, rgba(237, 242, 248, 0.22) 15.02%, #EDF2F8 99.59%);
 
@@ -110,7 +110,7 @@
 
   $thm-success-light: #537EFD;
   $thm-success-dark: #537EFD;
-  
+
 
   $thm-danger-light: #FF0000;
   $thm-danger-dark: #FF0000;
@@ -185,8 +185,9 @@
     --bg-color-2: #050E29;
     // --bg-color-3: #F8F9FD;
     --bg-color-3: #{$thm-bg-color-2};
-
     --bg-color-4:#{$thm-bg-color-4-light};
+
+
     --bg-color-5:#{$thm-bg-color-4-light};
     --bg-color-6:#{$thm-bg-color-6-light};
     --bg-color-7:#{$thm-bg-color-7-light};
@@ -335,8 +336,9 @@
     --bg-color-2: #0F1B41;
     // --bg-color-3: #0F1B41;
     --bg-color-3: #{$thm-bg-color-2-dark};
-
     --bg-color-4:#{$thm-bg-color-4-dark};
+
+
     --bg-color-5:#{$thm-bg-color-5-dark};
     --bg-color-6:#{$thm-bg-color-6-dark};
     --bg-color-7:#{$thm-bg-color-7-dark};
@@ -552,6 +554,17 @@
   $author-bg-color: var(--author-bg-color);
   $footer-border-color: var(--footer-border-color);
   $work-count-bg-color:var(--work-count-bg-color);
+
+  // grad color
+  $grad-bg-color: #F6FFC8;
+  $grad-image: radial-gradient(at -2.9% 80.5%, #F7E5DB 0px, transparent 50%),
+  radial-gradient(at 101.7% -4.6%, #FCDEA7 0px, transparent 50%),
+  radial-gradient(at 96.0% 92.1%, #DEB6FF 0px, transparent 50%),
+  radial-gradient(at 101.7% 55.6%, #DEB6FF 0px, transparent 50%),
+  radial-gradient(at 71.9% 88.1%, #DEB6FF 0px, transparent 50%),
+  radial-gradient(at 90.0% 17.0%, #DEB6FF 0px, transparent 50%);
+
+  $grad-bg-color2: #232532;
 
 
   // Action colors

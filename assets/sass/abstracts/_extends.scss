@@ -519,3 +519,15 @@ $val in $space-stops {
 %flex {
   display: flex;
 }
+
+%text-grad-color {
+  background: #F6FFC8;
+  background-image: radial-gradient(at -2.9% 80.5%, #F7E5DB 0px, transparent 50%),
+  radial-gradient(at 101.7% -4.6%, #FCDEA7 0px, transparent 50%),
+  radial-gradient(at 96.0% 92.1%, #DEB6FF 0px, transparent 50%),
+  radial-gradient(at 101.7% 55.6%, #DEB6FF 0px, transparent 50%),
+  radial-gradient(at 71.9% 88.1%, #DEB6FF 0px, transparent 50%),
+  radial-gradient(at 90.0% 17.0%, #DEB6FF 0px, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

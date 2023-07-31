@@ -60,7 +60,7 @@
       left: 0;
       box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.3);
       z-index: 999;
-      background-color: $thm-wh-color-dark;
+      background-color: $thm-bg-color-4-dark;
 
     }
   }
@@ -615,15 +615,28 @@
   }
 
   &--style2 {
-    @extend %mb-10;
+    margin-block-end: 24px;
 
     @include breakpoint(lg) {
-      margin-bottom: 0px;
+      margin-block-end: 24px;
     }
 
-    h2 {
-      line-height: 1.1;
+
+    h6 {
+      @extend %text-medium,
+      %d-inline-block;
+      color: $title-color;
+      text-transform: uppercase;
+      @include font-size(18px);
+      letter-spacing: 1.6px;
+      padding: 10px 16px;
+      border: 1px solid $border-color;
+      border-radius: 99px;
+      background: $grad-bg-color;
+      background-image: $grad-image;
     }
+
+
   }
 
   &--style3 {
@@ -711,8 +724,8 @@
 
     h3 {
       color: $thm-title-color-dark;
-      
-      &.style2{
+
+      &.style2 {
         color: $title-color;
       }
     }
@@ -724,6 +737,7 @@
     }
   }
 }
+
 
 
 // trk-rgba 
@@ -791,10 +805,12 @@
     padding-block-start: 150px;
     padding-block-end: 80px;
   }
+
   @include breakpoint(md) {
     padding-block-start: 150px;
     padding-block-end: 80px;
   }
+
   @include breakpoint(lg) {
     padding-block-start: 180px;
     padding-block-end: 90px;
@@ -804,6 +820,7 @@
     padding-block-start: 220px;
     padding-block-end: 110px;
   }
+
   @include breakpoint(xxxl) {
     padding-block-start: 220px;
     padding-block-end: 120px;

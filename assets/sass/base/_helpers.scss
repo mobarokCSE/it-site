@@ -4,11 +4,11 @@
 
 
 //Customizing bootstrap container
-.container {
-  @include breakpoint(xl) {
-    max-width: 1170px;
-  }
-}
+// .container {
+//   @include breakpoint(xl) {
+//     max-width: 1170px;
+//   }
+// }
 
 .gradient-text--brand1 {
   background: -webkit-linear-gradient($brand-color, $secondary-color);
@@ -83,8 +83,8 @@
 
 
 // footer bg color
-.footer-bg-color-1{
-  background-color:  $thm-bg-color-2-dark;
+.footer-bg-color-1 {
+  background-color: $thm-bg-color-2-dark;
 }
 
 
@@ -93,10 +93,11 @@
 // .error{
 //   background-color: $error;
 // }
-.warning{
+.warning {
   background-color: $warning;
 }
-.success{
+
+.success {
   background-color: $success;
 }
 
@@ -113,6 +114,7 @@
     width: 100%;
     left: 0;
     top: -85px;
+    z-index: -1;
     background-image: url(../../../assets/images/icon/shape/1.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -127,6 +129,7 @@
     width: 100%;
     left: 0;
     top: -85px;
+    z-index: -1;
     background-image: url(../../../assets/images/icon/shape/1.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -141,6 +144,7 @@
     width: 100%;
     left: 0;
     top: -85px;
+    z-index: -1;
     background-image: url(../../../assets/images/icon/shape/1.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -187,6 +191,7 @@
     width: 100%;
     left: 0;
     top: -85px;
+    z-index: -1;
     background-image: url(../../../assets/images/icon/shape/1.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -241,6 +246,7 @@
     width: 100%;
     left: 0;
     top: -85px;
+    z-index: -1;
     background-image: url(../../../assets/images/icon/shape/1.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -280,7 +286,15 @@
 }
 
 
-.count-bg-color{
+
+// grad color
+.grad-bg-color {
+  background: $grad-bg-color;
+  background-image: $grad-image;
+}
+
+
+.count-bg-color {
   background: linear-gradient(0deg, $bg-color-2 50%, #ffffff00 50%);
 }
 

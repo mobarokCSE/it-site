@@ -195,6 +195,14 @@
     border: 1px solid $brand-color;
   }
 
+  &--gradient {
+    color: $thm-title-color;
+  }
+  &--gradient2 {
+    color: $thm-title-color-dark;    
+    background-color: $grad-bg-color2;
+  }
+
   &--secondary {
     background-color: $secondary-color;
     border: 1px solid $secondary-color;
@@ -401,6 +409,16 @@
   &:hover {
 
     // Home One
+    &.trk-btn--gradient {
+      color: $thm-title-color;
+      transform: translateY(-3px);
+    }
+
+    &.trk-btn--gradient2 {
+      color: $thm-title-color-dark;
+      transform: translateY(-3px);
+    }
+
     &.trk-btn--primary {
       color: $bg-white;
       transform: translateY(-3px);

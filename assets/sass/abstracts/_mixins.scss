@@ -385,6 +385,25 @@
 
 
 
+//*=====================****===================== 
+
+
+
+//* text gradient color
+@mixin text-grad-color {
+  background: $grad-bg-color;
+  background-image: $grad-image;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+// p {
+//    @include text-clamp(2);
+// }
+//*=====================****===================== 
+
+
+
 
 //*=====================****===================== 
 

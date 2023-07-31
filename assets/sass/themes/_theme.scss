@@ -22,6 +22,22 @@ html[data-bs-theme='dark'] {
     }
   }
 
+  .banner {
+    &--style3 {
+      background: linear-gradient(0deg, #1B1D2E 50%, rgba(255, 255, 255, 0) 50%);
+    }
+  }
+
+  .section-header {
+    &--style2 {
+      h6 {
+        background: $grad-bg-color2;
+        border-color: $grad-bg-color2;
+        background-color: $grad-bg-color2;
+      }
+    }
+  }
+
   // .team {
   //   &__item {
   //     &-author {

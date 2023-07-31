@@ -258,93 +258,161 @@
         }
     }
 
+    &--style2 {
+        .about {
+            &__thumb {
+                @extend %p-rel;
 
-
-    &__shape {
-        &--style1 {
-            .about__shape {
-                &-item {
-                    @extend %p-abs;
-                    width: 40px;
-                    top: 5%;
-                    right: 6%;
-                    @include animation(rotate 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
-
-                    @include breakpoint(sm) {
-                        top: 5%;
-                        right: 7%;
+                &-header{
+                    @extend %mb-55;
+                    @include breakpoint(lg){
+                         margin-block-end: 56px;
                     }
 
-                    @include breakpoint(md) {
-                        width: auto;
-                        top: 6%;
-                        right: 6%;
+                    h3{
+                        @include font-size(48px);
+                        line-height: 1.25;
+                    }
+                }
+
+                &-inner {
+                    @extend %p-rel, %d-flex, %align-i-end;
+                    flex-wrap: nowrap;
+                    gap: 20px;
+
+
+                }
+
+                &-image {
+                    img {
+                        max-width: auto !important;
                     }
 
-                    @include breakpoint(lg) {
-                        right: 5%;
-                        top: 16%;
+                }
+            }
+
+            &__content {
+                h3 {
+                    @extend %mb-30,
+                    %text-capitalize;
+                    color: $bg-white;
+
+                    span {
+                        color: $brand-color;
+                    }
+                }
+
+                p {
+                    color: $text-color-light;
+                }
+
+                &--style2 {
+                    h3 {
+                        @extend %mb-30,
+                        %text-capitalize;
+                        color: $title-color;
+
+                        span {
+                            color: $brand-color;
+                        }
                     }
 
-                    @include breakpoint(xl) {
-                        top: 16%;
-                        right: 6%;
-                    }
-
-                    @include breakpoint(xxl) {
-                        top: 16%;
-                        right: 9%;
+                    p {
+                        color: $text-color;
                     }
                 }
             }
-        }
 
-        &--style2 {
-            .about__shape {
-                &-item {
-                    @extend %p-abs;
-
-                    &--1 {
-                        width: 80px;
-                        top: 52%;
-                        right: 71%;
-                        @include animation(floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
-
-                        @include breakpoint(sm) {
-                            width: auto;
-                            top: 45%;
-                            right: 71%;
-                        }
-
-                        @include breakpoint(md) {
-                            top: 45%;
-                            right: 77%;
-                        }
-
-                        @include breakpoint(lg) {
-                            right: 43%;
-                            top: 8%;
-                        }
-
-                        @include breakpoint(xl) {
-                            top: 3%;
-                            right: 40%;
-                        }
-
-                        @include breakpoint(xxl) {
-                            top: -1%;
-                            right: 3%;
-                        }
-
-                        @include breakpoint(xxxl) {
-                            top: 0%;
-                            right: 9%;
-                        }
-                    }
-                }
-            }
         }
     }
+
+
+
+    // &__shape {
+    //     &--style1 {
+    //         .about__shape {
+    //             &-item {
+    //                 @extend %p-abs;
+    //                 width: 40px;
+    //                 top: 5%;
+    //                 right: 6%;
+    //                 @include animation(rotate 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+
+    //                 @include breakpoint(sm) {
+    //                     top: 5%;
+    //                     right: 7%;
+    //                 }
+
+    //                 @include breakpoint(md) {
+    //                     width: auto;
+    //                     top: 6%;
+    //                     right: 6%;
+    //                 }
+
+    //                 @include breakpoint(lg) {
+    //                     right: 5%;
+    //                     top: 16%;
+    //                 }
+
+    //                 @include breakpoint(xl) {
+    //                     top: 16%;
+    //                     right: 6%;
+    //                 }
+
+    //                 @include breakpoint(xxl) {
+    //                     top: 16%;
+    //                     right: 9%;
+    //                 }
+    //             }
+    //         }
+    //     }
+
+    //     &--style2 {
+    //         .about__shape {
+    //             &-item {
+    //                 @extend %p-abs;
+
+    //                 &--1 {
+    //                     width: 80px;
+    //                     top: 52%;
+    //                     right: 71%;
+    //                     @include animation(floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+
+    //                     @include breakpoint(sm) {
+    //                         width: auto;
+    //                         top: 45%;
+    //                         right: 71%;
+    //                     }
+
+    //                     @include breakpoint(md) {
+    //                         top: 45%;
+    //                         right: 77%;
+    //                     }
+
+    //                     @include breakpoint(lg) {
+    //                         right: 43%;
+    //                         top: 8%;
+    //                     }
+
+    //                     @include breakpoint(xl) {
+    //                         top: 3%;
+    //                         right: 40%;
+    //                     }
+
+    //                     @include breakpoint(xxl) {
+    //                         top: -1%;
+    //                         right: 3%;
+    //                     }
+
+    //                     @include breakpoint(xxxl) {
+    //                         top: 0%;
+    //                         right: 9%;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 
 
     &--style3 {

@@ -39,13 +39,16 @@
                     %align-i-center,
                     %justify-between;
                     bottom: 24px;
-                    left: 24px;
                     @include add-prefix(transition, $transition);
                     border-radius: 8px;
                     background-color: rgba(17, 21, 33, 0.80);
                     color: $title-color;
-                    gap: 30px;
+                    gap: 10px 30px;
                     opacity: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 100%;
+                    max-width: calc(100% - 48px);
 
                     @include breakpoint(sm) {
                         @include breakpoint(max-md) {
@@ -138,7 +141,7 @@
                                 }
                             }
 
-                            &-content { 
+                            &-content {
                                 opacity: 1;
                             }
 
