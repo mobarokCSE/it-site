@@ -2,19 +2,28 @@
 .partner {
     @extend %of-hidden;
 
-    &__wrapper{
+    &__wrapper {
         @extend %p-rel;
         z-index: 333;
     }
 
-    &--style1{
+    &--style1 {
         @extend %py-40;
         background-color: $bg-color-1;
 
     }
 
-    //background overlay
     &--style2 {
+        @extend %py-30;
+        background: $grad-bg-color;
+        background-image: $grad-image;
+        @include breakpoint(lg){
+            padding-block: 32px;
+        }
+    }
+
+    //background overlay
+    &--style3 {
         @extend %p-rel;
 
         // &:before {

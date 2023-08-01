@@ -606,6 +606,8 @@
     }
   }
 
+
+
   @include breakpoint(lg) {
     margin-bottom: 48px;
   }
@@ -614,30 +616,7 @@
     margin-bottom: 56px;
   }
 
-  &--style2 {
-    margin-block-end: 24px;
 
-    @include breakpoint(lg) {
-      margin-block-end: 24px;
-    }
-
-
-    h6 {
-      @extend %text-medium,
-      %d-inline-block;
-      color: $title-color;
-      text-transform: uppercase;
-      @include font-size(18px);
-      letter-spacing: 1.6px;
-      padding: 10px 16px;
-      border: 1px solid $border-color;
-      border-radius: 99px;
-      background: $grad-bg-color;
-      background-image: $grad-image;
-    }
-
-
-  }
 
   &--style3 {
     h2 {

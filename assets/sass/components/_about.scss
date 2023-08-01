@@ -263,20 +263,23 @@
             &__thumb {
                 @extend %p-rel;
 
-                &-header{
+                &-header {
                     @extend %mb-55;
-                    @include breakpoint(lg){
-                         margin-block-end: 56px;
+
+                    @include breakpoint(lg) {
+                        margin-block-end: 56px;
                     }
 
-                    h3{
+                    h3 {
                         @include font-size(48px);
                         line-height: 1.25;
                     }
                 }
 
                 &-inner {
-                    @extend %p-rel, %d-flex, %align-i-end;
+                    @extend %p-rel,
+                    %d-flex,
+                    %align-i-end;
                     flex-wrap: nowrap;
                     gap: 20px;
 
@@ -292,35 +295,53 @@
             }
 
             &__content {
-                h3 {
-                    @extend %mb-30,
-                    %text-capitalize;
-                    color: $bg-white;
-
-                    span {
-                        color: $brand-color;
+                &-title {
+                    h5 {
+                        @extend %mb-55,
+                        %text-regular,
+                        %text-clamp-3;
                     }
                 }
 
-                p {
-                    color: $text-color-light;
-                }
+                &-item {
+                    @extend %d-flex;
+                    gap: 20px;
 
-                &--style2 {
-                    h3 {
-                        @extend %mb-30,
-                        %text-capitalize;
-                        color: $title-color;
+                    @include breakpoint(lg) {
+                        gap: 24px;
+                    }
 
-                        span {
-                            color: $brand-color;
+                    &:not(:last-child) {
+                        @extend %mb-30;
+
+                        @include breakpoint(lg) {
+                            margin-block-end: 32px;
                         }
                     }
+                }
 
-                    p {
-                        color: $text-color;
+                &-thumb {
+                    img {
+                        background: $grad-bg-color;
+                        background-image: $grad-image;
+                        padding: 12px;
+                        border-radius: 16px;
                     }
                 }
+
+                &-details {
+                    flex: 1;
+
+                    h5 {
+                        @extend %mb-15,
+                        %text-bold, %text-capitalize;
+                    }
+                    p{
+                        @extend %mb-0;
+                    }
+
+                }
+
             }
 
         }

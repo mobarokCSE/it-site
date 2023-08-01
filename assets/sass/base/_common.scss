@@ -598,3 +598,27 @@
         }
     }
 }
+
+
+// focus subtitle
+.focus {
+    @extend %d-inline-block;
+    padding: 10px 16px;
+    border: 1px solid $border-color;
+    border-radius: 99px;
+    background: $grad-bg-color;
+    background-image: $grad-image;
+    margin-block-end: 24px;
+
+    
+    h6 {
+        @extend %text-medium,
+        %mb-0;
+        color: $title-color;
+        text-transform: uppercase;
+        @include font-size(18px);
+        letter-spacing: 1.6px;
+        line-height: 1.6;
+        margin-block-end: -4px;
+    }
+}

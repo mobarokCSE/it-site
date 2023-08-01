@@ -79,7 +79,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
 /* @@@@@@@@@@@@@  Extend Property CSS start here  @@@@@@@@@@@@@@ */
 /*=========<<Flex property extends start>>=========*/
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-.about--style2 .about__content-item, .about--style2 .about__thumb-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .tags--style2 ul, .tags ul, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .testimonial__author, .testimonial__footer, .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog--style2 .blog__writer, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style1 .service__item-content, .career--style2 .career__content-item ul li, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .career--style1 .career__thumb, .case--style2 .case__content ul li, .work--style1 .work__item-content, .social, .btn-group, .footer__contact, .footer__header-inner, .account__check, .contact__item-inner, .banner--style2 .banner__content-btn, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
+.about--style2 .about__thumb-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .tags--style2 ul, .tags ul, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .testimonial__author, .testimonial__footer, .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog--style2 .blog__writer, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style1 .service__item-content, .career--style2 .career__content-item ul li, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .career--style1 .career__thumb, .case--style2 .case__content ul li, .work--style1 .work__item-content, .social, .btn-group, .footer__contact, .footer__header-inner, .account__check, .contact__item-inner, .banner--style2 .banner__content-btn, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
   display: flex;
   flex-wrap: wrap;
 }
@@ -108,7 +108,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
   place-items: end;
 }
 
-.about--style3 .about__content h2, .about--style2 .about__content-details h5, .about--style1 .about__content--style2 h3, .about--style1 .about__content h3, .roadmap--style1 .roadmap__item-header h3, .accordion__button, .comment__action a, .error__content h2, .job__item-time p, .job__item-name h5, .tags--style2 ul li a, .tags ul li a, .sidebar__author-designation p, .sidebar__author-designation h6, .sidebar__author-heading h5, .sidebar__head h5, .cta--style3 .cta__subscribe h2, .cta--style2 .cta__header h3, .cta--style1 .cta__content-footer h6, .cta--style1 .cta__content-item p, .blog-details__segment-content h5, .blog-details__content h3, .blog--style2 .blog__content h5, .blog--style1 .blog__item-content h5 a, .blog--style1 .blog__item-date p, .blog--style1 .blog__item-authorinfo p, .team--details .team__skill-content p, .team--details .team__skill h3, .team--details .team__content h3, .team--details .team__details-description h3, .team--style1 .team__item-content p, .team--style1 .team__item-content h6 a, .pricing__item-focus span, .choose__content h5, .service--style1 .service__item-content h6 a, .career--style2 .career__action-inner p, .career--style2 .career__content-item ul li p, .career--style2 .career__content-item h5, .career--style2 .career__header-position p, .career--style2 .career__header-time p, .career--style2 .career__header-name h3, .career--style2 .career__header-category a, .career--style1 .career__content h3, .feature--style2 .feature__item-content h6, .feature--style1 .feature__content ul li p, .feature--style1 .feature__heading h3, .case--style2 .case__work-content h6, .case--style2 .case__content ul li h5, .case--style2 .case__content-item h4, .case--style2 .case__title h3, .case--style1 .case__item-content h5 a, .work--style2 .work__content h4, .work--style1 .work__item-content h5 a, .category--style1 .category__item p, .count--style1 .count__item-content p, .text-btn, .footer__links-tittle h6, .account__check-forgot a, .account__header h2, .contact__social h3, .banner--style4 .banner__counter-item p, .banner--style2 .banner__content-inner h1, .banner__content-wrapper h2, .banner__content-wrapper h1, .page-header__content h2, .section-header h3 {
+.about--style3 .about__content h2, .about--style2 .about__content--style2 h3, .about--style2 .about__content h3, .about--style1 .about__content--style2 h3, .about--style1 .about__content h3, .roadmap--style1 .roadmap__item-header h3, .accordion__button, .comment__action a, .error__content h2, .job__item-time p, .job__item-name h5, .tags--style2 ul li a, .tags ul li a, .sidebar__author-designation p, .sidebar__author-designation h6, .sidebar__author-heading h5, .sidebar__head h5, .cta--style3 .cta__subscribe h2, .cta--style2 .cta__header h3, .cta--style1 .cta__content-footer h6, .cta--style1 .cta__content-item p, .blog-details__segment-content h5, .blog-details__content h3, .blog--style2 .blog__content h5, .blog--style1 .blog__item-content h5 a, .blog--style1 .blog__item-date p, .blog--style1 .blog__item-authorinfo p, .team--details .team__skill-content p, .team--details .team__skill h3, .team--details .team__content h3, .team--details .team__details-description h3, .team--style1 .team__item-content p, .team--style1 .team__item-content h6 a, .pricing__item-focus span, .choose__content h5, .service--style1 .service__item-content h6 a, .career--style2 .career__action-inner p, .career--style2 .career__content-item ul li p, .career--style2 .career__content-item h5, .career--style2 .career__header-position p, .career--style2 .career__header-time p, .career--style2 .career__header-name h3, .career--style2 .career__header-category a, .career--style1 .career__content h3, .feature--style2 .feature__item-content h6, .feature--style1 .feature__content ul li p, .feature--style1 .feature__heading h3, .case--style2 .case__work-content h6, .case--style2 .case__content ul li h5, .case--style2 .case__content-item h4, .case--style2 .case__title h3, .case--style1 .case__item-content h5 a, .work--style2 .work__content h4, .work--style1 .work__item-content h5 a, .category--style1 .category__item p, .count--style1 .count__item-content p, .text-btn, .footer__links-tittle h6, .account__check-forgot a, .account__header h2, .contact__social h3, .banner--style4 .banner__counter-item p, .banner--style2 .banner__content-inner h1, .banner__content-wrapper h2, .banner__content-wrapper h1, .page-header__content h2, .section-header h3 {
   text-transform: capitalize;
 }
 
@@ -126,7 +126,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
   display: block;
 }
 
-.about--style2 .about__content-item, .about--style2 .about__thumb-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .tags--style2 ul, .tags ul, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .testimonial__author, .testimonial__footer, .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog--style2 .blog__writer, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style1 .service__item-content, .career--style2 .career__content-item ul li, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .career--style1 .career__thumb, .case--style2 .case__content ul li, .work--style1 .work__item-content, .social, .btn-group, .footer__contact, .footer__header-inner, .account__check, .contact__item-inner, .banner--style2 .banner__content-btn, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
+.about--style2 .about__thumb-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .tags--style2 ul, .tags ul, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .testimonial__author, .testimonial__footer, .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog--style2 .blog__writer, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style1 .service__item-content, .career--style2 .career__content-item ul li, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .career--style1 .career__thumb, .case--style2 .case__content ul li, .work--style1 .work__item-content, .social, .btn-group, .footer__contact, .footer__header-inner, .account__check, .contact__item-inner, .banner--style2 .banner__content-btn, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
   display: flex;
 }
 
@@ -134,7 +134,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
   display: grid;
 }
 
-.blog--style2 .blog__meta-tag, .trk-btn, .footer__linklist-item a, .account__switch a, .account__social-btn span, .header-bar span, .focus {
+.blog--style2 .blog__meta-tag, .trk-btn, .footer__linklist-item a, .account__switch a, .account__social-btn span, .section-header--style2 h6, .header-bar span {
   display: inline-block;
 }
 
@@ -144,7 +144,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
 
 /*=========<<Display property extends end>>=========*/
 /*=========<<Position property extends start>>=========*/
-.about--style2 .about__thumb-inner, .about--style2 .about__thumb, .about--style1 .about__thumb, .about, .roadmap--style2 .roadmap__item-inner, .roadmap--style2 .roadmap__item, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-inner, .roadmap--style1 .roadmap__wrapper, .roadmap, .accordion__button-plusicon, .faq__thumb--style1, .faq, .sidebar__search form, .sidebar__head, .story__thumb-inner, .story__wrapper, .story, .cta--style5, .cta--style4, .cta--style3 .cta__thumb, .cta--style3 .cta__newsletter-inner, .cta--style3 .cta__wrapper, .cta--style2 .cta__header, .cta--style2, .cta--style1 .cta__wrapper, .testimonial__wrapper, .blog-details, .blog--style2 .blog__wrapper, .blog--style1 .blog__item-thumbnail, .blog--style1 .blog__item, .blog, .team--details .team__content-biodata li p, .team--style2 .team__item-thumb, .team--style2 .team__item-inner, .team--style1 .team__item-content h6, .team--style1 .team__item-content, .team--style1 .team__item-thumb img, .team--style1 .team__item, .pricing__item-top, .pricing__item-focus, .pricing__item, .pricing, .choose__item-inner, .choose, .service--style1 .service__item-thumb, .service--style1 .service__item-inner, .service--style1 .service__item, .service, .feature--style2 .feature__wrapper, .feature--style2 .feature, .feature--style1 .feature, .feature, .partner--style3, .partner__wrapper, .case--style2 .case__work-inner, .case--style1 .case__item-content, .case--style1 .case__item-inner, .case--style1 .case__item, .case, .work--style1 .work__item-thumb, .work--style1 .work__item-inner, .work--style1 .work__item, .work, .count--style1 .count__wrapper, .count--style1, .text-btn, .trk-btn, .footer__linklist-item a, .footer__contact, .footer__wrapper, .footer, .account__divider--style1, .account__wrapper, .account, .contact__map .mapouter, .contact__wrapper, .contact, .banner--style4 .banner, .banner--style4, .banner--style3 .banner__thumb-inner, .banner--style3 .banner__thumb, .banner--style3, .banner--style2, .banner--style1, .page-header, .section-header, .menu-item-has-children > a, .header-bar, .header-section--style1, .header-section, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .form-pass {
+.about--style2 .about__thumb-inner, .about--style2 .about__thumb, .about--style1 .about__thumb, .about, .roadmap--style2 .roadmap__item-inner, .roadmap--style2 .roadmap__item, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-inner, .roadmap--style1 .roadmap__wrapper, .roadmap, .accordion__button-plusicon, .faq__thumb--style1, .faq, .sidebar__search form, .sidebar__head, .story__thumb-inner, .story__wrapper, .story, .cta--style5, .cta--style4, .cta--style3 .cta__thumb, .cta--style3 .cta__newsletter-inner, .cta--style3 .cta__wrapper, .cta--style2 .cta__header, .cta--style2, .cta--style1 .cta__wrapper, .testimonial__wrapper, .blog-details, .blog--style2 .blog__wrapper, .blog--style1 .blog__item-thumbnail, .blog--style1 .blog__item, .blog, .team--details .team__content-biodata li p, .team--style2 .team__item-thumb, .team--style2 .team__item-inner, .team--style1 .team__item-content h6, .team--style1 .team__item-content, .team--style1 .team__item-thumb img, .team--style1 .team__item, .pricing__item-top, .pricing__item-focus, .pricing__item, .pricing, .choose__item-inner, .choose, .service--style1 .service__item-thumb, .service--style1 .service__item-inner, .service--style1 .service__item, .service, .feature--style2 .feature__wrapper, .feature--style2 .feature, .feature--style1 .feature, .feature, .partner--style2, .partner__wrapper, .case--style2 .case__work-inner, .case--style1 .case__item-content, .case--style1 .case__item-inner, .case--style1 .case__item, .case, .work--style1 .work__item-thumb, .work--style1 .work__item-inner, .work--style1 .work__item, .work, .count--style1 .count__wrapper, .count--style1, .text-btn, .trk-btn, .footer__linklist-item a, .footer__contact, .footer__wrapper, .footer, .account__divider--style1, .account__wrapper, .account, .contact__map .mapouter, .contact__wrapper, .contact, .banner--style4 .banner, .banner--style4, .banner--style3 .banner__thumb-inner, .banner--style3 .banner__thumb, .banner--style3, .banner--style2, .banner--style1, .page-header, .section-header, .menu-item-has-children > a, .header-bar, .header-section--style1, .header-section, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .form-pass {
   position: relative;
 }
 
@@ -174,14 +174,14 @@ Tags: Crypto, Forex, and Stocks Trading Business
   text-align: left;
 }
 
-.about--style2 .about__content-title h5, .tags--style2 ul li a, .tags ul li a, .sidebar__categorie-body ul li span,
+.tags--style2 ul li a, .tags ul li a, .sidebar__categorie-body ul li span,
 .sidebar__categorie-body ul li a, .floating-content__item p, .text-btn.text-btn--small, .account__switch p a.style2, .account__switch p a, .account__switch p, .account__social-btn, .account__check-forgot a, .account__check-remember label, .banner__content-wrapper h2, .paginations ul li a {
   font-weight: 400;
 }
 
 .accordion__button, .comment__action a, .sidebar__author-designation h6, .sidebar__categorie-body ul li.active span,
 .sidebar__categorie-body ul li.active a, .sidebar__categorie-body ul li:hover span,
-.sidebar__categorie-body ul li:hover a, .sidebar__recentpost-content p, .cta--style1 .cta__content-footer h6, .blog-details__segment-content h5, .blog--style1 .blog__item-date p, .blog--style1 .blog__item-authorinfo p, .team--details .team__skill-content p, .feature--style1 .feature__content ul li p, .case--style2 .case__content ul li h5, .work--style1 .work__item-content h5 a, .count--style1 .count__item-content p, .trk-btn, .footer__links-tittle h6, .form-label, .banner__content-wrapper h5, .subtitle--style5, .subtitle--style4 p, .focus h6 {
+.sidebar__categorie-body ul li:hover a, .sidebar__recentpost-content p, .cta--style1 .cta__content-footer h6, .blog-details__segment-content h5, .blog--style1 .blog__item-date p, .blog--style1 .blog__item-authorinfo p, .team--details .team__skill-content p, .feature--style1 .feature__content ul li p, .case--style2 .case__content ul li h5, .work--style1 .work__item-content h5 a, .count--style1 .count__item-content p, .trk-btn, .footer__links-tittle h6, .form-label, .banner__content-wrapper h5, .subtitle--style5, .subtitle--style4 p, .section-header--style2 h6 {
   font-weight: 500;
 }
 
@@ -189,7 +189,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
   font-weight: 600;
 }
 
-.about--style2 .about__content-details h5, .sidebar__info-content p, .cta--style1 .cta__content-item p, .blog--style1 .blog__item-content h5 a, .team--style2 .team__item-author--style2 .team__item-authorinfo h6, .pricing__item-focus span, .choose__content h5, .service--style1 .service__item-content h6 a, .floating-content__item p.style2, .floating-content__item h3, .footer__contact-content p, .account__switch a, .banner--style4 .banner__counter-item h4 span, .banner--style4 .banner__counter-item h4, .banner__content-social p, .section-header h3, .paginations ul li:not(:first-child, :last-child) a, .swiper-nav__btn i,
+.sidebar__info-content p, .cta--style1 .cta__content-item p, .blog--style1 .blog__item-content h5 a, .team--style2 .team__item-author--style2 .team__item-authorinfo h6, .pricing__item-focus span, .choose__content h5, .service--style1 .service__item-content h6 a, .floating-content__item p.style2, .floating-content__item h3, .footer__contact-content p, .account__switch a, .banner--style4 .banner__counter-item h4 span, .banner--style4 .banner__counter-item h4, .banner__content-social p, .section-header h3, .paginations ul li:not(:first-child, :last-child) a, .swiper-nav__btn i,
 .swiper-nav__btn svg, .cta-form .cta-btn {
   font-weight: 700;
 }
@@ -197,7 +197,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
 /*=========<<Text property extends end>>=========*/
 /*=========<<Margin & padding property extends start>>=========*/
 /*-------<< margin properties >>-------*/
-.about--style2 .about__content-details p, .roadmap--style2 .roadmap__item-content h5, .roadmap--style1 .roadmap__item-content p, .job__item-location p, .job__item-time p, .job__item-name h5, .sidebar__info-content p, .sidebar__author-designation p, .sidebar__author-designation h6, .sidebar__recentpost-content p, .sidebar__head h4, .sidebar__head h6, .sidebar__head h5, .sidebar__head h3, .cta--style1 .cta__content-item p, .testimonial__author-designation h6, .blog--style1 .blog__item-date p, .blog--style1 .blog__item-authorinfo p, .team--details .team__skill-content p, .team--details .team__skill-content, .team--details .team__content-biodata li p, .team--details .team__content-designation, .team--details .team__details-description p, .team--style1 .team__item-content p, .pricing__list, .service--details .service__content p, .career--style2 .career__action-inner p, .career--style2 .career__content-item ul li p, .career--style2 .career__content-item > p, .career--style2 .career__header-position p, .career--style2 .career__header-location p, .career--style2 .career__header-time p, .feature--style2 .feature__item-content h6, .feature--style1 .feature__content ul li p, .feature--style1 .feature__heading p, .case--style2 .case__content ul li h5, .case--style2 .case__content p, .case--style2 .case__content h4, .case--style2 .case__title h3, .category--style1 .category__item p, .count--style1 .count__item-content p, .floating-content__item p, .social, .footer__contact-content p, .account__switch p, .contact__item-content p, .banner--style4 .banner__counter-item p, .banner--style4 .banner__btn-group, .section-header h3, .menu, .focus h6, ul,
+.roadmap--style2 .roadmap__item-content h5, .roadmap--style1 .roadmap__item-content p, .job__item-location p, .job__item-time p, .job__item-name h5, .sidebar__info-content p, .sidebar__author-designation p, .sidebar__author-designation h6, .sidebar__recentpost-content p, .sidebar__head h4, .sidebar__head h6, .sidebar__head h5, .sidebar__head h3, .cta--style1 .cta__content-item p, .testimonial__author-designation h6, .blog--style1 .blog__item-date p, .blog--style1 .blog__item-authorinfo p, .team--details .team__skill-content p, .team--details .team__skill-content, .team--details .team__content-biodata li p, .team--details .team__content-designation, .team--details .team__details-description p, .team--style1 .team__item-content p, .pricing__list, .service--details .service__content p, .career--style2 .career__action-inner p, .career--style2 .career__content-item ul li p, .career--style2 .career__content-item > p, .career--style2 .career__header-position p, .career--style2 .career__header-location p, .career--style2 .career__header-time p, .feature--style2 .feature__item-content h6, .feature--style1 .feature__content ul li p, .feature--style1 .feature__heading p, .case--style2 .case__content ul li h5, .case--style2 .case__content p, .case--style2 .case__content h4, .case--style2 .case__title h3, .category--style1 .category__item p, .count--style1 .count__item-content p, .floating-content__item p, .social, .footer__contact-content p, .account__switch p, .contact__item-content p, .banner--style4 .banner__counter-item p, .banner--style4 .banner__btn-group, .section-header h3, .menu, ul,
 ol {
   margin-block-end: 0;
 }
@@ -246,7 +246,7 @@ ol {
   margin-block-start: 15px;
 }
 
-.about--style3 .about__content ul li:not(:last-child), .about--style2 .about__content-details h5, .nav--feature .nav-link:not(:last-child), .sidebar__categorie-body ul li, .team--details .team__content-biodata li:not(:last-child), .team--details .team__details-description h3, .pricing__list-item:not(:last-child), .career--style2 .career__content-item ul li:not(:last-child), .feature--style1 .feature__content ul li:not(:last-child), .feature--style1 .feature__heading h3, .banner__content-social p, .banner__content-wrapper h2, .page-header__content h2 {
+.about--style3 .about__content ul li:not(:last-child), .nav--feature .nav-link:not(:last-child), .sidebar__categorie-body ul li, .team--details .team__content-biodata li:not(:last-child), .team--details .team__details-description h3, .pricing__list-item:not(:last-child), .career--style2 .career__content-item ul li:not(:last-child), .feature--style1 .feature__content ul li:not(:last-child), .feature--style1 .feature__heading h3, .banner__content-social p, .banner__content-wrapper h2, .page-header__content h2 {
   margin-block-end: 15px;
 }
 
@@ -278,7 +278,7 @@ ol {
   margin-block-start: 30px;
 }
 
-.about--style3 .about__content-icon, .about--style2 .about__content-item:not(:last-child), .about--style1 .about__content--style2 h3, .about--style1 .about__content h3, .error__thumb img, .sidebar__info-body ul li, .sidebar__author-designation, .sidebar__recentpost-body ul li, .cta--style3 .cta__subscribe p, .cta--style2 .cta__header, .cta--style1 .cta__content-item:not(:last-child), .testimonial__item--style1 .testimonial__item-focus, .blog--style1 .blog__item-inner, .team--details .team__content-biodata, .service--details .service__heading h3, .service--style1 .service__item-inner, .case--style2 .case__content-item h4, .case--style1 .case__item-content h5, .case--style1 .case__item-inner, .footer__about-moto, .contact__item:not(:last-child) {
+.about--style3 .about__content-icon, .about--style2 .about__content--style2 h3, .about--style2 .about__content h3, .about--style1 .about__content--style2 h3, .about--style1 .about__content h3, .error__thumb img, .sidebar__info-body ul li, .sidebar__author-designation, .sidebar__recentpost-body ul li, .cta--style3 .cta__subscribe p, .cta--style2 .cta__header, .cta--style1 .cta__content-item:not(:last-child), .testimonial__item--style1 .testimonial__item-focus, .blog--style1 .blog__item-inner, .team--details .team__content-biodata, .service--details .service__heading h3, .service--style1 .service__item-inner, .case--style2 .case__content-item h4, .case--style1 .case__item-content h5, .case--style1 .case__item-inner, .footer__about-moto, .contact__item:not(:last-child) {
   margin-block-end: 30px;
 }
 
@@ -335,7 +335,7 @@ ol {
   margin-block-start: 55px;
 }
 
-.about--style2 .about__content-title h5, .about--style2 .about__thumb-header, .cta--style1 .cta__content-heading h3, .footer__header-inner {
+.about--style2 .about__thumb-header, .cta--style1 .cta__content-heading h3, .footer__header-inner {
   margin-block-end: 55px;
 }
 
@@ -450,7 +450,7 @@ ol {
   padding-block-end: 30px;
 }
 
-.pricing__item-inner, .choose__item-inner, .partner--style2, .case--style2 .case__work-inner, .footer__end {
+.pricing__item-inner, .choose__item-inner, .case--style2 .case__work-inner, .footer__end {
   padding-block: 30px;
 }
 
@@ -493,12 +493,12 @@ ol {
 /*=========<<Margin property extends end>>=========*/
 /*=========<<overflow property extends start>>=========*/
 .about, .roadmap--style1 .roadmap__wrapper, .roadmap, .accordion__item, .sidebar__info-thumb, .sidebar__categorie-body ul li span,
-.sidebar__categorie-body ul li a, .sidebar__recentpost-thumb, .sidebar, .story, .cta, .testimonial, .blog-details__thumb, .blog-details, .blog--style2 .blog__thumb, .blog--style2 .blog__item-inner, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style2 .team__item-inner, .team, .pricing, .choose, .service--style1 .service__item-thumb, .service, .feature--style2 .feature, .feature, .partner, .case, .work, .lightdark-switch span, .preloader, .trk-btn, .footer, .account, .contact, .banner--style4, .banner--style3, .banner--style2, .banner--style1, .page-header, .blog--style2 .blog__content h5, .pricing__list-item, .feature--style3 .feature__item-content h5, .footer__linklist-item a, .footer__links-tittle h6, .blog--style1 .blog__item-content h5 a, .feature--style1 .feature__content ul li p, .case--style2 .case__content ul li h5, .about--style2 .about__content-title h5, .sidebar__recentpost-content p a, .blog--style2 .blog__content p {
+.sidebar__categorie-body ul li a, .sidebar__recentpost-thumb, .sidebar, .story, .cta, .testimonial, .blog-details__thumb, .blog-details, .blog--style2 .blog__thumb, .blog--style2 .blog__item-inner, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style2 .team__item-inner, .team, .pricing, .choose, .service--style1 .service__item-thumb, .service, .feature--style2 .feature, .feature, .partner, .case, .work, .lightdark-switch span, .preloader, .trk-btn, .footer, .account, .contact, .banner--style4, .banner--style3, .banner--style2, .banner--style1, .page-header, .blog--style2 .blog__content h5, .pricing__list-item, .feature--style3 .feature__item-content h5, .footer__linklist-item a, .footer__links-tittle h6, .blog--style1 .blog__item-content h5 a, .feature--style1 .feature__content ul li p, .case--style2 .case__content ul li h5, .sidebar__recentpost-content p a, .blog--style2 .blog__content p {
   overflow: hidden;
 }
 
 .about, .roadmap--style1 .roadmap__wrapper, .roadmap, .accordion__item, .sidebar__info-thumb, .sidebar__categorie-body ul li span,
-.sidebar__categorie-body ul li a, .sidebar__recentpost-thumb, .sidebar, .story, .cta, .testimonial, .blog-details__thumb, .blog-details, .blog--style2 .blog__thumb, .blog--style2 .blog__item-inner, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style2 .team__item-inner, .team, .pricing, .choose, .service--style1 .service__item-thumb, .service, .feature--style2 .feature, .feature, .partner, .case, .work, .lightdark-switch span, .preloader, .trk-btn, .footer, .account, .contact, .banner--style4, .banner--style3, .banner--style2, .banner--style1, .page-header, .blog--style2 .blog__content h5, .pricing__list-item, .feature--style3 .feature__item-content h5, .footer__linklist-item a, .footer__links-tittle h6, .blog--style1 .blog__item-content h5 a, .feature--style1 .feature__content ul li p, .case--style2 .case__content ul li h5, .about--style2 .about__content-title h5, .sidebar__recentpost-content p a, .blog--style2 .blog__content p {
+.sidebar__categorie-body ul li a, .sidebar__recentpost-thumb, .sidebar, .story, .cta, .testimonial, .blog-details__thumb, .blog-details, .blog--style2 .blog__thumb, .blog--style2 .blog__item-inner, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style2 .team__item-inner, .team, .pricing, .choose, .service--style1 .service__item-thumb, .service, .feature--style2 .feature, .feature, .partner, .case, .work, .lightdark-switch span, .preloader, .trk-btn, .footer, .account, .contact, .banner--style4, .banner--style3, .banner--style2, .banner--style1, .page-header, .blog--style2 .blog__content h5, .pricing__list-item, .feature--style3 .feature__item-content h5, .footer__linklist-item a, .footer__links-tittle h6, .blog--style1 .blog__item-content h5 a, .feature--style1 .feature__content ul li p, .case--style2 .case__content ul li h5, .sidebar__recentpost-content p a, .blog--style2 .blog__content p {
   overflow: hidden;
 }
 
@@ -524,7 +524,7 @@ ol {
 
 /*=========<< List Style property extends end>>=========*/
 /* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
-.about--style2 .about__content-title h5, .sidebar__recentpost-content p a, .blog--style2 .blog__content p {
+.sidebar__recentpost-content p a, .blog--style2 .blog__content p {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -2306,23 +2306,6 @@ ol {
 }
 .paginations ul li:not(:first-child, :last-child) a.dot:hover {
   color: var(--brand-color);
-}
-
-.focus {
-  padding: 10px 16px;
-  border: 1px solid var(--border-color);
-  border-radius: 99px;
-  background: #F6FFC8;
-  background-image: radial-gradient(at -2.9% 80.5%, #F7E5DB 0px, transparent 50%), radial-gradient(at 101.7% -4.6%, #FCDEA7 0px, transparent 50%), radial-gradient(at 96% 92.1%, #DEB6FF 0px, transparent 50%), radial-gradient(at 101.7% 55.6%, #DEB6FF 0px, transparent 50%), radial-gradient(at 71.9% 88.1%, #DEB6FF 0px, transparent 50%), radial-gradient(at 90% 17%, #DEB6FF 0px, transparent 50%);
-  margin-block-end: 24px;
-}
-.focus h6 {
-  color: var(--title-color);
-  text-transform: uppercase;
-  font-size: 1.125rem;
-  letter-spacing: 1.6px;
-  line-height: 1.6;
-  margin-block-end: -4px;
 }
 
 .gradient-text--brand1 {
@@ -4267,6 +4250,25 @@ h6 a {
   .section-header {
     margin-bottom: 56px;
   }
+}
+.section-header--style2 {
+  margin-block-end: 24px;
+}
+@media (min-width: 992px) {
+  .section-header--style2 {
+    margin-block-end: 24px;
+  }
+}
+.section-header--style2 h6 {
+  color: var(--title-color);
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  letter-spacing: 1.6px;
+  padding: 10px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 99px;
+  background: #F6FFC8;
+  background-image: radial-gradient(at -2.9% 80.5%, #F7E5DB 0px, transparent 50%), radial-gradient(at 101.7% -4.6%, #FCDEA7 0px, transparent 50%), radial-gradient(at 96% 92.1%, #DEB6FF 0px, transparent 50%), radial-gradient(at 101.7% 55.6%, #DEB6FF 0px, transparent 50%), radial-gradient(at 71.9% 88.1%, #DEB6FF 0px, transparent 50%), radial-gradient(at 90% 17%, #DEB6FF 0px, transparent 50%);
 }
 .section-header--style3 h2 {
   color: var(--bg-white);
@@ -7802,15 +7804,6 @@ textarea:focus-within {
 }
 .partner--style1 {
   background-color: var(--bg-color-1);
-}
-.partner--style2 {
-  background: #F6FFC8;
-  background-image: radial-gradient(at -2.9% 80.5%, #F7E5DB 0px, transparent 50%), radial-gradient(at 101.7% -4.6%, #FCDEA7 0px, transparent 50%), radial-gradient(at 96% 92.1%, #DEB6FF 0px, transparent 50%), radial-gradient(at 101.7% 55.6%, #DEB6FF 0px, transparent 50%), radial-gradient(at 71.9% 88.1%, #DEB6FF 0px, transparent 50%), radial-gradient(at 90% 17%, #DEB6FF 0px, transparent 50%);
-}
-@media (min-width: 992px) {
-  .partner--style2 {
-    padding-block: 32px;
-  }
 }
 .feature--style1 .feature__heading h3 {
   line-height: 1.16;
@@ -11709,27 +11702,23 @@ textarea:focus-within {
 .about--style2 .about__thumb-image img {
   max-width: auto !important;
 }
-.about--style2 .about__content-item {
-  gap: 20px;
+.about--style2 .about__content h3 {
+  color: var(--bg-white);
 }
-@media (min-width: 992px) {
-  .about--style2 .about__content-item {
-    gap: 24px;
-  }
+.about--style2 .about__content h3 span {
+  color: var(--brand-color);
 }
-@media (min-width: 992px) {
-  .about--style2 .about__content-item:not(:last-child) {
-    margin-block-end: 32px;
-  }
+.about--style2 .about__content p {
+  color: var(--text-color-light);
 }
-.about--style2 .about__content-thumb img {
-  background: #F6FFC8;
-  background-image: radial-gradient(at -2.9% 80.5%, #F7E5DB 0px, transparent 50%), radial-gradient(at 101.7% -4.6%, #FCDEA7 0px, transparent 50%), radial-gradient(at 96% 92.1%, #DEB6FF 0px, transparent 50%), radial-gradient(at 101.7% 55.6%, #DEB6FF 0px, transparent 50%), radial-gradient(at 71.9% 88.1%, #DEB6FF 0px, transparent 50%), radial-gradient(at 90% 17%, #DEB6FF 0px, transparent 50%);
-  padding: 12px;
-  border-radius: 16px;
+.about--style2 .about__content--style2 h3 {
+  color: var(--title-color);
 }
-.about--style2 .about__content-details {
-  flex: 1;
+.about--style2 .about__content--style2 h3 span {
+  color: var(--brand-color);
+}
+.about--style2 .about__content--style2 p {
+  color: var(--text-color);
 }
 .about--style3 .about__content-icon img {
   width: 70px;
@@ -11808,7 +11797,7 @@ html[data-bs-theme=dark] .count--style1 .count__item-content p {
 html[data-bs-theme=dark] .banner--style3 {
   background: linear-gradient(0deg, #1B1D2E 50%, rgba(255, 255, 255, 0) 50%);
 }
-html[data-bs-theme=dark] .focus {
+html[data-bs-theme=dark] .section-header--style2 h6 {
   background: #232532;
   border-color: #232532;
   background-color: #232532;

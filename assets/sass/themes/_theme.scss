@@ -28,14 +28,10 @@ html[data-bs-theme='dark'] {
     }
   }
 
-  .section-header {
-    &--style2 {
-      h6 {
-        background: $grad-bg-color2;
-        border-color: $grad-bg-color2;
-        background-color: $grad-bg-color2;
-      }
-    }
+  .focus {
+    background: $grad-bg-color2;
+    border-color: $grad-bg-color2;
+    background-color: $grad-bg-color2;
   }
 
   // .team {
