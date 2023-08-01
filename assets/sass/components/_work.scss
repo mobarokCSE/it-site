@@ -339,4 +339,175 @@
         }
     }
 
+    &--style3 {
+        .work {
+            &__item {
+                @extend %p-rel;
+
+                &-inner {
+                    @extend %p-rel,
+                    %d-grid,
+                    %place-i-end;
+                    justify-items: left;
+                }
+
+                // &-thumb {
+                //     @extend %p-rel;
+
+                //     &::after {
+                //         @extend %p-abs;
+                //         @include add-prefix(transition, $transition);
+                //         content: "";
+                //         top: 0;
+                //         left: 0;
+                //         height: 0%;
+                //         width: 100%;
+                //         border-radius: 8px;
+                //         background: linear-gradient(0deg, rgba(83, 126, 253, 0.70) 0%, rgba(83, 126, 253, 0.70) 100%);
+                //         opacity: 0;
+                //     }
+                // }
+
+                &-content {
+                    @extend %p-abs,
+                    %p-30,
+                    %d-flex,
+                    %align-i-center,
+                    %justify-between;
+                    bottom: 32px;
+                    @include add-prefix(transition, $transition);
+                    border-radius: 8px;
+                    background: rgba(21, 23, 37, 0.80);
+                    box-shadow: 0px -16px 80px 0px rgba(255, 255, 255, 0.28);
+                    backdrop-filter: blur(16px);
+                    color: $title-color;
+                    gap: 10px 30px;
+                    opacity: 0;
+                    left: 50%;
+                    transform: translate(-50%, 15%);
+                    width: 100%;
+                    max-width: calc(100% - 64px);
+
+                    @include breakpoint(sm) {
+                        @include breakpoint(max-md) {
+                            padding: 30px;
+                        }
+                    }
+
+                    @include breakpoint(md) {
+                        max-width: calc(100% - 34px);
+                        padding: 15px;
+                        bottom: 17px;
+                    }
+                    @include breakpoint(lg) {
+                        max-width: calc(100% - 44px);
+                        padding: 20px;
+                        bottom: 22px;
+                    }
+                    @include breakpoint(xl) {
+                        max-width: calc(100% - 64px);
+                        padding: 32px;
+                        bottom: 32px;
+                    }
+
+                    h5 {
+                        a {
+                            @extend %text-capitalize,
+                            %text-medium;
+                            // flex: 1;
+                            // width: 100%;
+                            color: $bg-white;
+
+                            @include font-size(18px);
+
+                            @include breakpoint(sm) {
+                                @include breakpoint(max-md) {
+                                    @include font-size(16px);
+                                }
+                            }
+
+                            @include breakpoint(lg) {
+                                @include breakpoint(max-xl) {
+                                    @include font-size(18px);
+                                }
+                            }
+
+                            @include breakpoint(xl) {
+                                @include font-size(24px);
+                            }
+                        }
+                    }
+
+                    // span {
+                    //     svg {
+                    //         rect {
+                    //             fill: $brand-color;
+                    //         }
+
+                    //         @include breakpoint(sm) {
+                    //             @include breakpoint(max-md) {
+                    //                 @include box(30px);
+                    //             }
+                    //         }
+
+                    //         @include breakpoint(md) {
+                    //             @include breakpoint(max-lg) {
+                    //                 @include box(24px);
+                    //             }
+                    //         }
+                    //     }
+                    // }
+
+
+
+                }
+
+                // &-category {
+                //     @extend %p-abs;
+                //     @include add-prefix(transition, $transition);
+                //     top: 24px;
+                //     left: 24px;
+                //     opacity: 0;
+
+                //     @include breakpoint(md) {
+                //         @include breakpoint(max-lg) {
+                //             left: 10px;
+                //         }
+                //     }
+                // }
+
+
+                &:hover {
+                    .work {
+                        &__item {
+                            &-inner {
+                                cursor: pointer;
+                            }
+
+                            &-thumb {
+                                &::after {
+                                    height: 100%;
+                                    opacity: 1;
+                                }
+                            }
+
+                            &-content {
+                                opacity: 1;
+                                transform: translate(-50%, 0%);
+                            }
+
+                            &-category {
+                                opacity: 1;
+                                cursor: auto;
+                            }
+                        }
+                    }
+                }
+
+
+
+            }
+        }
+    }
+
 }

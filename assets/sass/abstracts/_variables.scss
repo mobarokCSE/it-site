@@ -99,6 +99,11 @@
 
   $thm-black-color:#000;
   $thm-black-color-dark:#fff;
+  
+
+  // special color
+  $thm-service-bg-color: #fff;
+  $thm-service-bg-color-dark: rgba(21, 23, 37, 0.80);
 
 
   // action colors
@@ -221,6 +226,7 @@
 
 
     --tag-bg-color: #EDFFFA;
+    --service-bg-color: #{$thm-service-bg-color};
 
 
 
@@ -406,6 +412,7 @@
     // special
     --quote-bg-color: #202A4C;
     --tag-bg-color: rgba(7, 18, 49, 0.90);
+    --service-bg-color: #{$thm-service-bg-color-dark};
     --cta-bg-color1: #6188FD;
     --author-bg-color: rgba(7, 18, 49, 0.90);
     --footer-border-color: rgba(255, 255, 255, 0.16);
@@ -550,6 +557,7 @@
   //special
   $qoute-bg-color: var(--quote-bg-color);
   $tag-bg-color: var(--tag-bg-color);
+  $service-bg-color: var(--service-bg-color);
   $cta-bg-color1: var(--cta-bg-color1);
   $author-bg-color: var(--author-bg-color);
   $footer-border-color: var(--footer-border-color);

@@ -603,22 +603,46 @@
 // focus subtitle
 .focus {
     @extend %d-inline-block;
-    padding: 10px 16px;
+    padding: 6px 12px;
     border: 1px solid $border-color;
     border-radius: 99px;
     background: $grad-bg-color;
     background-image: $grad-image;
     margin-block-end: 24px;
 
-    
+    @include breakpoint(sm) {
+        padding: 8px 14px;
+    }
+
+    @include breakpoint(lg) {
+        padding: 10px 16px;
+    }
+
+
     h6 {
         @extend %text-medium,
         %mb-0;
         color: $title-color;
         text-transform: uppercase;
-        @include font-size(18px);
-        letter-spacing: 1.6px;
+        @include font-size(14px);
+        letter-spacing: 1.2px;
         line-height: 1.6;
         margin-block-end: -4px;
+
+        @include breakpoint(sm) {
+            @include font-size(18px);
+            letter-spacing: 1.6px;
+        }
+    }
+
+
+    &--style2 {
+        background: $grad-bg-color2;
+        border-color: $grad-bg-color2;
+        background-color: $grad-bg-color2;
+
+        h6{
+            color: $thm-title-color-dark;
+        }
     }
 }

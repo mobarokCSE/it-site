@@ -867,7 +867,7 @@
                 &::before {
                     @extend %p-abs;
                     content: "";
-                    top: -15%;
+                    top: -40%;
                     left: -7%;
                     height: 200px;
                     width: 200px;
@@ -881,12 +881,25 @@
                     @include breakpoint(sm) {
                         height: 300px;
                         width: 300px;
-                        top: -15%;
+                        top: -40%;
                         left: -7%;
                     }
 
                     @include breakpoint(lg) {
-                        top: 50%;
+                        top: 20%;
+                        left: 5%;
+                    }
+
+                    @include breakpoint(xl) {
+                        top: 30%;
+                        left: 5%;
+                    }
+                    @include breakpoint(xxl) {
+                        top: 40%;
+                        left: 5%;
+                    }
+                    @include breakpoint(xxxl) {
+                        top: 45%;
                         left: 5%;
                     }
                 }
@@ -894,7 +907,7 @@
                 &::after {
                     @extend %p-abs;
                     content: "";
-                    top: 16%;
+                    top: -70%;
                     right: -28%;
                     height: 200px;
                     width: 200px;
@@ -909,16 +922,30 @@
                     @include breakpoint(sm) {
                         height: 250px;
                         width: 250px;
-                        top: -18%;
+                        top: -45%;
+                        right: -40%;
+                    }
+                    @include breakpoint(md) {
+                        height: 250px;
+                        width: 250px;
+                        top: -30%;
                         right: -40%;
                     }
 
                     @include breakpoint(lg) {
-                        top: 60%;
-                        right: -13%;
+                        top: 15%;
+                        right: -30%;
                     }
 
                     @include breakpoint(xl) {
+                        top: 20%;
+                        right: -30%;
+                    }
+                    @include breakpoint(xxl) {
+                        top: 30%;
+                        right: -30%;
+                    }
+                    @include breakpoint(xxxl) {
                         top: 35%;
                         right: -30%;
                     }

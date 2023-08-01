@@ -14,12 +14,18 @@
     }
 
     &--style2 {
-        @extend %py-30;
-        background: $grad-bg-color;
-        background-image: $grad-image;
-        @include breakpoint(lg){
-            padding-block: 32px;
+        .partner{
+            &__wrapper{
+                @extend %py-30;
+                background: $grad-bg-color;
+                background-image: $grad-image;
+                border-radius: 16px;
+                @include breakpoint(lg){
+                    padding-block: 32px;
+                }
+            }
         }
+        
     }
 
     //background overlay

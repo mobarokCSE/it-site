@@ -34,6 +34,34 @@ html[data-bs-theme='dark'] {
     background-color: $grad-bg-color2;
   }
 
+  .service {
+    &--style2 {
+      .service {
+        &__item {
+          // &-content{
+          //   box-shadow: 0px -16px 80px 0px rgba(255, 255, 255, 0.08);
+          // }
+          &:hover {
+            .service {
+              &__item {
+                &-content {
+                  background-color: $thm-service-bg-color;
+
+
+                  h6 {
+                    a {
+                      color: $thm-title-color;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   // .team {
   //   &__item {
   //     &-author {

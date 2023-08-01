@@ -135,8 +135,10 @@
 
                 &-item {
                     h4 {
-                        @extend %text-capitalize, %mb-30;
-                        @include breakpoint(xl){
+                        @extend %text-capitalize,
+                        %mb-30;
+
+                        @include breakpoint(xl) {
                             margin-block-end: 40px;
                         }
                     }
@@ -197,7 +199,7 @@
             &__work {
 
                 &-inner {
-                    @extend %p-rel, 
+                    @extend %p-rel,
                     %py-30,
                     %px-15;
                     @include add-prefix(transition, $transition);
@@ -258,6 +260,159 @@
 
 
 
+        }
+    }
+
+    &--style3 {
+        .case {
+            @extend %p-rel,
+            %of-hidden;
+
+            &__wrapper {
+                &::before {
+                    @extend %p-abs;
+                    content: "";
+                    top: -40%;
+                    left: -21%;
+                    height: 200px;
+                    width: 200px;
+                    background: $grad-bg-color;
+                    background-image: $grad-image;
+                    transform: translate(-50%);
+                    backdrop-filter: blur(10px);
+                    filter: blur(100px);
+                    z-index: 1;
+
+                    @include breakpoint(sm) {
+                        height: 300px;
+                        width: 300px;
+                        top: -40%;
+                        left: -10%;
+                    }
+
+                    @include breakpoint(lg) {
+                        top: 2%;
+                        left: 2%;
+                    }
+
+                    @include breakpoint(xl) {
+                        top: 3%;
+                        left: 5%;
+                    }
+
+                    @include breakpoint(xxl) {
+                        top: 4%;
+                        left: 5%;
+                    }
+
+                    @include breakpoint(xxxl) {
+                        top: 5%;
+                        left: 15%;
+                    }
+                }
+
+                &::after {
+                    @extend %p-abs;
+                    content: "";
+                    top: -30%;
+                    right: -30%;
+                    height: 200px;
+                    width: 200px;
+                    background: $grad-bg-color;
+                    // background: #9816F9;
+                    background-image: $grad-image;
+                    backdrop-filter: blur(10px);
+                    filter: blur(100px);
+                    transform: translate(-50%);
+                    z-index: 1;
+
+                    @include breakpoint(sm) {
+                        height: 250px;
+                        width: 250px;
+                        top: -21%;
+                        right: -36%;
+                    }
+
+                    @include breakpoint(md) {
+                        height: 250px;
+                        width: 250px;
+                        top: -21%;
+                        right: -12%;
+                    }
+
+                    @include breakpoint(lg) {
+                        top: 1%;
+                        right: -8%;
+                    }
+
+                    @include breakpoint(xl) {
+                        top: 1%;
+                        right: -5%;
+                    }
+
+                    @include breakpoint(xxl) {
+                        top: 3%;
+                        right: -4%;
+                    }
+
+                    @include breakpoint(xxxl) {
+                        top: 5%;
+                        right: 3%;
+                    }
+                }
+            }
+
+            &__thumb {
+                z-index: 1;
+                position: relative;
+            }
+
+
+
+
+            // shape
+            &__shape {
+
+                &-item {
+                    @extend %p-abs;
+
+                    &--1 {
+                        width: 60px;
+                        top: 7%;
+                        left: 3%;
+                        z-index: 1;
+                        @include animation(left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+
+                        @include breakpoint(sm) {
+                            width: 70px;
+                            top: 13%;
+                            left: 3%;
+                        }
+
+                        @include breakpoint(md) {
+                            width: 100px;
+                            top: 13%;
+                            left: 3%;
+                        }
+
+                        @include breakpoint(lg) {
+                            width: 110px;
+                            top: 13%;
+                            left: 3%;
+                        }
+
+                        @include breakpoint(xl) {
+                            width: auto;
+                            top: 13%;
+                            left: 4%;
+                        }
+
+                    }
+
+                }
+
+
+            }
         }
     }
 
