@@ -474,6 +474,69 @@
         }
     }
 
+    &--style4 {
+        .swiper-nav {
+
+            &__btn {
+                @include add-prefix(transition, $transition);
+                background-color: $floating-content-bg-color-2;
+                border: 1px solid $grad-bg-color;
+                border-radius: 4px;
+                @extend %d-grid,
+                %justify-center;
+
+                i,
+                svg {
+                    @include add-prefix(transition, $transition);
+
+                    path {
+                        stroke: $title-color;
+                    }
+                }
+
+                &-prev {
+
+                    i,
+                    svg {
+                        @include add-prefix(transition, $transition);
+
+                        path {
+                            stroke: $title-color;
+                        }
+                    }
+
+                }
+
+                &-next {
+
+                    i,
+                    svg {
+                        @include add-prefix(transition, $transition);
+
+                        path {
+                            stroke: $title-color;
+                        }
+                    }
+                }
+
+                &.active,
+                &:hover {
+                    background: $grad-bg-color;
+                    background-image: $grad-image;
+
+                    i,
+                    svg {
+                        color: $bg-white;
+
+                        path {
+                            stroke: $thm-title-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 
@@ -641,7 +704,7 @@
         border-color: $grad-bg-color2;
         background-color: $grad-bg-color2;
 
-        h6{
+        h6 {
             color: $thm-title-color-dark;
         }
     }

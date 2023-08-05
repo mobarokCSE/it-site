@@ -124,9 +124,6 @@
                         }
                     }
                 }
-
-
-
             }
 
             &__footer {
@@ -170,6 +167,95 @@
         }
     }
 
-    
+    &--style2 {
+        .testimonial {
+            &__thumb {
+                @extend %p-rel;
+            }
+
+            &__item {
+                &-inner {
+                    @extend %p-40;
+                    @include add-prefix(transition, $transition);
+                    background-color: $floating-content-bg-color-2;
+                    border-radius: 16px;
+
+                    @include breakpoint(xl) {
+                        padding: 48px;
+                    }
+                }
+
+                &-star {
+                    @extend %mb-30;
+
+                    @include breakpoint(xl) {
+                        margin-block-end: 32px;
+                    }
+
+                    span {
+                        svg {
+                            path {
+                                fill: $secondary-color;
+                            }
+                        }
+                    }
+                }
+
+                &-desc {
+                    @extend %pb-25;
+                    border-bottom: 1px solid $border-color;
+
+                    @include breakpoint(xl) {
+                        padding-block-end: 29px;
+                    }
+
+                    p {
+                        @extend %mb-0;
+                        color: $title-color;
+                    }
+                }
+
+            }
+
+            &__footer {
+                @extend %d-flex,
+                %align-i-center,
+                %justify-between,
+                %mt-30;
+
+                @include breakpoint(xl) {
+                    margin-top: 40px;
+                }
+
+            }
+
+            &__author {
+                @extend %d-flex,
+                %align-i-center;
+                gap: 15px;
+
+                &-thumb {
+                    img {
+                        border-radius: 99px;
+                        max-width: 60px;
+                    }
+
+                }
+
+                &-designation {
+                    h6 {
+                        @extend %mb-0;
+                        @include font-size(18px);
+                    }
+
+                    span {
+                        @include font-size(14px);
+                        color: $title-color;
+                        opacity: 0.6;
+                    }
+                }
+            }
+        }
+    }
 
 }

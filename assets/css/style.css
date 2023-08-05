@@ -79,20 +79,20 @@ Tags: Crypto, Forex, and Stocks Trading Business
 /* @@@@@@@@@@@@@  Extend Property CSS start here  @@@@@@@@@@@@@@ */
 /*=========<<Flex property extends start>>=========*/
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-.about--style2 .about__content-item, .about--style2 .about__thumb-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .tags--style2 ul, .tags ul, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .testimonial--style1 .testimonial__author, .testimonial--style1 .testimonial__footer, .testimonial--style1 .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog--style2 .blog__writer, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style2 .service__item-content, .service--style1 .service__item-content, .career--style2 .career__content-item ul li, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .career--style1 .career__thumb, .case--style2 .case__content ul li, .work--style3 .work__item-content, .work--style1 .work__item-content, .social, .btn-group, .footer__contact, .footer__header-inner, .account__check, .contact__item-inner, .banner--style2 .banner__content-btn, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
+.about--style2 .about__content-item, .about--style2 .about__thumb-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .tags--style2 ul, .tags ul, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .testimonial--style2 .testimonial__author, .testimonial--style2 .testimonial__footer, .testimonial--style1 .testimonial__author, .testimonial--style1 .testimonial__footer, .testimonial--style1 .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog--style2 .blog__writer, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style2 .service__item-content, .service--style1 .service__item-content, .career--style2 .career__content-item ul li, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .career--style1 .career__thumb, .case--style2 .case__content ul li, .work--style3 .work__item-content, .work--style1 .work__item-content, .social, .btn-group, .footer__contact, .footer__header-inner, .account__check, .contact__item-inner, .banner--style2 .banner__content-btn, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
   display: flex;
   flex-wrap: wrap;
 }
 
-.account__social-btn, .banner--style2 .banner__content-btn, .subtitle--style2, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a {
+.account__social-btn, .banner--style2 .banner__content-btn, .subtitle--style2, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav--style4 .swiper-nav__btn {
   justify-content: center;
 }
 
-.roadmap--style1 .roadmap__item-header, .accordion__button, .comment__head, .job__item-inner, .sidebar__categorie-body ul li, .testimonial--style1 .testimonial__footer, .blog-details__action-inner, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .service--style2 .service__item-content, .service--style1 .service__item-content, .work--style3 .work__item-content, .work--style1 .work__item-content, .account__check, .header-wrapper {
+.roadmap--style1 .roadmap__item-header, .accordion__button, .comment__head, .job__item-inner, .sidebar__categorie-body ul li, .testimonial--style2 .testimonial__footer, .testimonial--style1 .testimonial__footer, .blog-details__action-inner, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .service--style2 .service__item-content, .service--style1 .service__item-content, .work--style3 .work__item-content, .work--style1 .work__item-content, .account__check, .header-wrapper {
   justify-content: space-between;
 }
 
-.about--style3 .about__content ul li, .roadmap--style2 .roadmap__upper-inner, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .cta--style1 .cta__content-item, .testimonial--style1 .testimonial__author, .testimonial--style1 .testimonial__footer, .testimonial--style1 .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog-details__meta ul li, .blog--style2 .blog__writer, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style2 .service__item-content, .service--style1 .service__item-content, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .case--style2 .case__content ul li, .work--style3 .work__item-content, .work--style2 .work__tab li button.active, .work--style2 .work__tab li button, .work--style1 .work__item-content, .social, .btn-group, .text-btn, .trk-btn--outline22, .trk-btn--outline2, .trk-btn--left span, .trk-btn--left, .trk-btn--arrowplay, .trk-btn--defult, .footer__end-copyright, .footer__contact, .footer__header-inner, .account__check, .contact__item-inner, .banner--style4 .banner__counter-inner, .banner--style2 .banner__content-btn, .subtitle, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
+.about--style3 .about__content ul li, .roadmap--style2 .roadmap__upper-inner, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .cta--style1 .cta__content-item, .testimonial--style2 .testimonial__author, .testimonial--style2 .testimonial__footer, .testimonial--style1 .testimonial__author, .testimonial--style1 .testimonial__footer, .testimonial--style1 .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog-details__meta ul li, .blog--style2 .blog__writer, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style2 .service__item-content, .service--style1 .service__item-content, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .case--style2 .case__content ul li, .work--style3 .work__item-content, .work--style2 .work__tab li button.active, .work--style2 .work__tab li button, .work--style1 .work__item-content, .social, .btn-group, .text-btn, .trk-btn--outline22, .trk-btn--outline2, .trk-btn--left span, .trk-btn--left, .trk-btn--arrowplay, .trk-btn--defult, .footer__end-copyright, .footer__contact, .footer__header-inner, .account__check, .contact__item-inner, .banner--style4 .banner__counter-inner, .banner--style2 .banner__content-btn, .subtitle, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
   align-items: center;
 }
 
@@ -126,11 +126,11 @@ Tags: Crypto, Forex, and Stocks Trading Business
   display: block;
 }
 
-.about--style2 .about__content-item, .about--style2 .about__thumb-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .tags--style2 ul, .tags ul, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .testimonial--style1 .testimonial__author, .testimonial--style1 .testimonial__footer, .testimonial--style1 .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog--style2 .blog__writer, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style2 .service__item-content, .service--style1 .service__item-content, .career--style2 .career__content-item ul li, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .career--style1 .career__thumb, .case--style2 .case__content ul li, .work--style3 .work__item-content, .work--style1 .work__item-content, .social, .btn-group, .footer__contact, .footer__header-inner, .account__check, .contact__item-inner, .banner--style2 .banner__content-btn, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
+.about--style2 .about__content-item, .about--style2 .about__thumb-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .tags--style2 ul, .tags ul, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .testimonial--style2 .testimonial__author, .testimonial--style2 .testimonial__footer, .testimonial--style1 .testimonial__author, .testimonial--style1 .testimonial__footer, .testimonial--style1 .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog--style2 .blog__writer, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style2 .service__item-content, .service--style1 .service__item-content, .career--style2 .career__content-item ul li, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .career--style1 .career__thumb, .case--style2 .case__content ul li, .work--style3 .work__item-content, .work--style1 .work__item-content, .social, .btn-group, .footer__contact, .footer__header-inner, .account__check, .contact__item-inner, .banner--style2 .banner__content-btn, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
   display: flex;
 }
 
-.cta--style5 .cta__wrapper, .cta--style4 .cta__wrapper, .cta--style1 .cta__content-item span, .testimonial--style1 .testimonial__item--style1 .testimonial__item-quote, .blog-details__meta ul, .pricing__item-focus, .service--style2 .service__item-content span, .service--style2 .service__item-inner, .service--style1 .service__item-inner, .career--style2 .career__content-item ul, .case--style1 .case__item-inner, .work--style3 .work__item-inner, .work--style2 .work__tab li button.active span, .work--style2 .work__tab li button span, .work--style2 .work__tab, .work--style1 .work__item-inner, .social__link--style2, .social__link--style1, .lightdark-switch span, .trk-btn--defult span.style1, .footer__contact-thumb span, .contact__item-content span, .contact__item-thumb span, .swiper-nav__btn {
+.cta--style5 .cta__wrapper, .cta--style4 .cta__wrapper, .cta--style1 .cta__content-item span, .testimonial--style1 .testimonial__item--style1 .testimonial__item-quote, .blog-details__meta ul, .pricing__item-focus, .service--style2 .service__item-content span, .service--style2 .service__item-inner, .service--style1 .service__item-inner, .career--style2 .career__content-item ul, .case--style1 .case__item-inner, .work--style3 .work__item-inner, .work--style2 .work__tab li button.active span, .work--style2 .work__tab li button span, .work--style2 .work__tab, .work--style1 .work__item-inner, .social__link--style2, .social__link--style1, .lightdark-switch span, .trk-btn--defult span.style1, .footer__contact-thumb span, .contact__item-content span, .contact__item-thumb span, .swiper-nav--style4 .swiper-nav__btn, .swiper-nav__btn {
   display: grid;
 }
 
@@ -144,11 +144,11 @@ Tags: Crypto, Forex, and Stocks Trading Business
 
 /*=========<<Display property extends end>>=========*/
 /*=========<<Position property extends start>>=========*/
-.about--style2 .about__thumb-inner, .about--style2 .about__thumb, .about--style1 .about__thumb, .about, .roadmap--style2 .roadmap__item-inner, .roadmap--style2 .roadmap__item, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-inner, .roadmap--style1 .roadmap__wrapper, .roadmap, .accordion__button-plusicon, .faq__thumb--style1, .faq, .sidebar__search form, .sidebar__head, .story__thumb-inner, .story__wrapper, .story, .cta--style5, .cta--style4, .cta--style3 .cta__thumb, .cta--style3 .cta__newsletter-inner, .cta--style3 .cta__wrapper, .cta--style2 .cta__header, .cta--style2, .cta--style1 .cta__wrapper, .testimonial--style1 .testimonial__wrapper, .blog-details, .blog--style2 .blog__wrapper, .blog--style1 .blog__item-thumbnail, .blog--style1 .blog__item, .blog, .team--details .team__content-biodata li p, .team--style2 .team__item-thumb, .team--style2 .team__item-inner, .team--style1 .team__item-content h6, .team--style1 .team__item-content, .team--style1 .team__item-thumb img, .team--style1 .team__item, .pricing__item-top, .pricing__item-focus, .pricing__item, .pricing, .choose__item-inner, .choose, .service--style2 .service__item-thumb, .service--style2 .service__item-inner, .service--style2 .service__item, .service--style1 .service__item-thumb, .service--style1 .service__item-inner, .service--style1 .service__item, .service, .feature--style2 .feature__wrapper, .feature--style2 .feature, .feature--style1 .feature, .feature, .partner--style3, .partner__wrapper, .case--style3 .case, .case--style2 .case__work-inner, .case--style1 .case__item-content, .case--style1 .case__item-inner, .case--style1 .case__item, .case, .work--style3 .work__item-inner, .work--style3 .work__item, .work--style1 .work__item-thumb, .work--style1 .work__item-inner, .work--style1 .work__item, .work, .count--style1 .count__wrapper, .count--style1, .floating-content__item--style3 img, .floating-content__item--style3, .text-btn, .trk-btn, .footer__linklist-item a, .footer__contact, .footer__wrapper, .footer, .account__divider--style1, .account__wrapper, .account, .contact__map .mapouter, .contact__wrapper, .contact, .banner--style4 .banner, .banner--style4, .banner--style3 .banner__thumb-inner, .banner--style3 .banner__thumb, .banner--style3, .banner--style2, .banner--style1, .page-header, .section-header, .menu-item-has-children > a, .header-bar, .header-section--style1, .header-section, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .form-pass {
+.about--style2 .about__thumb-inner, .about--style2 .about__thumb, .about--style1 .about__thumb, .about, .roadmap--style2 .roadmap__item-inner, .roadmap--style2 .roadmap__item, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-inner, .roadmap--style1 .roadmap__wrapper, .roadmap, .accordion__button-plusicon, .faq__thumb--style1, .faq, .sidebar__search form, .sidebar__head, .story__thumb-inner, .story__wrapper, .story, .cta--style5, .cta--style4, .cta--style3 .cta__thumb, .cta--style3 .cta__newsletter-inner, .cta--style3 .cta__wrapper, .cta--style2 .cta__header, .cta--style2, .cta--style1 .cta__wrapper, .testimonial--style2 .testimonial__thumb, .testimonial--style1 .testimonial__wrapper, .blog-details, .blog--style2 .blog__wrapper, .blog--style1 .blog__item-thumbnail, .blog--style1 .blog__item, .blog, .team--details .team__content-biodata li p, .team--style2 .team__item-thumb, .team--style2 .team__item-inner, .team--style1 .team__item-content h6, .team--style1 .team__item-content, .team--style1 .team__item-thumb img, .team--style1 .team__item, .pricing__item-top, .pricing__item-focus, .pricing__item, .pricing, .choose__item-inner, .choose, .service--style2 .service__item-thumb, .service--style2 .service__item-inner, .service--style2 .service__item, .service--style1 .service__item-thumb, .service--style1 .service__item-inner, .service--style1 .service__item, .service, .feature--style2 .feature__wrapper, .feature--style2 .feature, .feature--style1 .feature, .feature, .partner--style3, .partner__wrapper, .case--style3 .case, .case--style2 .case__work-inner, .case--style1 .case__item-content, .case--style1 .case__item-inner, .case--style1 .case__item, .case, .work--style3 .work__item-inner, .work--style3 .work__item, .work--style1 .work__item-thumb, .work--style1 .work__item-inner, .work--style1 .work__item, .work, .count--style1 .count__wrapper, .count--style1, .floating-content__item--style4 a, .floating-content__item--style4, .floating-content__item--style3 img, .floating-content__item--style3, .text-btn, .trk-btn, .footer__linklist-item a, .footer__contact, .footer__wrapper, .footer, .account__divider--style1, .account__wrapper, .account, .contact__map .mapouter, .contact__wrapper, .contact, .banner--style4 .banner, .banner--style4, .banner--style3 .banner__thumb-inner, .banner--style3 .banner__thumb, .banner--style3, .banner--style2, .banner--style1, .page-header, .section-header, .menu-item-has-children > a, .header-bar, .header-section--style1, .header-section, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .form-pass {
   position: relative;
 }
 
-.about--style1 .about__shape-item, .roadmap--style2 .roadmap__upper-inner::after, .roadmap--style1 .roadmap__shape-item, .accordion__button-plusicon:before, .accordion__button-plusicon:after, .faq__shape-item--3, .faq__shape-item--2, .faq__shape-item--1, .faq__shape-item, .sidebar__search form button, .story__shape-item, .story__thumb-playbtn, .cta--style5 .cta__shape-item, .cta--style4 .cta__shape-item, .cta--style3 .cta__shape-item, .cta--style1 .cta__shape-item, .blog--style2 .blog__shape-item, .blog--style2 .blog__bg-element img, .blog--style1 .blog__shape-item, .blog--style1 .blog__item-author, .team--details .team__content-biodata li p::after, .team--style2 .team__item-shape3, .team--style2 .team__item-shape2, .team--style2 .team__item-shape1, .team--style2 .team__item-content, .team--style1 .team__item-thumb::after, .pricing__shape-item, .pricing__item-top img, .service--style2 .service__shape-item, .service--style2 .service__item-content, .service--style2 .service__item-thumb::after, .service--style1 .service__item-content, .service--style1 .service__item-thumb::after, .service--style1 .service__item-thumb::before, .service--style1 .service__wrapper::after, .feature--style3 .feature__shape-item, .feature--style2 .feature__shape-item, .feature--style1 .feature__shape-item, .case--style3 .case__shape-item, .case--style3 .case__thumb::after, .case--style3 .case__wrapper::after, .case--style3 .case__wrapper::before, .work--style3 .work__item-content, .work--style2 .work__shape-item, .work--style1 .work__item-category, .work--style1 .work__item-content, .work--style1 .work__item-thumb::after, .floating-content__bottom-right, .floating-content__bottom-left, .floating-content__left-top, .floating-content__top-right, .floating-content__top-left, .floating-content__item--style3 img::after, .text-btn--style2::after, .text-btn::after, .trk-btn:after, .footer__shape-item, .account__shape-item, .account__divider--style1:before, .account__divider--style1 span, .contact__shape-item, .banner--style4 .banner__bg, .banner--style3 .banner__thumb::after, .banner--style3 .banner__thumb::before, .banner--style3 .banner__thumb-playbtn, .banner--style2 .banner__shape-item, .banner--style1 .banner__shape-item, .banner__bg-element span, .banner__bg-element img, .section-header h3.shape::after, .menu-item-has-children > a::after, .header-bar span, .header-section--style3, .header-section--style2, .swiper-nav--style2 .swiper-nav__btn-next--style2, .swiper-nav--style2 .swiper-nav__btn-next, .swiper-nav--style2 .swiper-nav__btn-prev--style2, .swiper-nav--style2 .swiper-nav__btn-prev, .form-pass__ctoggle, .form-pass__toggle {
+.about--style1 .about__shape-item, .roadmap--style2 .roadmap__upper-inner::after, .roadmap--style1 .roadmap__shape-item, .accordion__button-plusicon:before, .accordion__button-plusicon:after, .faq__shape-item--3, .faq__shape-item--2, .faq__shape-item--1, .faq__shape-item, .sidebar__search form button, .story__shape-item, .story__thumb-playbtn, .cta--style5 .cta__shape-item, .cta--style4 .cta__shape-item, .cta--style3 .cta__shape-item, .cta--style1 .cta__shape-item, .blog--style2 .blog__shape-item, .blog--style2 .blog__bg-element img, .blog--style1 .blog__shape-item, .blog--style1 .blog__item-author, .team--details .team__content-biodata li p::after, .team--style2 .team__item-shape3, .team--style2 .team__item-shape2, .team--style2 .team__item-shape1, .team--style2 .team__item-content, .team--style1 .team__item-thumb::after, .pricing__shape-item, .pricing__item-top img, .service--style2 .service__shape-item, .service--style2 .service__item-content, .service--style2 .service__item-thumb::after, .service--style1 .service__item-content, .service--style1 .service__item-thumb::after, .service--style1 .service__item-thumb::before, .service--style1 .service__wrapper::after, .feature--style3 .feature__shape-item, .feature--style2 .feature__shape-item, .feature--style1 .feature__shape-item, .case--style3 .case__shape-item, .case--style3 .case__thumb::after, .case--style3 .case__wrapper::after, .case--style3 .case__wrapper::before, .work--style3 .work__item-content, .work--style2 .work__shape-item, .work--style1 .work__item-category, .work--style1 .work__item-content, .work--style1 .work__item-thumb::after, .floating-content__bottom-right, .floating-content__bottom-left, .floating-content__left-top, .floating-content__top-right, .floating-content__top-left, .floating-content__item--style4 a::after, .floating-content__item--style3 img::after, .text-btn--style2::after, .text-btn::after, .trk-btn:after, .footer__shape-item, .account__shape-item, .account__divider--style1:before, .account__divider--style1 span, .contact__shape-item, .banner--style4 .banner__bg, .banner--style3 .banner__thumb::after, .banner--style3 .banner__thumb::before, .banner--style3 .banner__thumb-playbtn, .banner--style2 .banner__shape-item, .banner--style1 .banner__shape-item, .banner__bg-element span, .banner__bg-element img, .section-header h3.shape::after, .menu-item-has-children > a::after, .header-bar span, .header-section--style3, .header-section--style2, .swiper-nav--style2 .swiper-nav__btn-next--style2, .swiper-nav--style2 .swiper-nav__btn-next, .swiper-nav--style2 .swiper-nav__btn-prev--style2, .swiper-nav--style2 .swiper-nav__btn-prev, .form-pass__ctoggle, .form-pass__toggle {
   position: absolute;
 }
 
@@ -166,7 +166,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
 
 /*=========<<Position property extends end>>=========*/
 /*=========<<Text property extends start>>=========*/
-.roadmap--style2 .roadmap__item-inner, .faq__thumb--style1, .sidebar__author, .cta--style2 .cta__form, .cta--style2 .cta__content, .cta--style2 .cta__header, .team--style2 .team__item-author, .career--style1 .career__content p, .career--style1 .career__content h3, .count--style1 .count__item-inner, .social__link, .trk-btn--outline4, .trk-btn--outline22, .trk-btn--outline2, .trk-btn--outline1, .trk-btn--outline, .trk-btn--defult, .trk-btn, .footer__bottom, .banner--style3 .banner__thumb, .banner--style2 .banner__content-playbtn, .banner--style2 .banner__content-inner, .section-header--max95, .section-header--max57, .section-header--max50, .case__slider-paginaiton, .testimonial__slider-paginaiton {
+.roadmap--style2 .roadmap__item-inner, .faq__thumb--style1, .sidebar__author, .cta--style2 .cta__form, .cta--style2 .cta__content, .cta--style2 .cta__header, .team--style2 .team__item-author, .career--style1 .career__content p, .career--style1 .career__content h3, .count--style1 .count__item-inner, .floating-content__item--style4, .social__link, .trk-btn--outline4, .trk-btn--outline22, .trk-btn--outline2, .trk-btn--outline1, .trk-btn--outline, .trk-btn--defult, .trk-btn, .footer__bottom, .banner--style3 .banner__thumb, .banner--style2 .banner__content-playbtn, .banner--style2 .banner__content-inner, .section-header--max95, .section-header--max57, .section-header--max50, .case__slider-paginaiton, .testimonial__slider-paginaiton {
   text-align: center;
 }
 
@@ -189,7 +189,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
   font-weight: 600;
 }
 
-.about--style2 .about__content-details h5, .nav--case .nav-link.active h5, .sidebar__info-content p, .cta--style1 .cta__content-item p, .blog--style1 .blog__item-content h5 a, .team--style2 .team__item-author--style2 .team__item-authorinfo h6, .pricing__item-focus span, .choose__content h5, .service--style2 .service__item-content h6 a, .service--style1 .service__item-content h6 a, .floating-content__item--style1 p.style2, .floating-content__item--style1 h3, .footer__contact-content p, .account__switch a, .banner--style4 .banner__counter-item h4 span, .banner--style4 .banner__counter-item h4, .banner__content-social p, .section-header h3, .paginations ul li:not(:first-child, :last-child) a, .swiper-nav__btn i,
+.about--style2 .about__content-details h5, .nav--case .nav-link.active h5, .sidebar__info-content p, .cta--style1 .cta__content-item p, .blog--style1 .blog__item-content h5 a, .team--style2 .team__item-author--style2 .team__item-authorinfo h6, .pricing__item-focus span, .choose__content h5, .service--style2 .service__item-content h6 a, .service--style1 .service__item-content h6 a, .floating-content__item--style4 a span, .floating-content__item--style1 p.style2, .floating-content__item--style1 h3, .footer__contact-content p, .account__switch a, .banner--style4 .banner__counter-item h4 span, .banner--style4 .banner__counter-item h4, .banner__content-social p, .section-header h3, .paginations ul li:not(:first-child, :last-child) a, .swiper-nav__btn i,
 .swiper-nav__btn svg, .cta-form .cta-btn {
   font-weight: 700;
 }
@@ -197,7 +197,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
 /*=========<<Text property extends end>>=========*/
 /*=========<<Margin & padding property extends start>>=========*/
 /*-------<< margin properties >>-------*/
-.about--style2 .about__content-details p, .roadmap--style2 .roadmap__item-content h5, .roadmap--style1 .roadmap__item-content p, .nav--case .nav-link.active h5, .nav--case .nav-link h5, .job__item-location p, .job__item-time p, .job__item-name h5, .sidebar__info-content p, .sidebar__author-designation p, .sidebar__author-designation h6, .sidebar__recentpost-content p, .sidebar__head h4, .sidebar__head h6, .sidebar__head h5, .sidebar__head h3, .cta--style1 .cta__content-item p, .testimonial--style1 .testimonial__author-designation h6, .blog--style1 .blog__item-date p, .blog--style1 .blog__item-authorinfo p, .team--details .team__skill-content p, .team--details .team__skill-content, .team--details .team__content-biodata li p, .team--details .team__content-designation, .team--details .team__details-description p, .team--style1 .team__item-content p, .pricing__list, .service--details .service__content p, .career--style2 .career__action-inner p, .career--style2 .career__content-item ul li p, .career--style2 .career__content-item > p, .career--style2 .career__header-position p, .career--style2 .career__header-location p, .career--style2 .career__header-time p, .feature--style2 .feature__item-content h6, .feature--style1 .feature__content ul li p, .feature--style1 .feature__heading p, .case--style2 .case__content ul li h5, .case--style2 .case__content p, .case--style2 .case__content h4, .case--style2 .case__title h3, .category--style1 .category__item p, .count--style1 .count__item-content p, .floating-content__item--style1 p, .social, .footer__contact-content p, .account__switch p, .contact__item-content p, .banner--style4 .banner__counter-item p, .banner--style4 .banner__btn-group, .section-header h3, .menu, .focus h6, ul,
+.about--style2 .about__content-details p, .roadmap--style2 .roadmap__item-content h5, .roadmap--style1 .roadmap__item-content p, .nav--case .nav-link.active h5, .nav--case .nav-link h5, .job__item-location p, .job__item-time p, .job__item-name h5, .sidebar__info-content p, .sidebar__author-designation p, .sidebar__author-designation h6, .sidebar__recentpost-content p, .sidebar__head h4, .sidebar__head h6, .sidebar__head h5, .sidebar__head h3, .cta--style1 .cta__content-item p, .testimonial--style2 .testimonial__author-designation h6, .testimonial--style2 .testimonial__item-desc p, .testimonial--style1 .testimonial__author-designation h6, .blog--style1 .blog__item-date p, .blog--style1 .blog__item-authorinfo p, .team--details .team__skill-content p, .team--details .team__skill-content, .team--details .team__content-biodata li p, .team--details .team__content-designation, .team--details .team__details-description p, .team--style1 .team__item-content p, .pricing__list, .service--details .service__content p, .career--style2 .career__action-inner p, .career--style2 .career__content-item ul li p, .career--style2 .career__content-item > p, .career--style2 .career__header-position p, .career--style2 .career__header-location p, .career--style2 .career__header-time p, .feature--style2 .feature__item-content h6, .feature--style1 .feature__content ul li p, .feature--style1 .feature__heading p, .case--style2 .case__content ul li h5, .case--style2 .case__content p, .case--style2 .case__content h4, .case--style2 .case__title h3, .category--style1 .category__item p, .count--style1 .count__item-content p, .floating-content__item--style1 p, .social, .footer__contact-content p, .account__switch p, .contact__item-content p, .banner--style4 .banner__counter-item p, .banner--style4 .banner__btn-group, .section-header h3, .menu, .focus h6, ul,
 ol {
   margin-block-end: 0;
 }
@@ -274,11 +274,11 @@ ol {
 }
 
 /*-------<< margin properties >>-------*/
-.about--style3 .about__content a, .sidebar__tags-body, .sidebar__categorie-body, .testimonial--style1 .testimonial__footer, .team--details .team.social, .career--style2 .career__content-item ul {
+.about--style3 .about__content a, .sidebar__tags-body, .sidebar__categorie-body, .testimonial--style2 .testimonial__footer, .testimonial--style1 .testimonial__footer, .team--details .team.social, .career--style2 .career__content-item ul {
   margin-block-start: 30px;
 }
 
-.about--style3 .about__content-icon, .about--style2 .about__content-item:not(:last-child), .about--style1 .about__content--style2 h3, .about--style1 .about__content h3, .error__thumb img, .sidebar__info-body ul li, .sidebar__author-designation, .sidebar__recentpost-body ul li, .cta--style3 .cta__subscribe p, .cta--style2 .cta__header, .cta--style1 .cta__content-item:not(:last-child), .testimonial--style1 .testimonial__item--style1 .testimonial__item-focus, .blog--style1 .blog__item-inner, .team--details .team__content-biodata, .service--details .service__heading h3, .service--style2 .service__item-inner, .service--style1 .service__item-inner, .case--style2 .case__content-item h4, .case--style1 .case__item-content h5, .case--style1 .case__item-inner, .footer__about-moto, .contact__item:not(:last-child) {
+.about--style3 .about__content-icon, .about--style2 .about__content-item:not(:last-child), .about--style1 .about__content--style2 h3, .about--style1 .about__content h3, .error__thumb img, .sidebar__info-body ul li, .sidebar__author-designation, .sidebar__recentpost-body ul li, .cta--style3 .cta__subscribe p, .cta--style2 .cta__header, .cta--style1 .cta__content-item:not(:last-child), .testimonial--style2 .testimonial__item-star, .testimonial--style1 .testimonial__item--style1 .testimonial__item-focus, .blog--style1 .blog__item-inner, .team--details .team__content-biodata, .service--details .service__heading h3, .service--style2 .service__item-inner, .service--style1 .service__item-inner, .case--style2 .case__content-item h4, .case--style1 .case__item-content h5, .case--style1 .case__item-inner, .footer__about-moto, .contact__item:not(:last-child) {
   margin-block-end: 30px;
 }
 
@@ -286,7 +286,7 @@ ol {
   margin-inline-start: 30px;
 }
 
-.account__divider--style2 {
+.floating-content__item--style4 p, .account__divider--style2 {
   margin-block: 30px;
 }
 
@@ -430,7 +430,7 @@ ol {
   padding-block-start: 25px;
 }
 
-.accordion--style2 .accordion__body, .blog-details__meta, .team--style2 .team__item-author--style2 .team__item-authorsocial {
+.accordion--style2 .accordion__body, .testimonial--style2 .testimonial__item-desc, .blog-details__meta, .team--style2 .team__item-author--style2 .team__item-authorsocial {
   padding-block-end: 25px;
 }
 
@@ -454,7 +454,7 @@ ol {
   padding-block: 30px;
 }
 
-.cta--style3 .cta__newsletter-inner, .cta--style1 .cta__form, .count--style1 .count__wrapper {
+.cta--style3 .cta__newsletter-inner, .cta--style1 .cta__form, .count--style1 .count__wrapper, .floating-content__item--style4 {
   padding-inline: 30px;
 }
 
@@ -462,7 +462,7 @@ ol {
   padding-block-end: 35px;
 }
 
-.testimonial--style1 .testimonial__item--style1 .testimonial__item-inner, .team--details .team__skill, .contact__form {
+.testimonial--style2 .testimonial__item-inner, .testimonial--style1 .testimonial__item--style1 .testimonial__item-inner, .team--details .team__skill, .contact__form {
   padding: 40px;
 }
 
@@ -470,7 +470,7 @@ ol {
   padding-block-end: 40px;
 }
 
-.cta--style1 .cta__form, .pricing__item-middle, .partner--style1, .count--style1 .count__wrapper {
+.cta--style1 .cta__form, .pricing__item-middle, .partner--style1, .count--style1 .count__wrapper, .floating-content__item--style4 {
   padding-block: 40px;
 }
 
@@ -2228,6 +2228,66 @@ ol {
 .swiper-nav--style3 .swiper-nav__btn.active svg path, .swiper-nav--style3 .swiper-nav__btn:hover i path,
 .swiper-nav--style3 .swiper-nav__btn:hover svg path {
   stroke: var(--bg-white);
+}
+.swiper-nav--style4 .swiper-nav__btn {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background-color: var(--floating-content-bg-color-2);
+  border: 1px solid #F6FFC8;
+  border-radius: 4px;
+}
+.swiper-nav--style4 .swiper-nav__btn i,
+.swiper-nav--style4 .swiper-nav__btn svg {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.swiper-nav--style4 .swiper-nav__btn i path,
+.swiper-nav--style4 .swiper-nav__btn svg path {
+  stroke: var(--title-color);
+}
+.swiper-nav--style4 .swiper-nav__btn-prev i,
+.swiper-nav--style4 .swiper-nav__btn-prev svg {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.swiper-nav--style4 .swiper-nav__btn-prev i path,
+.swiper-nav--style4 .swiper-nav__btn-prev svg path {
+  stroke: var(--title-color);
+}
+.swiper-nav--style4 .swiper-nav__btn-next i,
+.swiper-nav--style4 .swiper-nav__btn-next svg {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.swiper-nav--style4 .swiper-nav__btn-next i path,
+.swiper-nav--style4 .swiper-nav__btn-next svg path {
+  stroke: var(--title-color);
+}
+.swiper-nav--style4 .swiper-nav__btn.active, .swiper-nav--style4 .swiper-nav__btn:hover {
+  background: #F6FFC8;
+  background-image: radial-gradient(at -2.9% 80.5%, #F7E5DB 0px, transparent 50%), radial-gradient(at 101.7% -4.6%, #FCDEA7 0px, transparent 50%), radial-gradient(at 96% 92.1%, #DEB6FF 0px, transparent 50%), radial-gradient(at 101.7% 55.6%, #DEB6FF 0px, transparent 50%), radial-gradient(at 71.9% 88.1%, #DEB6FF 0px, transparent 50%), radial-gradient(at 90% 17%, #DEB6FF 0px, transparent 50%);
+}
+.swiper-nav--style4 .swiper-nav__btn.active i,
+.swiper-nav--style4 .swiper-nav__btn.active svg, .swiper-nav--style4 .swiper-nav__btn:hover i,
+.swiper-nav--style4 .swiper-nav__btn:hover svg {
+  color: var(--bg-white);
+}
+.swiper-nav--style4 .swiper-nav__btn.active i path,
+.swiper-nav--style4 .swiper-nav__btn.active svg path, .swiper-nav--style4 .swiper-nav__btn:hover i path,
+.swiper-nav--style4 .swiper-nav__btn:hover svg path {
+  stroke: #111521;
 }
 
 .testimonial__slider-paginaiton .swiper-pagination-bullet {
@@ -7047,6 +7107,72 @@ textarea:focus-within {
     margin-block-end: 24px;
   }
 }
+.floating-content__item--style4 {
+  border-radius: 16px;
+  background-color: var(--floating-content-bg-color-2);
+  max-width: 310px;
+  top: 70px;
+  left: -10px;
+}
+@media (min-width: 576px) {
+  .floating-content__item--style4 {
+    max-width: 320px;
+    padding: 45px 35px;
+    top: 70px;
+    left: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .floating-content__item--style4 {
+    max-width: 338px;
+    padding: 45px 35px;
+    top: 70px;
+    left: 0px;
+  }
+}
+@media (min-width: 992px) {
+  .floating-content__item--style4 {
+    max-width: 300px;
+    padding: 40px 25px;
+    top: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .floating-content__item--style4 {
+    max-width: 338px;
+    top: auto;
+    padding: 45px 35px;
+  }
+}
+@media (min-width: 1400px) {
+  .floating-content__item--style4 {
+    top: auto;
+    padding: 45px 35px;
+  }
+}
+.floating-content__item--style4 span svg g path {
+  fill: var(--title-color);
+}
+.floating-content__item--style4 p {
+  color: var(--title-color);
+  opacity: 0.6;
+}
+@media (min-width: 1200px) {
+  .floating-content__item--style4 p {
+    margin-block-end: 38px;
+  }
+}
+.floating-content__item--style4 a {
+  color: var(--title-color);
+}
+.floating-content__item--style4 a::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  left: 0;
+  bottom: -4px;
+  background-color: var(--title-color);
+}
 .floating-content__top-left {
   left: 10px;
   top: 15px;
@@ -7098,58 +7224,32 @@ textarea:focus-within {
   }
 }
 .floating-content__top-right {
-  right: 0px;
-  top: 0px;
+  right: 10px;
+  bottom: 5px;
 }
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 768px) {
   .floating-content__top-right {
-    right: -20px;
+    bottom: auto;
+    right: 70px;
     top: 5px;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .floating-content__top-right {
-    right: 60px;
-    top: -50px;
-  }
-}
 @media (min-width: 992px) {
   .floating-content__top-right {
-    right: -10px;
-    top: -80px;
-  }
-}
-@media (min-width: 768px) {
-  .floating-content__top-right--style2 {
-    right: -20px;
-    top: -80px;
-  }
-  .floating-content__top-right--style2 img {
-    max-width: 70px;
-  }
-}
-@media (min-width: 992px) {
-  .floating-content__top-right--style2 {
-    right: 0px;
-    top: -80px;
-  }
-  .floating-content__top-right--style2 img {
-    max-width: 80px;
+    right: -30px;
+    top: 30px;
   }
 }
 @media (min-width: 1200px) {
-  .floating-content__top-right--style2 {
-    right: 5px;
-    top: -55px;
-  }
-  .floating-content__top-right--style2 img {
-    width: auto;
+  .floating-content__top-right {
+    right: 40px;
+    top: 60px;
   }
 }
 @media (min-width: 1400px) {
-  .floating-content__top-right--style2 {
-    right: -70px;
-    top: -55px;
+  .floating-content__top-right {
+    right: 120px;
+    top: 80px;
   }
 }
 .floating-content__left-top {
@@ -10131,6 +10231,59 @@ textarea:focus-within {
   font-size: 1.125rem;
 }
 .testimonial--style1 .testimonial__author-designation span {
+  font-size: 0.875rem;
+  color: var(--title-color);
+  opacity: 0.6;
+}
+.testimonial--style2 .testimonial__item-inner {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background-color: var(--floating-content-bg-color-2);
+  border-radius: 16px;
+}
+@media (min-width: 1200px) {
+  .testimonial--style2 .testimonial__item-inner {
+    padding: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .testimonial--style2 .testimonial__item-star {
+    margin-block-end: 32px;
+  }
+}
+.testimonial--style2 .testimonial__item-star span svg path {
+  fill: var(--secondary-color);
+}
+.testimonial--style2 .testimonial__item-desc {
+  border-bottom: 1px solid var(--border-color);
+}
+@media (min-width: 1200px) {
+  .testimonial--style2 .testimonial__item-desc {
+    padding-block-end: 29px;
+  }
+}
+.testimonial--style2 .testimonial__item-desc p {
+  color: var(--title-color);
+}
+@media (min-width: 1200px) {
+  .testimonial--style2 .testimonial__footer {
+    margin-top: 40px;
+  }
+}
+.testimonial--style2 .testimonial__author {
+  gap: 15px;
+}
+.testimonial--style2 .testimonial__author-thumb img {
+  border-radius: 99px;
+  max-width: 60px;
+}
+.testimonial--style2 .testimonial__author-designation h6 {
+  font-size: 1.125rem;
+}
+.testimonial--style2 .testimonial__author-designation span {
   font-size: 0.875rem;
   color: var(--title-color);
   opacity: 0.6;

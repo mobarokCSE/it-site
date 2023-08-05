@@ -330,6 +330,7 @@ const testimonial = new Swiper('.testimonial__slider', {
 });
 
 
+
 // Case study  slider here
 const case_study = new Swiper('.case__slider', {
     spaceBetween: 50,
@@ -391,6 +392,38 @@ const testimonial2 = new Swiper('.testimonial__slider2', {
     },
 
     autoplay: true,
+    speed: 500,
+
+    navigation: {
+        nextEl: ".testimonial__slider-next",
+        prevEl: ".testimonial__slider-prev",
+    },
+});
+
+
+// testimonial slider 2
+const testimonial3 = new Swiper('.testimonial__slider3', {
+    spaceBetween: 24,
+    grabCursor: true,
+    loop: true,
+    slidesPerView: 1,
+    breakpoints: {
+        576: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 1,
+        },
+        992: {
+            slidesPerView: 1,
+        },
+        1200: {
+            slidesPerView: 1,
+            spaceBetween: 25,
+        },
+    },
+
+    // autoplay: true,
     speed: 500,
 
     navigation: {
