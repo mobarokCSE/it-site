@@ -1,42 +1,43 @@
  .floating-content {
      &__item {
-         @extend %py-15,
-         %px-20;
-         background-color: $floating-content-bg-color;
-         border: 1px solid $floating-content-border-color;
-         box-shadow: -40px 40px 60px 0px rgba(5, 30, 54, 0.05);
-         border-radius: 16px;
+         &--style1 {
+             @extend %py-15,
+             %px-20;
+             background-color: $floating-content-bg-color;
+             border: 1px solid $floating-content-border-color;
+             box-shadow: -40px 40px 60px 0px rgba(5, 30, 54, 0.05);
+             border-radius: 16px;
 
-         @include breakpoint(md) {
-             padding: 24px 32px;
-         }
+             @include breakpoint(md) {
+                 padding: 24px 32px;
+             }
 
-         h3 {
-             @extend %mb-5,
-             %text-bold;
-             font-family: $text-font;
-             line-height: 32px;
-             color: $brand-color;
+             h3 {
+                 @extend %mb-5,
+                 %text-bold;
+                 font-family: $text-font;
+                 line-height: 32px;
+                 color: $brand-color;
 
-             &.style2 {
-                 color: $thm-brand-color;
+                 &.style2 {
+                     color: $thm-brand-color;
+                 }
+             }
+
+             p {
+                 @extend %mb-0,
+                 %text-regular,
+                 %text-regular;
+                 @include font-size(20px);
+                 color: $title-color;
+                 opacity: 0.6;
+
+                 &.style2 {
+                     @extend %text-bold;
+                     @include font-size(18px);
+                 }
              }
          }
-
-         p {
-             @extend %mb-0,
-             %text-regular,
-             %text-regular;
-             @include font-size(20px);
-             color: $title-color;
-             opacity: 0.6;
-
-             &.style2 {
-                 @extend %text-bold;
-                 @include font-size(18px);
-             }
-         }
-
 
          &--style2 {
              padding: 20px;
@@ -76,6 +77,85 @@
 
              @include breakpoint(xl) {
                  padding: 24px 32px;
+             }
+
+         }
+
+         &--style3 {
+             @extend %p-25,
+             %p-rel;
+             border-radius: 16px;
+             border: 1px solid rgba(21, 23, 37, 0.04);
+             background-color: $floating-content-bg-color-2;
+             box-shadow: -16px 4px 60px 0px rgba(21, 23, 37, 0.04);
+             backdrop-filter: blur(50px);
+             max-width: 300px;
+             top: 70px;
+             left: -10px;
+
+             @include breakpoint(sm) {
+                 max-width: 320px;
+                 padding: 30px;
+                 top: 70px;
+                 left: 0px;
+             }
+
+             @include breakpoint(md) {
+                 max-width: 400px;
+                 padding: 40px;
+                 top: 70px;
+                 left: 0px;
+             }
+
+             @include breakpoint(lg) {
+                 padding: 30px;
+                 top: 30px;
+                 left: -150px;
+             }
+
+             @include breakpoint(xl) {
+                 top: auto;
+                 padding: 40px;
+                 left: -200px;
+             }
+
+             img {
+                 @extend %mb-20,
+                 %p-rel;
+
+                 &::after {
+                     @extend %p-abs;
+                     content: "";
+                     top: 0%;
+                     left: 0%;
+                     height: 200px;
+                     width: 200px;
+                     background-color: #cfa3ea;
+                    //  background: $grad-bg-color;
+                    //  background-image: $grad-image;
+                     transform: translate(-50%, -50%);
+                     backdrop-filter: blur(10px);
+                     filter: blur(50px);
+                     z-index: -1;
+                 }
+             }
+
+             h4 {
+                 @extend %mb-5,
+                 %text-capitalize;
+
+                 @include breakpoint(lg) {
+                     margin-block-end: 10px;
+                 }
+             }
+
+             p {
+                 @extend %mb-20;
+                 color: $text-color;
+
+                 @include breakpoint(xl) {
+                     margin-block-end: 24px;
+                 }
              }
 
          }
@@ -389,8 +469,4 @@
              }
          }
      }
-
-
-
-
  }
