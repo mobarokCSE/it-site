@@ -364,7 +364,20 @@
 
             &__thumb {
                 z-index: 1;
-                position: relative;
+                // position: relative;
+
+                &::after{
+                    @extend %p-abs;
+                    content: "";
+                    right: -100px;
+                    top: 100px;
+                    height: 100%;
+                    width: 100%;
+                    background-image: url(../../images/case-study/home2/bg.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
             }
 
 

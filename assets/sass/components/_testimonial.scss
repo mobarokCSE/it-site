@@ -1,194 +1,173 @@
 .testimonial {
     @extend %of-hidden;
 
-    &__wrapper {
-        @extend %p-rel;
-    }
-
-    &__slider,
-    &__slider2 {
-        @extend %pb-40;
-    }
-
-    &__item {
-        &-content {
-            p {
-                @extend %pb-30;
-                border-bottom: 1px solid $border-color-3;
-
-                @include breakpoint (xl) {
-                    padding-bottom: 32px;
-                }
+    &--style1 {
+        .testimonial {
+            &__wrapper {
+                @extend %p-rel;
             }
-        }
 
-        &--style1 {
-            .testimonial {
-                &__item {
-                    &-inner {
-                        @extend %p-40;
-                        @include add-prefix(transition, $transition);
-                        background-color: $wh-color;
-                        border: 2px solid transparent;
-                        border-radius: 16px;
+            &__slider,
+            &__slider2 {
+                @extend %pb-40;
+            }
 
-                        &:hover {
-                            border: 2px solid $brand-color;
-                        }
-                    }
-
-                    &-focus {
-                        @extend %d-flex,
-                        %align-i-center,
-                        %mb-30;
-                        gap: 15px;
+            &__item {
+                &-content {
+                    p {
+                        @extend %pb-30;
+                        border-bottom: 1px solid $border-color-3;
 
                         @include breakpoint (xl) {
-                            margin-block-end: 32px;
+                            padding-bottom: 32px;
                         }
                     }
+                }
 
-                    &-quote {
-                        @extend %d-grid,
-                        %place-i-center;
-                        @include add-prefix(transition, $transition);
-                        @include box(50px);
-                        background-color: $qoute-bg-color;
-                        border-radius: 16px;
+                &--style1 {
+                    .testimonial {
+                        &__item {
+                            &-inner {
+                                @extend %p-40;
+                                @include add-prefix(transition, $transition);
+                                background-color: $wh-color;
+                                border: 2px solid transparent;
+                                border-radius: 16px;
 
-                        @include breakpoint(lg) {
-                            @include box(54px);
+                                &:hover {
+                                    border: 2px solid $brand-color;
+                                }
+                            }
+
+                            &-focus {
+                                @extend %d-flex,
+                                %align-i-center,
+                                %mb-30;
+                                gap: 15px;
+
+                                @include breakpoint (xl) {
+                                    margin-block-end: 32px;
+                                }
+                            }
+
+                            &-quote {
+                                @extend %d-grid,
+                                %place-i-center;
+                                @include add-prefix(transition, $transition);
+                                @include box(50px);
+                                background-color: $qoute-bg-color;
+                                border-radius: 16px;
+
+                                @include breakpoint(lg) {
+                                    @include box(54px);
+                                }
+
+                                span {
+                                    svg {
+                                        path {
+                                            stroke: $brand-color;
+                                        }
+                                    }
+                                }
+                            }
+
                         }
 
-                        span {
-                            svg {
-                                path {
-                                    stroke: $brand-color;
+                    }
+                }
+
+                &--style2 {
+                    .testimonial {
+                        &__item {
+                            &-inner {
+                                @extend %p-25;
+                                @include add-prefix(transition, $transition);
+                                border-radius: 16px;
+                                background-color: $wh-color;
+                                border: 2px solid transparent;
+
+                                &:hover {
+                                    border: 2px solid $secondary-color;
                                 }
                             }
                         }
                     }
-
                 }
 
-            }
-        }
 
-        &--style2 {
-            .testimonial {
-                &__item {
-                    &-inner {
-                        @extend %p-25;
-                        @include add-prefix(transition, $transition);
-                        border-radius: 16px;
-                        background-color: $wh-color;
-                        border: 2px solid transparent;
+                &:hover {
+                    .testimonial {
+                        &__item {
+                            &-inner {
+                                box-shadow: 0px 16px 40px rgba(153, 161, 172, 0.12);
+                            }
 
-                        &:hover {
-                            border: 2px solid $secondary-color;
-                        }
-                    }
-                }
-            }
-        }
+                            &-quote {
+                                background-color: $brand-color;
 
-
-        &:hover {
-            .testimonial {
-                &__item {
-                    &-inner {
-                        box-shadow: 0px 16px 40px rgba(153, 161, 172, 0.12);
-                    }
-
-                    &-quote {
-                        background-color: $brand-color;
-
-                        span {
-                            svg {
-                                path {
-                                    stroke: $bg-white;
+                                span {
+                                    svg {
+                                        path {
+                                            stroke: $bg-white;
+                                        }
+                                    }
                                 }
+                            }
+                        }
+
+                        &__quote {
+
+                            i,
+                            svg {
+                                opacity: 1;
                             }
                         }
                     }
                 }
 
-                &__quote {
 
-                    i,
-                    svg {
-                        opacity: 1;
+
+            }
+
+            &__footer {
+                @extend %d-flex,
+                %align-i-center,
+                %justify-between,
+                %mt-30;
+
+                @include breakpoint(xl) {
+                    margin-top: 32px;
+                }
+
+            }
+
+            &__author {
+                @extend %d-flex,
+                %align-i-center;
+                gap: 15px;
+
+                &-thumb {
+                    img {
+                        border-radius: 99px;
+                        max-width: 60px;
+                    }
+
+                }
+
+                &-designation {
+                    h6 {
+                        @extend %mb-0;
+                        @include font-size(18px);
+                    }
+
+                    span {
+                        @include font-size(14px);
+                        color: $title-color;
+                        opacity: 0.6;
                     }
                 }
             }
         }
-
-
-
     }
-
-    &__footer {
-        @extend %d-flex,
-        %align-i-center,
-        %justify-between,
-        %mt-30;
-
-        @include breakpoint(xl) {
-            margin-top: 32px;
-        }
-
-    }
-
-    &__author {
-        @extend %d-flex,
-        %align-i-center;
-        gap: 15px;
-
-        &-thumb {
-            img {
-                border-radius: 99px;
-                max-width: 60px;
-            }
-
-        }
-
-        &-designation {
-            h6 {
-                @extend %mb-0;
-                @include font-size(18px);
-            }
-
-            span {
-                @include font-size(14px);
-                color: $title-color;
-                opacity: 0.6;
-            }
-        }
-    }
-
-    // &__quote {
-    //     span {
-
-    //         i,
-    //         svg {
-    //             @include font-size(40px);
-    //             @include add-prefix(transition, $transition);
-    //             color: $brand-color;
-    //             opacity: 0.5;
-    //         }
-    //     }
-
-    //     &--style2 {
-    //         span {
-
-    //             i,
-    //             svg {
-    //                 color: $secondary-color;
-    //             }
-    //         }
-    //     }
-
-    // }
-
 
 }
