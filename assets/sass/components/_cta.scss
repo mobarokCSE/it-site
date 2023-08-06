@@ -760,17 +760,27 @@
         background: $grad-bg-color;
         background-image: $grad-image;
         border-radius: 24px;
-        padding: 60px 40px;
+        padding: 60px 30px;
+
+        @include breakpoint(sm){
+          padding: 60px 40px;
+        }
 
         @include breakpoint(md) {
+          padding: 64px 70px;
           display: flex;
           flex-wrap: wrap;
           align-items: center;
           justify-content: space-between;
         }
 
+
         @include breakpoint(lg) {
-          padding: 90px 100px;
+          padding: 64px 70px;
+        }
+
+        @include breakpoint(xl) {
+          padding: 64px 100px;
         }
 
       }
@@ -782,6 +792,18 @@
           color: $thm-title-color;
           max-inline-size: 25ch;
 
+          @include breakpoint(md) {
+            display: -webkit-box;
+            -webkit-line-clamp: 2; 
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+            max-inline-size: 17ch;
+          }
+
+          @include breakpoint(lg) {
+            max-inline-size: 25ch;
+          }
+
           @include breakpoint(max-md) {
             text-align: center;
           }
@@ -789,49 +811,50 @@
       }
 
       // shape
-      &__shape {
+      // &__shape {
 
-        &-item {
-          @extend %p-abs;
+      //   &-item {
+      //     @extend %p-abs;
+      //     z-index: 1;
 
-          &--1 {
-            @include animation(light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
-            top: 4%;
-            left: 79%;
+      //     &--1 {
+      //       @include animation(light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+      //       top: 4%;
+      //       left: 79%;
 
-            @include breakpoint(sm) {
-              @include animation(left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
-              top: 7%;
-              left: 76%;
-            }
+      //       @include breakpoint(sm) {
+      //         @include animation(left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+      //         top: 7%;
+      //         left: 76%;
+      //       }
 
-            @include breakpoint(md) {
-              top: 8%;
-              left: 53%;
-            }
+      //       @include breakpoint(md) {
+      //         top: 8%;
+      //         left: 53%;
+      //       }
 
-            @include breakpoint(lg) {
-              top: 12%;
-              left: 49%;
-            }
+      //       @include breakpoint(lg) {
+      //         top: 12%;
+      //         left: 49%;
+      //       }
 
-            @include breakpoint(xl) {
-              top: 12%;
-              left: 43%;
-            }
+      //       @include breakpoint(xl) {
+      //         top: 12%;
+      //         left: 43%;
+      //       }
 
-            @include breakpoint(xxl) {
-              top: 12%;
-              left: 4%;
-            }
+      //       @include breakpoint(xxl) {
+      //         top: 12%;
+      //         left: 4%;
+      //       }
 
-            @include breakpoint(xxxl) {
-              top: 12%;
-              left: 4%;
-            }
-          }
-        }
-      }
+      //       @include breakpoint(xxxl) {
+      //         top: 12%;
+      //         left: 4%;
+      //       }
+      //     }
+      //   }
+      // }
     }
   }
 

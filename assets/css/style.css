@@ -148,7 +148,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
   position: relative;
 }
 
-.about--style1 .about__shape-item, .roadmap--style2 .roadmap__upper-inner::after, .roadmap--style1 .roadmap__shape-item, .accordion__button-plusicon:before, .accordion__button-plusicon:after, .faq__shape-item--3, .faq__shape-item--2, .faq__shape-item--1, .faq__shape-item, .sidebar__search form button, .story__shape-item, .story__thumb-playbtn, .cta--style6 .cta__shape-item, .cta--style5 .cta__shape-item, .cta--style4 .cta__shape-item, .cta--style3 .cta__shape-item, .cta--style1 .cta__shape-item, .blog--style3 .blog__shape-item, .blog--style3 .blog__item-author, .blog--style2 .blog__shape-item, .blog--style2 .blog__bg-element img, .blog--style1 .blog__shape-item, .blog--style1 .blog__item-author, .team--details .team__content-biodata li p::after, .team--style2 .team__item-shape3, .team--style2 .team__item-shape2, .team--style2 .team__item-shape1, .team--style2 .team__item-content, .team--style1 .team__item-thumb::after, .pricing__shape-item, .pricing__item-top img, .service--style2 .service__shape-item, .service--style2 .service__item-content, .service--style2 .service__item-thumb::after, .service--style1 .service__item-content, .service--style1 .service__item-thumb::after, .service--style1 .service__item-thumb::before, .service--style1 .service__wrapper::after, .feature--style3 .feature__shape-item, .feature--style2 .feature__shape-item, .feature--style1 .feature__shape-item, .case--style3 .case__shape-item, .case--style3 .case__thumb::after, .case--style3 .case__wrapper::after, .case--style3 .case__wrapper::before, .work--style3 .work__item-content, .work--style2 .work__shape-item, .work--style1 .work__item-category, .work--style1 .work__item-content, .work--style1 .work__item-thumb::after, .count--style2 .count__bg, .floating-content__bottom-right, .floating-content__bottom-left, .floating-content__left-top, .floating-content__top-right, .floating-content__top-left, .floating-content__item--style4 a::after, .floating-content__item--style3 img::after, .text-btn--style2::after, .text-btn::after, .trk-btn:after, .footer__shape-item, .account__shape-item, .account__divider--style1:before, .account__divider--style1 span, .contact__shape-item, .banner--style4 .banner__bg, .banner--style3 .banner__thumb::after, .banner--style3 .banner__thumb::before, .banner--style3 .banner__thumb-playbtn, .banner--style2 .banner__shape-item, .banner--style1 .banner__shape-item, .banner__bg-element span, .banner__bg-element img, .section-header h3.shape::after, .menu-item-has-children > a::after, .header-bar span, .header-section--style3, .header-section--style2, .swiper-nav--style2 .swiper-nav__btn-next--style2, .swiper-nav--style2 .swiper-nav__btn-next, .swiper-nav--style2 .swiper-nav__btn-prev--style2, .swiper-nav--style2 .swiper-nav__btn-prev, .form-pass__ctoggle, .form-pass__toggle {
+.about--style1 .about__shape-item, .roadmap--style2 .roadmap__upper-inner::after, .roadmap--style1 .roadmap__shape-item, .accordion__button-plusicon:before, .accordion__button-plusicon:after, .faq__shape-item--3, .faq__shape-item--2, .faq__shape-item--1, .faq__shape-item, .sidebar__search form button, .story__shape-item, .story__thumb-playbtn, .cta--style5 .cta__shape-item, .cta--style4 .cta__shape-item, .cta--style3 .cta__shape-item, .cta--style1 .cta__shape-item, .blog--style3 .blog__shape-item, .blog--style3 .blog__item-author, .blog--style2 .blog__shape-item, .blog--style2 .blog__bg-element img, .blog--style1 .blog__shape-item, .blog--style1 .blog__item-author, .team--details .team__content-biodata li p::after, .team--style2 .team__item-shape3, .team--style2 .team__item-shape2, .team--style2 .team__item-shape1, .team--style2 .team__item-content, .team--style1 .team__item-thumb::after, .pricing__shape-item, .pricing__item-top img, .service--style2 .service__shape-item, .service--style2 .service__item-content, .service--style2 .service__item-thumb::after, .service--style1 .service__item-content, .service--style1 .service__item-thumb::after, .service--style1 .service__item-thumb::before, .service--style1 .service__wrapper::after, .feature--style3 .feature__shape-item, .feature--style2 .feature__shape-item, .feature--style1 .feature__shape-item, .case--style3 .case__shape-item, .case--style3 .case__thumb::after, .case--style3 .case__wrapper::after, .case--style3 .case__wrapper::before, .work--style3 .work__item-content, .work--style2 .work__shape-item, .work--style1 .work__item-category, .work--style1 .work__item-content, .work--style1 .work__item-thumb::after, .count--style2 .count__bg, .floating-content__bottom-right, .floating-content__bottom-left, .floating-content__left-top, .floating-content__top-right, .floating-content__top-left, .floating-content__item--style4 a::after, .floating-content__item--style3 img::after, .text-btn--style2::after, .text-btn::after, .trk-btn:after, .footer__shape-item, .account__shape-item, .account__divider--style1:before, .account__divider--style1 span, .contact__shape-item, .banner--style4 .banner__bg, .banner--style3 .banner__thumb::after, .banner--style3 .banner__thumb::before, .banner--style3 .banner__thumb-playbtn, .banner--style2 .banner__shape-item, .banner--style1 .banner__shape-item, .banner__bg-element span, .banner__bg-element img, .section-header h3.shape::after, .menu-item-has-children > a::after, .header-bar span, .header-section--style3, .header-section--style2, .swiper-nav--style2 .swiper-nav__btn-next--style2, .swiper-nav--style2 .swiper-nav__btn-next, .swiper-nav--style2 .swiper-nav__btn-prev--style2, .swiper-nav--style2 .swiper-nav__btn-prev, .form-pass__ctoggle, .form-pass__toggle {
   position: absolute;
 }
 
@@ -446,7 +446,7 @@ ol {
   padding: 30px;
 }
 
-.sidebar__author-designation, .testimonial--style1 .testimonial__item-content p, .blog--style3 .blog__slider, .blog--style2 .blog__item-inner, .blog--style1 .blog__slider {
+.sidebar__author-designation, .testimonial--style1 .testimonial__item-content p, .blog--style2 .blog__item-inner, .blog--style1 .blog__slider {
   padding-block-end: 30px;
 }
 
@@ -484,6 +484,10 @@ ol {
 
 .footer__header-inner {
   padding-block-end: 55px;
+}
+
+.blog--style3 .blog__slider {
+  padding-block-end: 60px;
 }
 
 .cta--style1 .cta__wrapper {
@@ -10117,7 +10121,12 @@ textarea:focus-within {
 }
 @media (min-width: 768px) {
   .blog--style3 .blog__slider {
-    padding-block-end: 56px;
+    padding-block-end: 80px;
+  }
+}
+@media (min-width: 992px) {
+  .blog--style3 .blog__slider {
+    padding-block-end: 100px;
   }
 }
 .blog--style3 .blog__item-inner {
@@ -10230,6 +10239,61 @@ textarea:focus-within {
   .blog--style3 .blog__shape-item--1 {
     top: 4%;
     right: 4%;
+  }
+}
+.blog--style3 .blog__shape-item--2 {
+  -webkit-animation: light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+  -moz-animation: light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+  -ms-animation: light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+  -o-animation: light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+  animation: light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+  width: 80px;
+  bottom: 32%;
+  left: 1%;
+}
+@media (min-width: 576px) {
+  .blog--style3 .blog__shape-item--2 {
+    -webkit-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+    -moz-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+    -ms-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+    -o-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+    animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+    width: 80px;
+    bottom: 32%;
+    left: 1%;
+  }
+}
+@media (min-width: 768px) {
+  .blog--style3 .blog__shape-item--2 {
+    width: 80px;
+    bottom: 27%;
+    left: 1%;
+  }
+}
+@media (min-width: 992px) {
+  .blog--style3 .blog__shape-item--2 {
+    width: 100px;
+    bottom: 27%;
+    left: 1%;
+  }
+}
+@media (min-width: 1200px) {
+  .blog--style3 .blog__shape-item--2 {
+    width: auto;
+    bottom: 25%;
+    left: 1%;
+  }
+}
+@media (min-width: 1400px) {
+  .blog--style3 .blog__shape-item--2 {
+    bottom: 25%;
+    left: 2%;
+  }
+}
+@media (min-width: 1600px) {
+  .blog--style3 .blog__shape-item--2 {
+    bottom: 25%;
+    left: 7%;
   }
 }
 
@@ -11165,10 +11229,16 @@ textarea:focus-within {
   background: #F6FFC8;
   background-image: radial-gradient(at -2.9% 80.5%, #F7E5DB 0px, transparent 50%), radial-gradient(at 101.7% -4.6%, #FCDEA7 0px, transparent 50%), radial-gradient(at 96% 92.1%, #DEB6FF 0px, transparent 50%), radial-gradient(at 101.7% 55.6%, #DEB6FF 0px, transparent 50%), radial-gradient(at 71.9% 88.1%, #DEB6FF 0px, transparent 50%), radial-gradient(at 90% 17%, #DEB6FF 0px, transparent 50%);
   border-radius: 24px;
-  padding: 60px 40px;
+  padding: 60px 30px;
+}
+@media (min-width: 576px) {
+  .cta--style6 .cta__wrapper {
+    padding: 60px 40px;
+  }
 }
 @media (min-width: 768px) {
   .cta--style6 .cta__wrapper {
+    padding: 64px 70px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -11177,7 +11247,12 @@ textarea:focus-within {
 }
 @media (min-width: 992px) {
   .cta--style6 .cta__wrapper {
-    padding: 90px 100px;
+    padding: 64px 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .cta--style6 .cta__wrapper {
+    padding: 64px 100px;
   }
 }
 .cta--style6 .cta__content h3 {
@@ -11190,59 +11265,23 @@ textarea:focus-within {
     font-size: 3rem;
   }
 }
-@media (max-width: 767px) {
-  .cta--style6 .cta__content h3 {
-    text-align: center;
-  }
-}
-.cta--style6 .cta__shape-item--1 {
-  -webkit-animation: light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  animation: light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  top: 4%;
-  left: 79%;
-}
-@media (min-width: 576px) {
-  .cta--style6 .cta__shape-item--1 {
-    -webkit-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-    -moz-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-    -ms-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-    -o-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-    animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-    top: 7%;
-    left: 76%;
-  }
-}
 @media (min-width: 768px) {
-  .cta--style6 .cta__shape-item--1 {
-    top: 8%;
-    left: 53%;
+  .cta--style6 .cta__content h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    max-inline-size: 17ch;
   }
 }
 @media (min-width: 992px) {
-  .cta--style6 .cta__shape-item--1 {
-    top: 12%;
-    left: 49%;
+  .cta--style6 .cta__content h3 {
+    max-inline-size: 25ch;
   }
 }
-@media (min-width: 1200px) {
-  .cta--style6 .cta__shape-item--1 {
-    top: 12%;
-    left: 43%;
-  }
-}
-@media (min-width: 1400px) {
-  .cta--style6 .cta__shape-item--1 {
-    top: 12%;
-    left: 4%;
-  }
-}
-@media (min-width: 1600px) {
-  .cta--style6 .cta__shape-item--1 {
-    top: 12%;
-    left: 4%;
+@media (max-width: 767px) {
+  .cta--style6 .cta__content h3 {
+    text-align: center;
   }
 }
 

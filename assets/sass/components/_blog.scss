@@ -477,10 +477,14 @@
         .blog {
 
             &__slider {
-                @extend %pb-30;
+                @extend %pb-60;
 
                 @include breakpoint(md) {
-                    padding-block-end: 56px;
+                    padding-block-end: 80px;
+                }
+
+                @include breakpoint(lg) {
+                    padding-block-end: 100px;
                 }
             }
 
@@ -646,6 +650,48 @@
                         @include breakpoint(xxxl) {
                             top: 4%;
                             right: 4%;
+                        }
+                    }
+
+                    &--2 {
+                        @include animation(light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+                        width: 80px;
+                        bottom: 32%;
+                        left: 1%;
+
+                        @include breakpoint(sm) {
+                            @include animation(left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+                            width: 80px;
+                            bottom: 32%;
+                            left: 1%;
+                        }
+
+                        @include breakpoint(md) {
+                            width: 80px;
+                            bottom: 27%;
+                            left: 1%;
+                        }
+
+                        @include breakpoint(lg) {
+                            width: 100px;
+                            bottom: 27%;
+                            left: 1%;
+                        }
+
+                        @include breakpoint(xl) {
+                            width: auto;
+                            bottom: 25%;
+                            left: 1%;
+                        }
+
+                        @include breakpoint(xxl) {
+                            bottom: 25%;
+                            left: 2%;
+                        }
+
+                        @include breakpoint(xxxl) {
+                            bottom: 25%;
+                            left: 7%;
                         }
                     }
 
