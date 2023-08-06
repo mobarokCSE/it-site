@@ -505,77 +505,49 @@
             }
 
             &__contact {
-                @extend %d-flex,
-                %p-rel,
-                %align-i-center;
-                gap: 15px;
+                &-item {
+                    @extend %d-flex,
+                    %align-i-center;
+                    flex-wrap: nowrap;
+                    gap: 8px;
 
-                @include breakpoint(lg) {
                     &:not(:last-child) {
-                        &::after {
-                            position: absolute;
-                            content: "";
-                            width: 1px;
-                            height: 48px;
-                            right: -35%;
-                            bottom: 10%;
-                            background-color: $bg-white;
-                            opacity: 0.159;
+                        @extend %mb-10;
 
-                            @include breakpoint(md) {
-                                right: -5%;
-                            }
-
-                            @include breakpoint(lg) {
-                                right: -17%;
-                            }
-
-                            @include breakpoint(xl) {
-                                right: -35%;
-                            }
-                        }
                     }
-                }
 
-                &-thumb {
-
-                    span {
-                        @extend %d-grid,
-                        %place-i-center;
-                        @include box(58px);
-                        border-radius: 99px;
-                        background-color: $brand-color;
-
-                        @include breakpoint(xl) {
-                            @include box(64px);
-                        }
-
-                        svg {
-                            path {
-                                stroke: $bg-white;
-                            }
-
-                            g {
-                                path {
-                                    stroke: $bg-white;
-                                }
-                            }
-                        }
-                    }
-                }
-
-                &-content {
                     p {
-                        @extend %mb-0,
-                        %text-bold;
                         color: $bg-white;
-                        line-height: 1.6;
+                        opacity: 0.6;
                     }
 
-                    span {
-                        @include font-size(14px);
+                    a {
+                        @extend %text-semibold;
+                        @include add-prefix(transition, $transition);
                         color: $bg-white;
-                        opacity: 0.5;
+                        // @extend %text-clamp-1;
+                    }
+                }
+            }
+
+            &__address {
+                &-item {
+
+                    &:not(:last-child) {
+                        @extend %mb-10;
+
+                    }
+
+                    p {
+                        color: $bg-white;
+                        opacity: 0.6;
+                    }
+
+                    a {
+                        @include add-prefix(transition, $transition);
+                        color: $bg-white;
+                        opacity: 0.6;
+                        // @extend %text-clamp-1;
                     }
                 }
             }
@@ -583,6 +555,9 @@
             &__top {
 
                 // @extend %mb-30;
+                @include breakpoint(max-sm){
+                    padding-inline: 5px;
+                }
                 @include breakpoint(sm) {
                     margin-block-end: 0;
                 }
@@ -615,25 +590,25 @@
                 }
             }
 
-            &__about {
-                &-logo {
-                    img {
-                        @extend %mb-20;
-                    }
+            // &__about {
+            //     &-logo {
+            //         img {
+            //             @extend %mb-20;
+            //         }
 
-                }
+            //     }
 
-                &-moto {
-                    @extend %mb-30;
-                    color: $bg-white;
-                    opacity: 0.60;
+            //     &-moto {
+            //         @extend %mb-30;
+            //         color: $bg-white;
+            //         opacity: 0.60;
 
-                    @include breakpoint(md) {
-                        max-inline-size: 40ch;
-                        margin-block-end: 32px;
-                    }
-                }
-            }
+            //         @include breakpoint(md) {
+            //             max-inline-size: 40ch;
+            //             margin-block-end: 32px;
+            //         }
+            //     }
+            // }
 
             &__links {
                 &-tittle {
@@ -652,6 +627,10 @@
 
             &__linklist {
                 &-item {
+                    @extend %d-flex,
+                    %align-i-center;
+                    gap: 8px;
+
                     &:not(:last-child) {
                         @extend %mb-10;
 
@@ -665,34 +644,75 @@
 
                     a {
                         @include add-prefix(transition, $transition);
-                        color: $text-color-2;
+                        color: $bg-white;
                         @extend %p-rel,
                         %d-inline-block;
-                        @extend %text-clamp-1;
+                        // @extend %text-clamp-1;
+                        opacity: 0.6;
 
-                        // &::after {
-                        //     @extend %p-abs;
-                        //     @include add-prefix(transform, translateY(-50%));
-                        //     content: "";
-                        //     transition: $transition;
-                        //     top: 50%;
-                        //     left: 0;
-                        //     width: 10px;
-                        //     height: 2px;
-                        //     background-color: currentColor;
-                        //     opacity: 0;
-                        // }
+                        &::after {
+                            @extend %p-abs;
+                            @include add-prefix(transform, translateY(-50%));
+                            content: "";
+                            transition: $transition;
+                            top: 50%;
+                            left: 0;
+                            width: 10px;
+                            height: 2px;
+                            background-color: currentColor;
+                            opacity: 0;
+                        }
 
                         &:hover {
-                            // @include add-prefix(transform, translateX(10px));
-                            color: $brand-color;
+                            @include add-prefix(transform, translateX(10px));
+                            // color: $brand-color;
+                            opacity: 1;
 
-                            // &::after {
-                            //     opacity: 1;
-                            //     left: -12px;
-                            // }
+                            &::after {
+                                opacity: 1;
+                                left: -12px;
+                            }
                         }
                     }
+                }
+            }
+
+            &__newsletter {
+                p {
+                    @extend %mb-10;
+                    color: $bg-white;
+                    opacity: 0.6;
+                }
+
+                /* Footer main | Newsletter form */
+                form {
+                    @extend %d-flex, %align-i-center, %mt-30;
+                    max-width: 320px;
+                    border-bottom: 2px solid rgba(255, 255, 255, 0.12);
+                    background: rgba(247, 247, 247, 0.04);
+                    @include breakpoint(xl){
+                        margin-top: 32px;
+                    }
+                }
+
+                input {
+                    padding: 8px 16px;
+                    border-radius: 0;
+                    border-style: none;
+                    background-color: transparent;
+                    color: $bg-white;
+                    flex: 1;
+
+                    &::placeholder {
+                        color: $bg-white;
+                        opacity: 0.6;
+                    }
+                }
+
+                button {
+                    padding: 8px 16px;
+                    background-color: transparent;
+                    border-style: none;
                 }
             }
 
@@ -717,9 +737,10 @@
                     justify-content: space-between;
                     padding-block: 32px;
                 }
-                &-logo{
-                    a{
-                        img{
+
+                &-logo {
+                    a {
+                        img {
                             @extend %mb-0;
                         }
                     }
