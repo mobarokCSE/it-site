@@ -16,7 +16,7 @@
             margin-top: -110px;
         }
 
-        
+
 
         .count {
             &__wrapper {
@@ -129,6 +129,89 @@
                         %text-medium;
                         @include font-size(20px);
                         color: $title-color;
+                    }
+                }
+            }
+        }
+    }
+
+    &--style2 {
+        // @extend %p-rel;
+
+        .count {
+
+            &__wrapper {
+                @extend %p-rel,
+                %py-40,
+                %px-30;
+                border-radius: 4px;
+                // border: 1px solid rgba(17, 21, 33, 0.04);
+                // background-color: $wh-color;
+                // box-shadow: 0px 16px 80px 0px rgba(149, 156, 176, 0.18);
+
+                @include breakpoint(sm) {
+                    padding: 60px 40px;
+                }
+
+                @include breakpoint(md) {
+                    padding: 60px 80px;
+                }
+
+                @include breakpoint(lg) {
+                    padding: 60px 40px;
+                }
+
+                @include breakpoint(xl) {
+                    padding: 60px 100px;
+                }
+
+            }
+
+            &__bg {
+                @extend %p-abs;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 4px;
+            }
+
+            &__item {
+                &-inner {
+                    @extend %text-left;
+                }
+
+                &-number {
+                    h1 {
+                        // color: $brand-color;
+                        // background: $grad-bg-color;
+                        // background-image: $grad-image;
+                        background-position: bottom;
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                        -webkit-background-clip: text;
+                        background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        -webkit-text-stroke-width: 1px;
+                        -webkit-text-stroke-color: $grad-bg-color;
+
+                        span {
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-text-stroke-width: 1px;
+                            -webkit-text-stroke-color: #FCDEA7;
+                            
+                        }
+                    }
+                }
+
+                &-content {
+                    p {
+                        @extend %mb-0,
+                        %text-capitalize,
+                        %text-medium;
+                        @include font-size(24px);
+                        color: $bg-white;
+                        opacity: 0.6;
                     }
                 }
             }

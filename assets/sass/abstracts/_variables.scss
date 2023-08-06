@@ -191,9 +191,9 @@
     // --bg-color-3: #F8F9FD;
     --bg-color-3: #{$thm-bg-color-2};
     --bg-color-4:#{$thm-bg-color-4-light};
+    --bg-color-5:#F6F6F7;
 
 
-    --bg-color-5:#{$thm-bg-color-4-light};
     --bg-color-6:#{$thm-bg-color-6-light};
     --bg-color-7:#{$thm-bg-color-7-light};
     --bg-color-8:#{$thm-bg-color-8-light};
@@ -267,6 +267,8 @@
     --author-bg-color: rgba(255, 255, 255, 0.90);
     --footer-border-color: rgba(255, 255, 255, 0.16);
     --work-count-bg-color: rgba(255, 255, 255, 0.08);
+    --testimonial-bg-color: rgba(255, 255, 255, 0.95);
+    --testimonial-bg-color2: #fff;
 
 
     // action colors
@@ -343,9 +345,9 @@
     // --bg-color-3: #0F1B41;
     --bg-color-3: #{$thm-bg-color-2-dark};
     --bg-color-4:#{$thm-bg-color-4-dark};
+    --bg-color-5:#151725;
 
 
-    --bg-color-5:#{$thm-bg-color-5-dark};
     --bg-color-6:#{$thm-bg-color-6-dark};
     --bg-color-7:#{$thm-bg-color-7-dark};
     --bg-color-8:#{$thm-bg-color-8-dark};
@@ -417,6 +419,9 @@
     --author-bg-color: rgba(7, 18, 49, 0.90);
     --footer-border-color: rgba(255, 255, 255, 0.16);
     --work-count-bg-color: rgba(255, 255, 255, 0.08);
+    --testimonial-bg-color: rgba(42, 45, 70, 0.95);
+    --testimonial-bg-color2: #2A2D46;
+
 
 
 
@@ -562,6 +567,8 @@
   $author-bg-color: var(--author-bg-color);
   $footer-border-color: var(--footer-border-color);
   $work-count-bg-color:var(--work-count-bg-color);
+  $testimonial-bg-color:var(--testimonial-bg-color);
+  $testimonial-bg-color2:var(--testimonial-bg-color2);
 
   // grad color
   $grad-bg-color: #F6FFC8;

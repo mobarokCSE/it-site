@@ -161,44 +161,35 @@
          }
 
          &--style4 {
-             @extend %px-30, %py-40,
-             %text-center,
-             %p-rel;
+             @extend %px-30,
+             %py-40,
+             %text-center;
              border-radius: 16px;
-             background-color: $floating-content-bg-color-2;
-            //  backdrop-filter: blur(50px);
+             background-color: $testimonial-bg-color;
+             //  backdrop-filter: blur(50px);
              max-width: 310px;
-             top: 70px;
-             left: -10px;
 
              @include breakpoint(sm) {
                  max-width: 320px;
                  padding: 45px 35px;
-                 top: 70px;
-                 left: 0px;
              }
 
              @include breakpoint(md) {
                  max-width: 338px;
                  padding: 45px 35px;
-                 top: 70px;
-                 left: 0px;
              }
 
              @include breakpoint(lg) {
-                max-width: 300px;
+                 max-width: 300px;
                  padding: 40px 25px;
-                 top: 30px;
              }
 
              @include breakpoint(xl) {
-                max-width: 338px;
-                 top: auto;
+                 max-width: 338px;
                  padding: 45px 35px;
              }
 
              @include breakpoint(xxl) {
-                 top: auto;
                  padding: 45px 35px;
              }
 
@@ -299,27 +290,36 @@
 
          &-right {
              @extend %p-abs;
-                 right: 10px;
-                 bottom: 5px;
+             right: 20px;
+             bottom: -120px;
 
+             @include breakpoint(sm) {
+                 bottom: auto;
+    right: 40px;
+    top: 80px;
+             }
              @include breakpoint(md) {
-                bottom: auto;
-                 right: 70px;
-                 top: 5px;
+    right: 90px;
+    top: 80px;
              }
 
              @include breakpoint(lg) {
-                 right: -30px;
-                 top: 30px;
+    right: 0px;
+    top: 80px;
              }
 
              @include breakpoint(xl) {
-                 right: 40px;
-                 top: 60px;
+                 right: 10px;
+                 top: 70px;
              }
 
              @include breakpoint(xxl) {
-                 right: 120px;
+                 right: 40px;
+                 top: 70px;
+             }
+
+             @include breakpoint(xxxl) {
+                 right: 30px;
                  top: 80px;
              }
 

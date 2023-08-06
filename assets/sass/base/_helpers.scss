@@ -48,7 +48,7 @@
 }
 
 .bg-color-5 {
-  background-image: var(--bg-color-5);
+  background-color: var(--bg-color-5);
 }
 
 .section-bg-color {
@@ -390,6 +390,11 @@ h6 {
 .bg--defult {
   background-repeat: no-repeat;
   background-position: center;
+}
+.bg--contain {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .d-block {
