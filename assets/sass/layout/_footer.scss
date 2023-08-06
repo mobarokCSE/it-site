@@ -4,6 +4,7 @@
 
     &--style1 {
         .footer {
+            @extend %p-rel;
             background-color: $thm-bg-color-2-dark;
             color: $wh-color;
             font-weight: 400;
