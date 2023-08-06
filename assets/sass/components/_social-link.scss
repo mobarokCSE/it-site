@@ -10,10 +10,6 @@
         gap: 15px;
     }
 
-    &--style2 {
-        gap: 25px;
-    }
-
     &__item {
         h6 {
             @include font-size(18px);
@@ -88,6 +84,35 @@
             }
         }
 
+        &--style3 {
+            @extend %d-grid,
+            %place-i-center;
+            @include add-prefix(transition, $transition);
+            background-color: #282A36;;
+            border: 1px solid #282A36;
+            @include box(34px);
+            border-radius: 99px;
+            transition: $transition;
+
+            svg,
+            i {
+                @include font-size(16px);
+                @include add-prefix(transition, $transition);
+                color: $bg-white;
+            }
+
+
+            @include breakpoint(lg) {
+                height: 40px;
+                width: 40px;
+
+                i,
+                svg {
+                    @include font-size(18px)
+                }
+            }
+        }
+
 
 
         &.active,
@@ -95,7 +120,7 @@
 
             &.active,
             &.social__link--style1,
-            &.social__link--style2  {
+            &.social__link--style2 {
                 background-color: $brand-color;
                 border-color: $brand-color;
 
@@ -106,8 +131,20 @@
 
             }
 
+            &.social__link--style3 {
+                background-color: $bg-white;
+                border-color: $bg-white;
+
+                svg,
+                i {
+                    color: $thm-title-color;
+                }
+
+            }
+
 
 
         }
     }
+
 }

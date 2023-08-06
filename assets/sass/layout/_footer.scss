@@ -555,9 +555,10 @@
             &__top {
 
                 // @extend %mb-30;
-                @include breakpoint(max-sm){
+                @include breakpoint(max-sm) {
                     padding-inline: 5px;
                 }
+
                 @include breakpoint(sm) {
                     margin-block-end: 0;
                 }
@@ -686,11 +687,14 @@
 
                 /* Footer main | Newsletter form */
                 form {
-                    @extend %d-flex, %align-i-center, %mt-30;
+                    @extend %d-flex,
+                    %align-i-center,
+                    %mt-30;
                     max-width: 320px;
                     border-bottom: 2px solid rgba(255, 255, 255, 0.12);
                     background: rgba(247, 247, 247, 0.04);
-                    @include breakpoint(xl){
+
+                    @include breakpoint(xl) {
                         margin-top: 32px;
                     }
                 }
@@ -727,11 +731,18 @@
             }
 
             &__end {
-                @extend %py-30;
+                @extend %py-25;
                 color: $text-color-2;
                 @include font-size(16px);
 
-                @include breakpoint(sm) {
+
+                @include breakpoint (lg) {
+                    padding-block: 30px;
+                }
+
+
+
+                @include breakpoint(md) {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
@@ -739,6 +750,8 @@
                 }
 
                 &-logo {
+                    flex: 1;
+
                     a {
                         img {
                             @extend %mb-0;
@@ -746,18 +759,55 @@
                     }
                 }
 
+                &-social {
+                    flex: 1;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-block: 25px;
+
+                    @include breakpoint(sm) {
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-block: 30px;
+                        margin-right: 40px;
+                    }
+
+                    @include breakpoint(md) {
+                        margin-right: 0px;
+                    }
+
+                    @include breakpoint(lg) {
+                        display: inline-flex;
+                        justify-content: center;
+                    }
+                }
+
                 &-copyright {
                     @extend %mb-20,
                     %d-inline-flex,
                     %align-i-center;
+                    flex: 1;
+
+                    p {
+                        @extend %mb-0;
+                        color: $bg-white;
+                        opacity: 0.6;
+                    }
 
                     a {
                         @extend %text-semibold;
-                        color: $brand-color;
+                        color: $bg-white;
                     }
 
                     @include breakpoint(sm) {
                         margin-block-end: 0;
+                    }
+
+                    @include breakpoint(lg) {
+                        display: inline-flex;
+                        justify-content: end;
                     }
                 }
 
