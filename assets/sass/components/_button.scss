@@ -210,8 +210,8 @@
   }
 
   &--secondary2 {
-    background-color: $thm-secondary-color;
-    border: 1px solid $thm-secondary-color;
+    background-color: $thm-title-color;
+    border: 1px solid $thm-title-color;
     color: $bg-white;
   }
 
@@ -442,11 +442,6 @@
     &.trk-btn--secondary2 {
       color: $bg-white;
       transform: translateY(-3px);
-
-      &:after {
-        left: 120%;
-        transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
-      }
     }
 
     &.trk-btn--arrow {

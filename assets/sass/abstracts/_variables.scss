@@ -192,9 +192,9 @@
     --bg-color-3: #{$thm-bg-color-2};
     --bg-color-4:#{$thm-bg-color-4-light};
     --bg-color-5:#F6F6F7;
+    --bg-color-6:#fff;
 
 
-    --bg-color-6:#{$thm-bg-color-6-light};
     --bg-color-7:#{$thm-bg-color-7-light};
     --bg-color-8:#{$thm-bg-color-8-light};
     --bg-color-9:#{$thm-bg-color-9-light};
@@ -227,10 +227,6 @@
 
     --tag-bg-color: #EDFFFA;
     --service-bg-color: #{$thm-service-bg-color};
-
-
-
-
 
 
     // shape colors
@@ -346,9 +342,9 @@
     --bg-color-3: #{$thm-bg-color-2-dark};
     --bg-color-4:#{$thm-bg-color-4-dark};
     --bg-color-5:#151725;
+    --bg-color-6:#2A2D46;
 
 
-    --bg-color-6:#{$thm-bg-color-6-dark};
     --bg-color-7:#{$thm-bg-color-7-dark};
     --bg-color-8:#{$thm-bg-color-8-dark};
     --bg-color-9:#{$thm-bg-color-9-dark};
@@ -420,7 +416,7 @@
     --footer-border-color: rgba(255, 255, 255, 0.16);
     --work-count-bg-color: rgba(255, 255, 255, 0.08);
     --testimonial-bg-color: rgba(42, 45, 70, 0.95);
-    --testimonial-bg-color2: #2A2D46;
+    // --testimonial-bg-color2: #2A2D46;
 
 
 
@@ -568,7 +564,7 @@
   $footer-border-color: var(--footer-border-color);
   $work-count-bg-color:var(--work-count-bg-color);
   $testimonial-bg-color:var(--testimonial-bg-color);
-  $testimonial-bg-color2:var(--testimonial-bg-color2);
+  // $testimonial-bg-color2:var(--testimonial-bg-color2);
 
   // grad color
   $grad-bg-color: #F6FFC8;

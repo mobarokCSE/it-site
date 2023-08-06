@@ -666,7 +666,8 @@
   }
 
   &--style5 {
-    @extend %p-rel,  %mt-80;
+    @extend %p-rel,
+    %mt-80;
 
     .cta {
       &__wrapper {
@@ -741,6 +742,92 @@
             @include breakpoint(xxxl) {
               top: 12%;
               left: 47%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &--style6 {
+    @extend %p-rel;
+
+    .cta {
+      &__wrapper {
+        @extend %d-grid,
+        %place-i-center;
+        gap: 20px;
+        background: $grad-bg-color;
+        background-image: $grad-image;
+        border-radius: 24px;
+        padding: 60px 40px;
+
+        @include breakpoint(md) {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        @include breakpoint(lg) {
+          padding: 90px 100px;
+        }
+
+      }
+
+      &__content {
+        h3 {
+          @extend %text-capitalize;
+          @include font-size (48px);
+          color: $thm-title-color;
+          max-inline-size: 25ch;
+
+          @include breakpoint(max-md) {
+            text-align: center;
+          }
+        }
+      }
+
+      // shape
+      &__shape {
+
+        &-item {
+          @extend %p-abs;
+
+          &--1 {
+            @include animation(light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+            top: 4%;
+            left: 79%;
+
+            @include breakpoint(sm) {
+              @include animation(left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+              top: 7%;
+              left: 76%;
+            }
+
+            @include breakpoint(md) {
+              top: 8%;
+              left: 53%;
+            }
+
+            @include breakpoint(lg) {
+              top: 12%;
+              left: 49%;
+            }
+
+            @include breakpoint(xl) {
+              top: 12%;
+              left: 43%;
+            }
+
+            @include breakpoint(xxl) {
+              top: 12%;
+              left: 4%;
+            }
+
+            @include breakpoint(xxxl) {
+              top: 12%;
+              left: 4%;
             }
           }
         }

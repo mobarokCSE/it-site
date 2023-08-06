@@ -177,7 +177,7 @@
                 &-inner {
                     @extend %px-20, %py-40;
                     @include add-prefix(transition, $transition);
-                    background-color: $testimonial-bg-color2;
+                    background-color: $bg-color-6;
                     border-radius: 16px;
 
 

@@ -5,19 +5,23 @@
     &--style1 {
 
         .blog {
+            &__slider {
+                @extend %pb-30;
+
+                @include breakpoint(md) {
+                    padding-block-end: 56px;
+                }
+            }
 
             &__item {
                 @extend %p-rel;
 
                 &-inner {
-                    @extend %mb-30;
-                    // justify-items: center;
                     background-color: $wh-color;
                     border-radius: 16px;
 
                     @include breakpoint(md) {
                         box-shadow: 0px 24px 60px 0px rgba(31, 36, 51, 0.06);
-                        margin-block-end: 56px;
                     }
                 }
 
@@ -103,7 +107,7 @@
                             %text-bold;
                             color: $title-color;
 
-                            &:hover{
+                            &:hover {
                                 color: $brand-color;
                             }
 
@@ -462,6 +466,191 @@
 
                     }
                 }
+
+            }
+
+        }
+    }
+
+    &--style3 {
+
+        .blog {
+
+            &__slider {
+                @extend %pb-30;
+
+                @include breakpoint(md) {
+                    padding-block-end: 56px;
+                }
+            }
+
+            &__item {
+                @extend %p-rel;
+
+                &-inner {
+                    background-color: $bg-color-6;
+                    border-radius: 16px;
+
+                    @include breakpoint(md) {
+                        box-shadow: 0px 24px 60px 0px rgba(31, 36, 51, 0.06);
+                    }
+                }
+
+                &-thumbnail {
+                    @extend %p-rel;
+                }
+
+                &-thumb {
+                    img {
+                        border-radius: 16px;
+                    }
+                }
+
+
+                // author 
+
+                &-author {
+                    @extend %p-abs;
+                    bottom: 5%;
+                    width: 90%;
+                    left: 5%;
+
+
+                }
+
+                &-authorinner {
+                    @extend %py-10,
+                    %px-15,
+                    %d-flex,
+                    %align-i-center,
+                    %justify-between;
+                    @include add-prefix(transition, $transition);
+                    border-radius: 8px;
+                    border: 1px solid $border-color-4;
+                    background-color: $bg-color-6;
+                    backdrop-filter: blur(2px);
+
+                    @include breakpoint(lg) {
+                        padding: 16px 24px;
+                    }
+                }
+
+                &-authorinfo {
+                    @extend %d-flex,
+                    %align-i-center;
+                    gap: 10px;
+
+                    p {
+                        @extend %mb-0,
+                        %text-medium,
+                        %text-capitalize;
+                        @include font-size(14px);
+                        color: $title-color;
+                    }
+                }
+
+                &-date {
+                    p {
+                        @extend %mb-0,
+                        %text-medium,
+                        %text-capitalize;
+                        @include font-size(14px);
+                        color: $title-color;
+                    }
+                }
+
+
+                // content
+                &-content {
+                    @extend %p-30;
+                    border-radius: 8px;
+                    color: $title-color;
+
+                    @include breakpoint(lg) {
+                        padding: 32px 32px 40px 32px;
+                    }
+
+                    h5 {
+                        a {
+                            @extend %text-capitalize,
+                            %text-clamp-2,
+                            %mb-25,
+                            %text-bold;
+                            color: $title-color;
+
+                            &:hover {
+                                color: $brand-color;
+                            }
+
+                        }
+                    }
+
+                }
+
+
+                &:hover {
+                    &-inner {
+                        cursor: pointer;
+                    }
+
+                    // &-content {
+                    //     h5 {
+                    //         color: $brand-color;
+                    //     }
+                    // }
+                }
+
+            }
+
+            // shape
+            &__shape {
+
+                &-item {
+                    @extend %p-abs;
+
+                    &--1 {
+                        width: 80px;
+                        top: 5%;
+                        right: 0.5%;
+                        @include animation(rotate 9s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+
+                        @include breakpoint(sm) {
+                            width: 100px;
+                            top: 6%;
+                            right: 0.5%;
+                        }
+
+                        @include breakpoint(md) {
+                            width: 130px;
+                            top: 6%;
+                            right: 0.5%;
+                        }
+
+                        @include breakpoint(lg) {
+                            width: 150px;
+                            top: 6%;
+                            right: 0.5%;
+                        }
+
+                        @include breakpoint(xl) {
+                            width: auto;
+                            top: 6%;
+                            right: 0.5%;
+                        }
+
+                        @include breakpoint(xxl) {
+                            top: 5%;
+                            right: 1.5%;
+                        }
+
+                        @include breakpoint(xxxl) {
+                            top: 4%;
+                            right: 4%;
+                        }
+                    }
+
+                }
+
 
             }
 
