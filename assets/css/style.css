@@ -10208,6 +10208,7 @@ textarea:focus-within {
 }
 .blog--style1 .blog__item--style2 .blog__item-inner {
   flex-wrap: nowrap;
+  box-shadow: 0px 24px 60px 0px rgba(31, 36, 51, 0.06);
 }
 .blog--style1 .blog__item--style2 .blog__item-writer {
   gap: 40px;
@@ -10237,17 +10238,17 @@ textarea:focus-within {
 }
 @media (min-width: 992px) {
   .blog--style1 .blog__item--style2 .blog__item-content {
-    padding: 32px;
+    padding: 23px 32px;
   }
 }
 @media (min-width: 1200px) {
   .blog--style1 .blog__item--style2 .blog__item-content {
-    padding: 20px;
+    padding: 23px 32px;
   }
 }
 @media (min-width: 1400px) {
   .blog--style1 .blog__item--style2 .blog__item-content {
-    padding: 32px;
+    padding: 23px 32px;
   }
 }
 .blog--style1 .blog__item--style2 .blog__item-title h5 a {
