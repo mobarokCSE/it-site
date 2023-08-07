@@ -207,7 +207,7 @@ ol {
   margin-block-start: 5px;
 }
 
-.about--style3 .about__content ul, .blog--style1 .blog__item--style2 .blog__item-title h5 a, .team--details .team__details-description p.style2, .team--style1 .team__item-content h6, .floating-content__item--style3 h4, .floating-content__item--style2 h3, .floating-content__item--style1 h3, .form-label, .banner__content-wrapper h5 {
+.about--style3 .about__content ul, .team--details .team__details-description p.style2, .team--style1 .team__item-content h6, .floating-content__item--style3 h4, .floating-content__item--style2 h3, .floating-content__item--style1 h3, .form-label, .banner__content-wrapper h5 {
   margin-block-end: 5px;
 }
 
@@ -269,7 +269,7 @@ ol {
   margin-block-start: 25px;
 }
 
-.blog--style3 .blog__item-content h5 a, .blog--style1 .blog__item--style2 .blog__item-text p, .blog--style1 .blog__item-content h5 a, .team--details .team__skill-item:not(:last-child), .team--details .team__skill h3, .choose__thumb, .case--style2 .case__work-thumb {
+.blog--style3 .blog__item-content h5 a, .blog--style1 .blog__item--style2 .blog__item-text, .blog--style1 .blog__item-content h5 a, .team--details .team__skill-item:not(:last-child), .team--details .team__skill h3, .choose__thumb, .case--style2 .case__work-thumb {
   margin-block-end: 25px;
 }
 
@@ -386,7 +386,7 @@ ol {
   padding-inline: 5px;
 }
 
-.cta--style1 .cta__content-item {
+.cta--style1 .cta__content-item, .blog--style1 .blog__item--style2 .blog__item-content {
   padding: 10px;
 }
 
@@ -442,7 +442,7 @@ ol {
   padding-inline: 25px;
 }
 
-.job__item, .sidebar__comment, .blog-details__commentform, .blog-details__item-inner, .blog--style3 .blog__item-content, .blog--style1 .blog__item--style2 .blog__item-content, .blog--style1 .blog__item-content, .case--style1 .case__item-content, .work--style3 .work__item-content, .account__content--style2 {
+.job__item, .sidebar__comment, .blog-details__commentform, .blog-details__item-inner, .blog--style3 .blog__item-content, .blog--style1 .blog__item-content, .case--style1 .case__item-content, .work--style3 .work__item-content, .account__content--style2 {
   padding: 30px;
 }
 
@@ -497,12 +497,12 @@ ol {
 /*=========<<Margin property extends end>>=========*/
 /*=========<<overflow property extends start>>=========*/
 .about, .roadmap--style1 .roadmap__wrapper, .roadmap, .accordion__item, .sidebar__info-thumb, .sidebar__categorie-body ul li span,
-.sidebar__categorie-body ul li a, .sidebar__recentpost-thumb, .sidebar, .story, .cta, .testimonial, .blog-details__thumb, .blog-details, .blog--style2 .blog__thumb, .blog--style2 .blog__item-inner, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style2 .team__item-inner, .team, .pricing, .choose, .service--style2 .service__item-thumb, .service--style1 .service__item-thumb, .service, .feature--style2 .feature, .feature, .partner, .case--style3 .case, .case, .work, .lightdark-switch span, .preloader, .trk-btn, .footer--style1 .footer, .footer, .account, .contact, .banner--style4, .banner--style3, .banner--style2, .banner--style1, .page-header, .blog--style2 .blog__content h5, .pricing__list-item, .feature--style3 .feature__item-content h5, .footer--style2 .footer__links-tittle h6, .footer--style1 .footer__linklist-item a, .footer--style1 .footer__links-tittle h6, .blog--style3 .blog__item-content h5 a, .blog--style1 .blog__item--style2 .blog__item-title h5 a, .blog--style1 .blog__item-content h5 a, .service--style2 .service__item-content h6 a, .feature--style1 .feature__content ul li p, .case--style2 .case__content ul li h5, .about--style2 .about__content-details p, .about--style2 .about__content-title h5, .sidebar__recentpost-content p a, .blog--style2 .blog__content p {
+.sidebar__categorie-body ul li a, .sidebar__recentpost-thumb, .sidebar, .story, .cta, .testimonial, .blog-details__thumb, .blog-details, .blog--style2 .blog__thumb, .blog--style2 .blog__item-inner, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style2 .team__item-inner, .team, .pricing, .choose, .service--style2 .service__item-thumb, .service--style1 .service__item-thumb, .service, .feature--style2 .feature, .feature, .partner, .case--style3 .case, .case, .work, .lightdark-switch span, .preloader, .trk-btn, .footer--style1 .footer, .footer, .account, .contact, .banner--style4, .banner--style3, .banner--style2, .banner--style1, .page-header, .blog--style2 .blog__content h5, .blog--style1 .blog__item--style2 .blog__item-title h5 a, .pricing__list-item, .feature--style3 .feature__item-content h5, .footer--style2 .footer__links-tittle h6, .footer--style1 .footer__linklist-item a, .footer--style1 .footer__links-tittle h6, .blog--style3 .blog__item-content h5 a, .blog--style1 .blog__item--style2 .blog__item-text p, .blog--style1 .blog__item-content h5 a, .service--style2 .service__item-content h6 a, .feature--style1 .feature__content ul li p, .case--style2 .case__content ul li h5, .about--style2 .about__content-details p, .about--style2 .about__content-title h5, .sidebar__recentpost-content p a, .blog--style2 .blog__content p {
   overflow: hidden;
 }
 
 .about, .roadmap--style1 .roadmap__wrapper, .roadmap, .accordion__item, .sidebar__info-thumb, .sidebar__categorie-body ul li span,
-.sidebar__categorie-body ul li a, .sidebar__recentpost-thumb, .sidebar, .story, .cta, .testimonial, .blog-details__thumb, .blog-details, .blog--style2 .blog__thumb, .blog--style2 .blog__item-inner, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style2 .team__item-inner, .team, .pricing, .choose, .service--style2 .service__item-thumb, .service--style1 .service__item-thumb, .service, .feature--style2 .feature, .feature, .partner, .case--style3 .case, .case, .work, .lightdark-switch span, .preloader, .trk-btn, .footer--style1 .footer, .footer, .account, .contact, .banner--style4, .banner--style3, .banner--style2, .banner--style1, .page-header, .blog--style2 .blog__content h5, .pricing__list-item, .feature--style3 .feature__item-content h5, .footer--style2 .footer__links-tittle h6, .footer--style1 .footer__linklist-item a, .footer--style1 .footer__links-tittle h6, .blog--style3 .blog__item-content h5 a, .blog--style1 .blog__item--style2 .blog__item-title h5 a, .blog--style1 .blog__item-content h5 a, .service--style2 .service__item-content h6 a, .feature--style1 .feature__content ul li p, .case--style2 .case__content ul li h5, .about--style2 .about__content-details p, .about--style2 .about__content-title h5, .sidebar__recentpost-content p a, .blog--style2 .blog__content p {
+.sidebar__categorie-body ul li a, .sidebar__recentpost-thumb, .sidebar, .story, .cta, .testimonial, .blog-details__thumb, .blog-details, .blog--style2 .blog__thumb, .blog--style2 .blog__item-inner, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style2 .team__item-inner, .team, .pricing, .choose, .service--style2 .service__item-thumb, .service--style1 .service__item-thumb, .service, .feature--style2 .feature, .feature, .partner, .case--style3 .case, .case, .work, .lightdark-switch span, .preloader, .trk-btn, .footer--style1 .footer, .footer, .account, .contact, .banner--style4, .banner--style3, .banner--style2, .banner--style1, .page-header, .blog--style2 .blog__content h5, .blog--style1 .blog__item--style2 .blog__item-title h5 a, .pricing__list-item, .feature--style3 .feature__item-content h5, .footer--style2 .footer__links-tittle h6, .footer--style1 .footer__linklist-item a, .footer--style1 .footer__links-tittle h6, .blog--style3 .blog__item-content h5 a, .blog--style1 .blog__item--style2 .blog__item-text p, .blog--style1 .blog__item-content h5 a, .service--style2 .service__item-content h6 a, .feature--style1 .feature__content ul li p, .case--style2 .case__content ul li h5, .about--style2 .about__content-details p, .about--style2 .about__content-title h5, .sidebar__recentpost-content p a, .blog--style2 .blog__content p {
   overflow: hidden;
 }
 
@@ -534,7 +534,7 @@ ol {
   -webkit-box-orient: vertical;
 }
 
-.blog--style3 .blog__item-content h5 a, .blog--style1 .blog__item--style2 .blog__item-title h5 a, .blog--style1 .blog__item-content h5 a, .service--style2 .service__item-content h6 a, .feature--style1 .feature__content ul li p, .case--style2 .case__content ul li h5 {
+.blog--style3 .blog__item-content h5 a, .blog--style1 .blog__item--style2 .blog__item-text p, .blog--style1 .blog__item-content h5 a, .service--style2 .service__item-content h6 a, .feature--style1 .feature__content ul li p, .case--style2 .case__content ul li h5 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -542,7 +542,7 @@ ol {
 }
 
 .sidebar__categorie-body ul li span,
-.sidebar__categorie-body ul li a, .blog--style2 .blog__content h5, .pricing__list-item, .feature--style3 .feature__item-content h5, .footer--style2 .footer__links-tittle h6, .footer--style1 .footer__linklist-item a, .footer--style1 .footer__links-tittle h6 {
+.sidebar__categorie-body ul li a, .blog--style2 .blog__content h5, .blog--style1 .blog__item--style2 .blog__item-title h5 a, .pricing__list-item, .feature--style3 .feature__item-content h5, .footer--style2 .footer__links-tittle h6, .footer--style1 .footer__linklist-item a, .footer--style1 .footer__links-tittle h6 {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
@@ -10224,20 +10224,62 @@ textarea:focus-within {
   font-size: 0.875rem;
   color: var(--title-color);
 }
+.blog--style1 .blog__item--style2 .blog__item-thumbnail {
+  flex: 1;
+}
+.blog--style1 .blog__item--style2 .blog__item-thumb img {
+  border-radius: 16px;
+}
 .blog--style1 .blog__item--style2 .blog__item-content {
+  flex: 1;
   border-radius: 8px;
   color: var(--title-color);
 }
 @media (min-width: 992px) {
   .blog--style1 .blog__item--style2 .blog__item-content {
-    padding: 32px 32px 40px 32px;
+    padding: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .blog--style1 .blog__item--style2 .blog__item-content {
+    padding: 20px;
+  }
+}
+@media (min-width: 1400px) {
+  .blog--style1 .blog__item--style2 .blog__item-content {
+    padding: 32px;
   }
 }
 .blog--style1 .blog__item--style2 .blog__item-title h5 a {
   color: var(--title-color);
+  margin-block-end: 13px;
+}
+@media (min-width: 1200px) {
+  .blog--style1 .blog__item--style2 .blog__item-title h5 a {
+    margin-block-end: 5px;
+  }
+}
+@media (min-width: 1400px) {
+  .blog--style1 .blog__item--style2 .blog__item-title h5 a {
+    margin-block-end: 13px;
+  }
 }
 .blog--style1 .blog__item--style2 .blog__item-title h5 a:hover {
   color: var(--brand-color);
+}
+@media (min-width: 1200px) {
+  .blog--style1 .blog__item--style2 .blog__item-text {
+    margin-block-end: 15px;
+  }
+}
+@media (min-width: 1400px) {
+  .blog--style1 .blog__item--style2 .blog__item-text {
+    margin-block-end: 25px;
+  }
+}
+.blog--style1 .blog__item--style2 .blog__item-text p {
+  color: var(--title-color);
+  opacity: 0.6;
 }
 .blog--style1 .blog__shape-item--1 {
   top: 65%;

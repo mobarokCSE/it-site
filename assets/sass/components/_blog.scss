@@ -43,8 +43,6 @@
                     bottom: 5%;
                     width: 90%;
                     left: 5%;
-
-
                 }
 
                 &-authorinner {
@@ -88,7 +86,6 @@
                     }
                 }
 
-
                 // content
                 &-content {
                     @extend %p-30;
@@ -115,7 +112,6 @@
                     }
 
                 }
-
 
                 &:hover {
                     &-inner {
@@ -167,13 +163,32 @@
                             }
                         }
 
+                        &-thumbnail {
+                            flex: 1;
+                        }
+
+                        &-thumb {
+                            img {
+                                border-radius: 16px;
+                            }
+                        }
+
                         &-content {
-                            @extend %p-30;
+                            flex: 1;
+                            @extend %p-10;
                             border-radius: 8px;
                             color: $title-color;
 
                             @include breakpoint(lg) {
-                                padding: 32px 32px 40px 32px;
+                                padding: 32px;
+                            }
+
+                            @include breakpoint(xl) {
+                                padding: 20px;
+                            }
+
+                            @include breakpoint(xxl) {
+                                padding: 32px;
                             }
                         }
 
@@ -181,22 +196,41 @@
                             h5 {
                                 a {
                                     @extend %text-capitalize,
-                                    %text-clamp-2,
-                                    %mb-5,
+                                    %text-clamp-1,
                                     %text-bold;
                                     color: $title-color;
+                                    margin-block-end: 13px;
+
+                                    @include breakpoint(xl) {
+                                        margin-block-end: 5px;
+                                    }
+
+                                    @include breakpoint(xxl) {
+                                        margin-block-end: 13px;
+                                    }
 
                                     &:hover {
                                         color: $brand-color;
                                     }
-
                                 }
                             }
                         }
 
-                        &-text{
+                        &-text {
+                            @extend %mb-25;
+
+                            @include breakpoint(xl) {
+                                margin-block-end: 15px;
+                            }
+
+                            @include breakpoint(xxl) {
+                                margin-block-end: 25px;
+                            }
+
                             p {
-                                @extend %mb-25;
+                                @extend %text-clamp-2;
+                                color: $title-color;
+                                opacity: 0.6;
                             }
                         }
                     }
