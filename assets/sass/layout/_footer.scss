@@ -3,11 +3,13 @@
     %p-rel;
 
     &--style1 {
+        background-color: $thm-bg-color-2-dark;
+        color: $wh-color;
+        font-weight: 400;
+
         .footer {
-            @extend %p-rel;
-            background-color: $thm-bg-color-2-dark;
-            color: $wh-color;
-            font-weight: 400;
+            @extend %p-rel,
+            %of-hidden;
 
             &__wrapper {
                 @extend %p-rel;
@@ -777,6 +779,7 @@
 
                     @include breakpoint(md) {
                         margin-right: 0px;
+                        margin-block: 0px;
                     }
 
                     @include breakpoint(lg) {

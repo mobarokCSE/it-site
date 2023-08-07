@@ -129,6 +129,76 @@
                     // }
                 }
 
+                &--style2 {
+                    .blog__item {
+                        &-inner {
+                            @extend %d-flex;
+                            flex-wrap: nowrap;
+                        }
+
+                        &-writer {
+                            @extend %d-flex,
+                            %align-i-center;
+                            gap: 40px;
+                            margin-block-end: 16px;
+                        }
+
+                        &-writerthumb {
+                            @extend %d-flex,
+                            %align-i-center;
+                            gap: 10px;
+
+                            p {
+                                @extend %mb-0,
+                                %text-medium,
+                                %text-capitalize;
+                                @include font-size(14px);
+                                color: $title-color;
+                            }
+                        }
+
+                        &-writingdate {
+                            p {
+                                @extend %mb-0,
+                                %text-medium,
+                                %text-capitalize;
+                                @include font-size(14px);
+                                color: $title-color;
+                            }
+                        }
+
+                        &-content {
+                            @extend %p-30;
+                            border-radius: 8px;
+                            color: $title-color;
+
+                            @include breakpoint(lg) {
+                                padding: 32px 32px 40px 32px;
+                            }
+
+                            h5 {
+                                a {
+                                    @extend %text-capitalize,
+                                    %text-clamp-2,
+                                    %mb-5,
+                                    %text-bold;
+                                    color: $title-color;
+
+                                    &:hover {
+                                        color: $brand-color;
+                                    }
+
+                                }
+                            }
+
+                            p{
+                                @extend %mb-25;
+                            }
+
+                        }
+                    }
+                }
+
             }
 
             // shape
