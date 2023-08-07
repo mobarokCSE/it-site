@@ -175,7 +175,9 @@
                             @include breakpoint(lg) {
                                 padding: 32px 32px 40px 32px;
                             }
+                        }
 
+                        &-title {
                             h5 {
                                 a {
                                     @extend %text-capitalize,
@@ -190,11 +192,12 @@
 
                                 }
                             }
+                        }
 
-                            p{
+                        &-text{
+                            p {
                                 @extend %mb-25;
                             }
-
                         }
                     }
                 }
