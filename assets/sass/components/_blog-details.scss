@@ -3,21 +3,37 @@
     %p-rel;
 
 
-    &__item {
+    &__title {
         h3 {
             @extend %mb-25;
+            max-inline-size: 38ch;
 
             @include breakpoint(sm) {
                 margin-block-end: 27px;
             }
+
+            // @include breakpoint(xl){
+            //     max-inline-size:  27ch;
+            // }
         }
     }
 
     &__focus {
-        @extend %d-flex,
-        %align-i-end,
-        %justify-between;
+        @extend %d-grid;
+        gap: 20px;
         margin-block-end: 56px;
+
+        @include breakpoint(sm) {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        @include breakpoint(md) {
+            gap: 30px;
+        }
     }
 
     &__meta {
@@ -38,15 +54,23 @@
 
             li {
                 @extend %d-inline-flex,
+                %text-capitalize,
                 %align-i-center;
                 gap: 10px;
-                text-transform: capitalize;
+
+                img,
+                a {
+                    @extend %d-inline-flex,
+                    %text-capitalize;
+                    align-items: flex-start;
+                    gap: 10px;
+                }
 
                 @include breakpoint(max-md) {
                     margin-block: 5px;
                 }
 
-                span{
+                span {
                     color: $title-color;
                 }
             }
@@ -57,6 +81,24 @@
         @extend %of-hidden,
         %mb-35;
         border-radius: 16px;
+
+        &-inner {
+            @extend %p-rel;
+        }
+
+        &-category {
+            @extend %p-abs;
+            top: 40px;
+            left: 40px;
+
+            span {
+                @include font-size(18px);
+                padding: 12px 32px;
+                border-radius: 100px;
+                color: $bg-white;
+                background-color: $thm-title-color;
+            }
+        }
 
         img {
             @extend %w-100;
@@ -73,16 +115,31 @@
 
 
     &__content {
-        @extend %mb-35;
+        @extend %mb-35, %mt-30;
 
-        h3 {
+        @include breakpoint(lg){
+            margin-block-start: 32px;
+        }
+
+        h4 {
             @extend %text-capitalize;
-            @extend %mb-10;
-
+            @extend %mb-25;
         }
 
         p {
-            color: $text-color;
+            @include font-size(20px);
+            color: $title-color;
+            opacity: 0.6;
+            line-height: 1.6;
+        }
+
+        p{
+            &:first-child{
+                @extend %mb-50;
+                @include breakpoint(lg){
+                    margin-block-end: 56px;
+                }
+            }
         }
     }
 

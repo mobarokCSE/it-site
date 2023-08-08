@@ -32,6 +32,9 @@
                 &-thumb {
                     img {
                         border-radius: 16px;
+                        @extend %w-100;
+                        @include add-prefix(transition, $transition);
+                        object-fit: cover;
                     }
                 }
 
@@ -118,11 +121,12 @@
                         cursor: pointer;
                     }
 
-                    // &-content {
-                    //     h5 {
-                    //         color: $brand-color;
-                    //     }
-                    // }
+                    &-thumb {
+                        img {
+                            @include add-prefix(transform, scale(1.01));
+                        }
+                    }
+
                 }
 
                 &--style2 {
@@ -312,7 +316,7 @@
                             color: $title-color;
                             padding: 0px;
 
-                            @include breakpoint(sm){
+                            @include breakpoint(sm) {
                                 margin-block-start: 40px;
                             }
                         }
