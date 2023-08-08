@@ -128,9 +128,15 @@
                 &--style2 {
                     .blog__item {
                         &-inner {
-                            @extend %d-flex;
-                            flex-wrap: nowrap;
+                            // @extend %d-flex;
+                            // flex-wrap: nowrap;
                             box-shadow: 0px 24px 60px 0px rgba(31, 36, 51, 0.06);
+
+                            @include breakpoint(sm){
+                                @include breakpoint(max-lg){
+                                    max-width: 420px;
+                                }
+                            }
                         }
 
                         &-writer {
@@ -164,32 +170,40 @@
                             }
                         }
 
-                        &-thumbnail {
-                            flex: 1;
-                        }
+                        // &-thumbnail {
+                        //     flex: 1;
+                        // }
 
                         &-thumb {
                             img {
+                                // object-fit: none;
+                                // height: 260px;
+                                @include  breakpoint(lg){
+                                    @include breakpoint(max-xl){
+                                        height: 230px;
+                                    }
+                                }
                                 border-radius: 16px;
                             }
                         }
 
                         &-content {
-                            flex: 1;
+                            // flex: 1;
                             @extend %p-10;
                             border-radius: 8px;
                             color: $title-color;
+                            padding: 32px;
 
                             @include breakpoint(lg) {
-                                padding: 23px 32px;
+                                padding: 20px 25px;
                             }
 
                             @include breakpoint(xl) {
-                                padding: 23px 32px;
+                                padding: 26px 32px;
                             }
 
                             @include breakpoint(xxl) {
-                                padding: 23px 32px;
+                                padding: 32px;
                             }
                         }
 
@@ -202,7 +216,7 @@
                                     color: $title-color;
                                     margin-block-end: 13px;
 
-                                    @include breakpoint(xl) {
+                                    @include breakpoint(lg) {
                                         margin-block-end: 5px;
                                     }
 
@@ -220,8 +234,11 @@
                         &-text {
                             @extend %mb-25;
 
+                            @include breakpoint(lg) {
+                                margin-block-end: 10px;
+                            }
                             @include breakpoint(xl) {
-                                margin-block-end: 15px;
+                                margin-block-end: 10px;
                             }
 
                             @include breakpoint(xxl) {
@@ -231,6 +248,7 @@
                             p {
                                 @extend %text-clamp-2;
                                 color: $title-color;
+                                line-height: 1.6;
                                 opacity: 0.6;
                             }
                         }

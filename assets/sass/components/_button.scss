@@ -52,6 +52,25 @@
     padding: 1rem 1.875rem;
   }
 
+  &--extrasmall {
+    padding: 0.65rem 1.25rem;
+
+    @include breakpoint(lg) {
+      @include font-size(14px);
+      padding: 0.5rem 1rem;
+    }
+
+    @include breakpoint(xl) {
+      @include font-size(16px);
+      padding: 0.6rem 1.2rem;
+    }
+
+    @include breakpoint(xxl) {
+      @include font-size(18px);
+      padding: 0.75rem 1.5rem;
+    }
+  }
+
   &--small {
     padding: 0.65rem 1.25rem;
 
@@ -198,8 +217,9 @@
   &--gradient {
     color: $thm-title-color;
   }
+
   &--gradient2 {
-    color: $thm-title-color-dark;    
+    color: $thm-title-color-dark;
     background-color: $grad-bg-color2;
   }
 
@@ -523,7 +543,7 @@
     &.trk-btn--outline3 {
       background-color: $brand-color;
       border-color: $brand-color;
-      color: $thm-title-color;
+      color: $thm-title-color-dark;
 
       span {
         &.style1 {

@@ -79,7 +79,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
 /* @@@@@@@@@@@@@  Extend Property CSS start here  @@@@@@@@@@@@@@ */
 /*=========<<Flex property extends start>>=========*/
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-.about--style2 .about__content-item, .about--style2 .about__thumb-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .tags--style2 ul, .tags ul, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .testimonial--style2 .testimonial__author, .testimonial--style2 .testimonial__footer, .testimonial--style1 .testimonial__author, .testimonial--style1 .testimonial__footer, .testimonial--style1 .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog--style3 .blog__item-authorinfo, .blog--style3 .blog__item-authorinner, .blog--style2 .blog__writer, .blog--style1 .blog__item--style2 .blog__item-writerthumb, .blog--style1 .blog__item--style2 .blog__item-writer, .blog--style1 .blog__item--style2 .blog__item-inner, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style2 .service__item-content, .service--style1 .service__item-content, .career--style2 .career__content-item ul li, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .career--style1 .career__thumb, .case--style2 .case__content ul li, .work--style3 .work__item-content, .work--style1 .work__item-content, .social, .btn-group, .footer--style2 .footer__newsletter form, .footer--style2 .footer__linklist-item, .footer--style2 .footer__contact-item, .footer--style2 .footer__header-inner, .footer--style1 .footer__contact, .footer--style1 .footer__header-inner, .account__check, .contact__item-inner, .banner--style2 .banner__content-btn, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
+.about--style2 .about__content-item, .about--style2 .about__thumb-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .tags--style2 ul, .tags ul, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .testimonial--style2 .testimonial__author, .testimonial--style2 .testimonial__footer, .testimonial--style1 .testimonial__author, .testimonial--style1 .testimonial__footer, .testimonial--style1 .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog--style3 .blog__item-authorinfo, .blog--style3 .blog__item-authorinner, .blog--style2 .blog__writer, .blog--style1 .blog__item--style2 .blog__item-writerthumb, .blog--style1 .blog__item--style2 .blog__item-writer, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style2 .service__item-content, .service--style1 .service__item-content, .career--style2 .career__content-item ul li, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .career--style1 .career__thumb, .case--style2 .case__content ul li, .work--style3 .work__item-content, .work--style1 .work__item-content, .social, .btn-group, .footer--style2 .footer__newsletter form, .footer--style2 .footer__linklist-item, .footer--style2 .footer__contact-item, .footer--style2 .footer__header-inner, .footer--style1 .footer__contact, .footer--style1 .footer__header-inner, .account__check, .contact__item-inner, .banner--style2 .banner__content-btn, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
   display: flex;
   flex-wrap: wrap;
 }
@@ -126,7 +126,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
   display: block;
 }
 
-.about--style2 .about__content-item, .about--style2 .about__thumb-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .tags--style2 ul, .tags ul, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .testimonial--style2 .testimonial__author, .testimonial--style2 .testimonial__footer, .testimonial--style1 .testimonial__author, .testimonial--style1 .testimonial__footer, .testimonial--style1 .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog--style3 .blog__item-authorinfo, .blog--style3 .blog__item-authorinner, .blog--style2 .blog__writer, .blog--style1 .blog__item--style2 .blog__item-writerthumb, .blog--style1 .blog__item--style2 .blog__item-writer, .blog--style1 .blog__item--style2 .blog__item-inner, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style2 .service__item-content, .service--style1 .service__item-content, .career--style2 .career__content-item ul li, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .career--style1 .career__thumb, .case--style2 .case__content ul li, .work--style3 .work__item-content, .work--style1 .work__item-content, .social, .btn-group, .footer--style2 .footer__newsletter form, .footer--style2 .footer__linklist-item, .footer--style2 .footer__contact-item, .footer--style2 .footer__header-inner, .footer--style1 .footer__contact, .footer--style1 .footer__header-inner, .account__check, .contact__item-inner, .banner--style2 .banner__content-btn, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
+.about--style2 .about__content-item, .about--style2 .about__thumb-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .job__item-location, .job__item-time, .job__item-inner, .tags--style2 ul, .tags ul, .sidebar__info-inner, .sidebar__categorie-body ul li, .sidebar__recentpost-contentdate, .sidebar__recentpost-inner, .testimonial--style2 .testimonial__author, .testimonial--style2 .testimonial__footer, .testimonial--style1 .testimonial__author, .testimonial--style1 .testimonial__footer, .testimonial--style1 .testimonial__item--style1 .testimonial__item-focus, .blog-details__action-inner, .blog--style3 .blog__item-authorinfo, .blog--style3 .blog__item-authorinner, .blog--style2 .blog__writer, .blog--style1 .blog__item--style2 .blog__item-writerthumb, .blog--style1 .blog__item--style2 .blog__item-writer, .blog--style1 .blog__item-authorinfo, .blog--style1 .blog__item-authorinner, .team--details .team__skill-content, .team--details .team__content-biodata li, .service--style2 .service__item-content, .service--style1 .service__item-content, .career--style2 .career__content-item ul li, .career--style2 .career__header-location, .career--style2 .career__header-time, .career--style2 .career__header-others, .career--style1 .career__thumb, .case--style2 .case__content ul li, .work--style3 .work__item-content, .work--style1 .work__item-content, .social, .btn-group, .footer--style2 .footer__newsletter form, .footer--style2 .footer__linklist-item, .footer--style2 .footer__contact-item, .footer--style2 .footer__header-inner, .footer--style1 .footer__contact, .footer--style1 .footer__header-inner, .account__check, .contact__item-inner, .banner--style2 .banner__content-btn, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-wraper, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
   display: flex;
 }
 
@@ -6647,6 +6647,27 @@ textarea:focus-within {
     padding: 1rem 1.875rem;
   }
 }
+.trk-btn--extrasmall {
+  padding: 0.65rem 1.25rem;
+}
+@media (min-width: 992px) {
+  .trk-btn--extrasmall {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .trk-btn--extrasmall {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+@media (min-width: 1400px) {
+  .trk-btn--extrasmall {
+    font-size: 1.125rem;
+    padding: 0.75rem 1.5rem;
+  }
+}
 .trk-btn--small {
   padding: 0.65rem 1.25rem;
 }
@@ -6981,7 +7002,7 @@ textarea:focus-within {
 .trk-btn.active.trk-btn--outline3, .trk-btn:hover.trk-btn--outline3 {
   background-color: var(--brand-color);
   border-color: var(--brand-color);
-  color: #111521;
+  color: #FFF;
 }
 .trk-btn.active.trk-btn--outline3 span.style1 svg rect, .trk-btn:hover.trk-btn--outline3 span.style1 svg rect {
   stroke: #111521;
@@ -10207,8 +10228,12 @@ textarea:focus-within {
   cursor: pointer;
 }
 .blog--style1 .blog__item--style2 .blog__item-inner {
-  flex-wrap: nowrap;
   box-shadow: 0px 24px 60px 0px rgba(31, 36, 51, 0.06);
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog--style1 .blog__item--style2 .blog__item-inner {
+    max-width: 420px;
+  }
 }
 .blog--style1 .blog__item--style2 .blog__item-writer {
   gap: 40px;
@@ -10225,37 +10250,39 @@ textarea:focus-within {
   font-size: 0.875rem;
   color: var(--title-color);
 }
-.blog--style1 .blog__item--style2 .blog__item-thumbnail {
-  flex: 1;
-}
 .blog--style1 .blog__item--style2 .blog__item-thumb img {
   border-radius: 16px;
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .blog--style1 .blog__item--style2 .blog__item-thumb img {
+    height: 230px;
+  }
+}
 .blog--style1 .blog__item--style2 .blog__item-content {
-  flex: 1;
   border-radius: 8px;
   color: var(--title-color);
+  padding: 32px;
 }
 @media (min-width: 992px) {
   .blog--style1 .blog__item--style2 .blog__item-content {
-    padding: 23px 32px;
+    padding: 20px 25px;
   }
 }
 @media (min-width: 1200px) {
   .blog--style1 .blog__item--style2 .blog__item-content {
-    padding: 23px 32px;
+    padding: 26px 32px;
   }
 }
 @media (min-width: 1400px) {
   .blog--style1 .blog__item--style2 .blog__item-content {
-    padding: 23px 32px;
+    padding: 32px;
   }
 }
 .blog--style1 .blog__item--style2 .blog__item-title h5 a {
   color: var(--title-color);
   margin-block-end: 13px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .blog--style1 .blog__item--style2 .blog__item-title h5 a {
     margin-block-end: 5px;
   }
@@ -10268,9 +10295,14 @@ textarea:focus-within {
 .blog--style1 .blog__item--style2 .blog__item-title h5 a:hover {
   color: var(--brand-color);
 }
+@media (min-width: 992px) {
+  .blog--style1 .blog__item--style2 .blog__item-text {
+    margin-block-end: 10px;
+  }
+}
 @media (min-width: 1200px) {
   .blog--style1 .blog__item--style2 .blog__item-text {
-    margin-block-end: 15px;
+    margin-block-end: 10px;
   }
 }
 @media (min-width: 1400px) {
@@ -10280,6 +10312,7 @@ textarea:focus-within {
 }
 .blog--style1 .blog__item--style2 .blog__item-text p {
   color: var(--title-color);
+  line-height: 1.6;
   opacity: 0.6;
 }
 .blog--style1 .blog__shape-item--1 {
