@@ -128,12 +128,10 @@
                 &--style2 {
                     .blog__item {
                         &-inner {
-                            // @extend %d-flex;
-                            // flex-wrap: nowrap;
                             box-shadow: 0px 24px 60px 0px rgba(31, 36, 51, 0.06);
 
-                            @include breakpoint(sm){
-                                @include breakpoint(max-lg){
+                            @include breakpoint(sm) {
+                                @include breakpoint(max-lg) {
                                     max-width: 420px;
                                 }
                             }
@@ -176,13 +174,15 @@
 
                         &-thumb {
                             img {
+
                                 // object-fit: none;
                                 // height: 260px;
-                                @include  breakpoint(lg){
-                                    @include breakpoint(max-xl){
+                                @include breakpoint(lg) {
+                                    @include breakpoint(max-xl) {
                                         height: 230px;
                                     }
                                 }
+
                                 border-radius: 16px;
                             }
                         }
@@ -237,6 +237,7 @@
                             @include breakpoint(lg) {
                                 margin-block-end: 10px;
                             }
+
                             @include breakpoint(xl) {
                                 margin-block-end: 10px;
                             }
@@ -247,6 +248,104 @@
 
                             p {
                                 @extend %text-clamp-2;
+                                color: $title-color;
+                                line-height: 1.6;
+                                opacity: 0.6;
+                            }
+                        }
+                    }
+                }
+
+
+                &--style3 {
+                    .blog__item {
+                        &-inner {
+                            border-radius: 24px;
+                            box-shadow: 0px 24px 60px 0px rgba(31, 36, 51, 0.06);
+                            padding: 25px;
+
+                            @include breakpoint(lg) {
+                                padding: 40px;
+                            }
+                        }
+
+                        &-writer {
+                            @extend %d-flex,
+                            %align-i-center;
+                            gap: 40px;
+                            margin-block-end: 24px;
+                        }
+
+                        &-writerthumb {
+                            @extend %d-flex,
+                            %align-i-center;
+                            gap: 10px;
+
+                            p {
+                                @extend %mb-0,
+                                %text-medium,
+                                %text-capitalize;
+                                @include font-size(14px);
+                                color: $title-color;
+                            }
+                        }
+
+                        &-writingdate {
+                            p {
+                                @extend %mb-0,
+                                %text-medium,
+                                %text-capitalize;
+                                @include font-size(14px);
+                                color: $title-color;
+                            }
+                        }
+
+                        &-thumb {
+                            img {
+                                border-radius: 16px;
+                            }
+                        }
+
+                        &-content {
+                            @extend %mt-30;
+                            border-radius: 8px;
+                            color: $title-color;
+                            padding: 0px;
+
+                            @include breakpoint(sm){
+                                margin-block-start: 40px;
+                            }
+                        }
+
+                        &-title {
+                            h5 {
+                                a {
+                                    @extend %text-capitalize,
+                                    %text-clamp-1,
+                                    %text-bold;
+                                    color: $title-color;
+                                    margin-block-end: 10px;
+
+                                    @include breakpoint(xxl) {
+                                        margin-block-end: 16px;
+                                    }
+
+                                    &:hover {
+                                        color: $brand-color;
+                                    }
+                                }
+                            }
+                        }
+
+                        &-text {
+                            @extend %mb-30;
+
+                            @include breakpoint(lg) {
+                                margin-block-end: 32px;
+                            }
+
+                            p {
+                                @extend %text-clamp-3;
                                 color: $title-color;
                                 line-height: 1.6;
                                 opacity: 0.6;
