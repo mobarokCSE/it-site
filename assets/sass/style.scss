@@ -1,16 +1,14 @@
 /*!
-Template Name: Bitrader - Professional Multipurpose HTML Template for Your Crypto, Forex, and Stocks Trading Business
+Template Name: itork - Professional Multipurpose HTML Template for Your Crypto, Forex, and Stocks Trading Business
 Template URI: 
 Author: thetork
 Author URI: https: //themeforest.net/user/thetork/portfolio
-Description: Experience the power of Bitrader, the ultimate HTML template designed to transform your trading business. With its sleek design and advanced features, Bitrader empowers you to showcase your expertise, engage clients, and dominate the markets. Elevate your online presence and unlock new trading possibilities with Bitrader.
+Description: Experience the power of itork, the ultimate HTML template designed to transform your trading business. With its sleek design and advanced features, itork empowers you to showcase your expertise, engage clients, and dominate the markets. Elevate your online presence and unlock new trading possibilities with itork.
 Version: 1.0.0
-Text Domain: Bitrader
+Text Domain: itork
 Tags: Crypto, Forex, and Stocks Trading Business
 
 */
-
-
 
 /*
 -----------------Table of content start -----------------
@@ -79,74 +77,39 @@ Tags: Crypto, Forex, and Stocks Trading Business
 
 */
 
-
 /*=====================================================================*/
 
 @charset "UTF-8";
 
 // 1. Configuration and helpers
-@import 'abstracts/extends',
-'abstracts/variables',
-'abstracts/functions',
-'abstracts/mixins';
+@import "abstracts/extends", "abstracts/variables", "abstracts/functions",
+"abstracts/mixins";
 
 // 2. Vendors
-@import 'vendors/normalize',
-'vendors/nice-select',
-'vendors/rfs';
+@import "vendors/normalize", "vendors/nice-select", "vendors/rfs";
 
 // 3. Base stuff
-@import 'base/fonts',
-'base/typography',
-'base/animations',
-'base/common',
-'base/helpers';
-
+@import "base/fonts", "base/typography", "base/animations", "base/common",
+"base/helpers";
 
 // 4. Layout-related sections
-@import 'layout/header',
-'layout/banner',
-'layout/contact',
-'layout/account',
-'layout/form',
-'layout/footer';
-
+@import "layout/header", "layout/banner", "layout/contact", "layout/account",
+"layout/form", "layout/footer";
 
 // 5. Components
-@import 'components/button',
-'components/preloader',
-'components/lightdark-switch',
-'components/social-link',
-'components/foating-content',
-'components/count',
-'components/category',
-'components/work',
-'components/case-study',
-'components/partner',
-'components/feature',
-'components/career',
-'components/service',
-'components/why-us',
-'components/pricing',
-'components/team',
-'components/blog',
-'components/blog-details',
-'components/testimonial',
-'components/cta',
-'components/story',
-'components/sidebar',
-'components/faq',
-'components/job',
-'components/error',
-'components/nav',
-'components/comment',
-'components/accordion',
-'components/roadmap',
-'components/about';
+@import "components/button", "components/preloader",
+"components/lightdark-switch", "components/social-link",
+"components/foating-content", "components/count", "components/category",
+"components/work", "components/case-study", "components/partner",
+"components/feature", "components/career", "components/service",
+"components/why-us", "components/pricing", "components/team",
+"components/blog", "components/blog-details", "components/testimonial",
+"components/cta", "components/story", "components/sidebar", "components/faq",
+"components/job", "components/error", "components/nav", "components/comment",
+"components/accordion", "components/roadmap", "components/about";
 
 // 6. Page-specific styles
-@import 'pages/home';
-
+@import "pages/home";
 
 // 8. Themes
-@import 'themes/theme';
+@import "themes/theme";

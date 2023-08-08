@@ -1,17 +1,54 @@
 .blog-details {
-    @extend %of-hidden, %p-rel;
+    @extend %of-hidden,
+    %p-rel;
 
 
     &__item {
-        &-inner {
-            @extend %p-30;
-            background-color: $wh-color;
-            // trk-rgba 
-            box-shadow: 0px -16px 48px rgba(6, 35, 63, 0.03), 0px 16px 48px rgba(6, 35, 63, 0.03);
-            border-radius: 4px;
+        h3 {
+            @extend %mb-25;
+
+            @include breakpoint(sm) {
+                margin-block-end: 27px;
+            }
+        }
+    }
+
+    &__focus {
+        @extend %d-flex,
+        %align-i-end,
+        %justify-between;
+        margin-block-end: 56px;
+    }
+
+    &__meta {
+        color: $title-color;
+
+        ul {
+            @extend %d-grid;
+
+            @include breakpoint(sm) {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 18px;
+            }
 
             @include breakpoint(md) {
-                padding: 50px
+                gap: 30px;
+            }
+
+            li {
+                @extend %d-inline-flex,
+                %align-i-center;
+                gap: 10px;
+                text-transform: capitalize;
+
+                @include breakpoint(max-md) {
+                    margin-block: 5px;
+                }
+
+                span{
+                    color: $title-color;
+                }
             }
         }
     }
@@ -34,48 +71,6 @@
         }
     }
 
-    &__meta {
-        @extend %pb-25;
-        color: $text-color-light;
-
-        ul {
-            @extend %d-grid;
-            // gap: 20px;
-
-            @include breakpoint(sm) {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 18px;
-            }
-            @include breakpoint(md) {
-                gap: 30px;
-            }
-
-            li {
-                @extend %d-inline-flex,
-                %align-i-center;
-                gap: 10px;
-                text-transform: capitalize;
-
-                @include breakpoint(max-md) {
-                    margin-block: 5px;
-                }
-
-                a {
-                    color: $text-color-light;
-                }
-
-                i,
-                svg {
-                    margin-inline-end: 8px;
-
-                    @include breakpoint(max-md) {
-                        margin-inline-end: 5px;
-                    }
-                }
-            }
-        }
-    }
 
     &__content {
         @extend %mb-35;
@@ -102,8 +97,9 @@
                 %text-capitalize;
             }
         }
-        &-thumb{
-            img{
+
+        &-thumb {
+            img {
                 border-radius: 8px;
             }
         }

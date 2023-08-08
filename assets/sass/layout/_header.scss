@@ -818,7 +818,7 @@
   }
 
   .breadcrumb-item {
-    @extend %text-semibold;
+    @extend %text-semibold, %text-capitalize;
     @include font-size(18px);
     color: $brand-color;
 
