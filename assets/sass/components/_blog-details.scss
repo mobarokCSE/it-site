@@ -115,9 +115,10 @@
 
 
     &__content {
-        @extend %mb-35, %mt-30;
+        @extend %mb-35,
+        %mt-30;
 
-        @include breakpoint(lg){
+        @include breakpoint(lg) {
             margin-block-start: 32px;
         }
 
@@ -133,47 +134,165 @@
             line-height: 1.6;
         }
 
-        p{
-            &:first-child{
+        p {
+            &:first-child {
                 @extend %mb-50;
-                @include breakpoint(lg){
+
+                @include breakpoint(lg) {
                     margin-block-end: 56px;
+                }
+            }
+        }
+
+        .blockquote {
+            background-color: var(--bg-color-2);
+            @extend %d-grid,
+            %text-center,
+            %p-rel,
+            %my-50,
+            %px-30,
+            %py-40;
+            gap: 30px;
+            border-radius: 16px;
+
+            @include breakpoint(sm) {
+                padding: 80px 50px;
+            }
+
+            @include breakpoint(md) {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+            }
+
+            @include breakpoint(lg) {
+                padding: 80px;
+                margin-block: 56px;
+            }
+
+            @include breakpoint(xl) {
+                gap: 60px;
+                padding: 100px;
+                margin-block: 64px;
+            }
+
+            &__thumb {
+                @extend %p-rel;
+                // img {
+                //     padding: 8px;
+                //     border-radius: 99px;
+                // }
+
+                span {
+                    @extend %p-abs;
+                    padding: 8px 14px;
+                    border-radius: 99px;
+                    background-color: $brand-color;
+                    left: 60px;
+                    top: 2px;
+
+                    @include breakpoint(sm) {
+                        left: 123px;
+                        top: 2px;
+                    }
+
+                    @include breakpoint(md) {
+                        left: -12px;
+                        top: 2px;
+                    }
+
+                    svg {
+                        path {
+                            fill: $bg-white;
+                            // fill-opacity: 0.16;
+                        }
+                    }
+                }
+            }
+
+            &__content {
+                flex: 1;
+
+                h4 {
+                    @extend %mb-0,
+                    %text-clamp-4,
+                    %text-regular;
+                    text-transform: initial;
+                    line-height: 1.6;
+                    color: $bg-white;
+
+                    @include breakpoint(max-sm) {
+                        font-size: 20px;
+                    }
+
+                    @include breakpoint(md) {
+                        text-align: left;
+                    }
+                }
+
+                cite {
+                    text-align: right;
+                    display: block;
+                }
+
+                span {
+                    @extend %p-abs;
+                    right: 20px;
+                    bottom: 12px;
+
+                    @include breakpoint(sm) {
+                        right: 40px;
+                        bottom: 30px;
+                    }
+
+                    @include breakpoint(md) {
+                        right: 55px;
+                        bottom: 50px;
+                    }
+
+                    svg {
+                        path {
+                            fill: $brand-color;
+                            fill-opacity: 0.16;
+                        }
+                    }
                 }
             }
         }
     }
 
-    &__segment {
-        &-item {
-            @extend %mb-35;
-        }
+    // &__segment {
+    //     &-item {
+    //         @extend %mb-35;
+    //     }
 
-        &-content {
-            h5 {
-                @extend %text-medium,
-                %text-capitalize;
-            }
-        }
+    //     &-content {
+    //         h5 {
+    //             @extend %text-medium,
+    //             %text-capitalize;
+    //         }
+    //     }
 
-        &-thumb {
-            img {
-                border-radius: 8px;
-            }
-        }
-    }
+    //     &-thumb {
+    //         img {
+    //             border-radius: 8px;
+    //         }
+    //     }
+    // }
 
     &__action {
         &-inner {
             @extend %d-flex,
             %align-i-center,
             %justify-between,
-            %py-25;
+            %mt-80,
+            %pt-30;
             border-top: 1px solid $border-color;
-            border-bottom: 1px solid $border-color;
-            gap: 20px;
+            gap: 30px;
 
             @include breakpoint(lg) {
-                padding-block: 28px;
+                padding-block-start: 40px;
+                margin-block-start: 100px;
             }
         }
     }

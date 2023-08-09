@@ -304,13 +304,16 @@
 
 
     &__comment {
-        @extend %p-30,
+        @extend %p-40,
         %mt-40;
-        background-color: $tertiary-color3;
-        border-radius: 16px;
+        background-color: $bg-color-1;
+        border-radius: 24px;
 
         @include breakpoint(lg) {
-            padding: 40px;
+            padding: 50px;
+        }
+        @include breakpoint(lg) {
+            padding: 60px;
         }
 
         &-body {
@@ -469,37 +472,38 @@
 
 // tag for global
 .tags {
-    ul {
-        @extend %d-flex;
-        gap: 16px 8px;
-
-        li {
-            border: none;
-
-            h6 {
-                @include font-size(18px);
-                font-family: $text-font;
-            }
-
-            a {
-                @extend %text-regular,
-                %text-capitalize;
-                @include add-prefix(transition, $transition);
-                @include font-size(16px);
-                padding: 8px 16px;
-                color: $title-color;
-                background-color: $bg-color-3;
-                border-radius: 4px;
-                // border: 1px solid $border-color-5;
-
-                outline: none;
-                // border-radius: 99px;
-
-                &.active,
-                &:hover {
-                    background-color: $brand-color;
-                    border-color: $brand-color;
-                    color: $bg-white;
+    &--style1{
+        ul {
+            @extend %d-flex;
+            gap: 16px 8px;
+    
+            li {
+                border: none;
+    
+                h6 {
+                    @include font-size(18px);
+                    font-family: $text-font;
+                }
+    
+                a {
+                    @extend %text-regular,
+                    %text-capitalize;
+                    @include add-prefix(transition, $transition);
+                    @include font-size(16px);
+                    padding: 8px 16px;
+                    color: $title-color;
+                    background-color: $bg-color-3;
+                    border-radius: 4px;
+    
+                    outline: none;
+                    // border-radius: 99px;
+    
+                    &.active,
+                    &:hover {
+                        background-color: $brand-color;
+                        border-color: $brand-color;
+                        color: $bg-white;
+                    }
                 }
             }
         }
@@ -511,11 +515,11 @@
             gap: 25px 10px;
 
             li {
+                @extend %d-inline-flex, %align-i-center;
                 border: none;
 
                 h6 {
-                    @include font-size(18px);
-                    font-family: $text-font;
+                    @include font-size(24px);
                 }
 
                 a {
@@ -524,21 +528,19 @@
                     @include add-prefix(transition, $transition);
                     @include font-size(16px);
                     padding: 8px 16px;
-                    color: $text-color;
-                    border: 1px solid $border-color-5;
+                    color: $title-color;
+                    background-color: $qoute-bg-color;
+                    border-radius: 4px;
 
                     outline: none;
-                    border-radius: 99px;
 
                     &.active,
                     &:hover {
-                        background-color: $tag-bg-color;
-                        border-color: $border-color-6;
-                        color: $brand-color;
+                        background-color: $brand-color;
+                        border-color: $brand-color;
+                        color: $bg-white;
                     }
                 }
-
-
             }
         }
     }
