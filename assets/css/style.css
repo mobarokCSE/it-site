@@ -302,7 +302,7 @@ ol {
 }
 
 /*-------<< margin properties >>-------*/
-.sidebar__comment, .blog-details__commentform, .career--style1 .career__content {
+.career--style1 .career__content {
   margin-block-start: 40px;
 }
 
@@ -412,7 +412,7 @@ ol {
   padding-inline: 15px;
 }
 
-.error__inner, .sidebar__comment, .sidebar__search form input, .team--details .team__details-bio, .case--style2 .case__work-thumb img, .account__content--style1 {
+.error__inner, .sidebar--style2, .sidebar__search form input, .team--details .team__details-bio, .case--style2 .case__work-thumb img, .account__content--style1 {
   padding: 20px;
 }
 
@@ -444,7 +444,7 @@ ol {
   padding-inline: 25px;
 }
 
-.job__item, .blog-details__commentform, .blog--style3 .blog__item-content, .blog--style1 .blog__item-content, .case--style1 .case__item-content, .work--style3 .work__item-content, .account__content--style2 {
+.job__item, .blog--style3 .blog__item-content, .blog--style1 .blog__item-content, .case--style1 .case__item-content, .work--style3 .work__item-content, .account__content--style2 {
   padding: 30px;
 }
 
@@ -11034,15 +11034,6 @@ textarea:focus-within {
     margin-block-start: 100px;
   }
 }
-.blog-details__commentform {
-  background-color: var(--tertiary-color3);
-  border-radius: 16px;
-}
-@media (min-width: 992px) {
-  .blog-details__commentform {
-    padding: 40px;
-  }
-}
 
 .testimonial--style1 .testimonial__item-content p {
   border-bottom: 1px solid var(--border-color-3);
@@ -12262,25 +12253,6 @@ textarea:focus-within {
     padding: 40px;
   }
 }
-.sidebar__comment {
-  background-color: var(--bg-color-1);
-  border-radius: 24px;
-}
-@media (min-width: 576px) {
-  .sidebar__comment {
-    padding: 40px;
-  }
-}
-@media (min-width: 992px) {
-  .sidebar__comment {
-    padding: 50px;
-  }
-}
-@media (min-width: 992px) {
-  .sidebar__comment {
-    padding: 60px;
-  }
-}
 .sidebar__comment-item:last-child {
   margin-block-end: 0;
 }
@@ -12367,6 +12339,25 @@ textarea:focus-within {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   color: var(--text-color);
+}
+.sidebar--style2 {
+  background-color: var(--bg-color-1);
+  border-radius: 24px;
+}
+@media (min-width: 576px) {
+  .sidebar--style2 {
+    padding: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .sidebar--style2 {
+    padding: 50px;
+  }
+}
+@media (min-width: 992px) {
+  .sidebar--style2 {
+    padding: 60px;
+  }
 }
 
 .tags--style1 ul {

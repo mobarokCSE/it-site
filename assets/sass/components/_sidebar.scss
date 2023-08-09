@@ -301,24 +301,8 @@
         }
     }
 
-
-
     &__comment {
-        @extend %p-20,
-        %mt-40;
-        background-color: $bg-color-1;
-        border-radius: 24px;
-
-        @include breakpoint(sm){
-            padding: 40px;
-        }
-
-        @include breakpoint(lg) {
-            padding: 50px;
-        }
-        @include breakpoint(lg) {
-            padding: 60px;
-        }
+        
 
         &-body {
             @extend %pt-25;
@@ -341,6 +325,26 @@
         }
 
     }
+
+    // &__commentform {
+    //     @extend %p-20;
+    //     background-color: $bg-color-1;
+    //     border-radius: 24px;
+
+    //     @include breakpoint(sm) {
+    //         padding: 40px;
+    //     }
+
+    //     @include breakpoint(md) {
+    //         padding: 50px;
+    //     }
+
+    //     @include breakpoint(lg) {
+    //         padding: 60px;
+    //     }
+    // }
+
+
 
 
     &__author {
@@ -469,6 +473,24 @@
 
     }
 
+    &--style2 {
+        @extend %p-20;
+        background-color: $bg-color-1;
+        border-radius: 24px;
+
+        @include breakpoint(sm) {
+            padding: 40px;
+        }
+
+        @include breakpoint(md) {
+            padding: 50px;
+        }
+
+        @include breakpoint(lg) {
+            padding: 60px;
+        }
+    }
+
 }
 
 
@@ -476,19 +498,19 @@
 
 // tag for global
 .tags {
-    &--style1{
+    &--style1 {
         ul {
             @extend %d-flex;
             gap: 16px 8px;
-    
+
             li {
                 border: none;
-    
+
                 h6 {
                     @include font-size(18px);
                     font-family: $text-font;
                 }
-    
+
                 a {
                     @extend %text-regular,
                     %text-capitalize;
@@ -498,10 +520,10 @@
                     color: $title-color;
                     background-color: $bg-color-3;
                     border-radius: 4px;
-    
+
                     outline: none;
                     // border-radius: 99px;
-    
+
                     &.active,
                     &:hover {
                         background-color: $brand-color;
@@ -519,7 +541,8 @@
             gap: 25px 10px;
 
             li {
-                @extend %d-inline-flex, %align-i-center;
+                @extend %d-inline-flex,
+                %align-i-center;
                 border: none;
 
                 h6 {

@@ -297,16 +297,7 @@
         }
     }
 
-    &__commentform {
-        @extend %p-30,
-        %mt-40;
-        background-color: $tertiary-color3;
-        border-radius: 16px;
 
-        @include breakpoint(lg) {
-            padding: 40px;
-        }
-    }
 
 
 
