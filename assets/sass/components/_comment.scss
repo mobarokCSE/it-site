@@ -1,26 +1,57 @@
 .comment {
     &__inner {
-        @extend %d-flex,
-        %align-i-center,
-        %justify-between;
+        @extend %d-grid;
         background-color: $wh-color;
-        padding: 40px;
+        padding: 20px;
         border-radius: 16px;
+        gap: 30px;
+
+        @include breakpoint(sm){
+            padding: 30px;
+        }
+
+        @include breakpoint(md){
+            display: flex;
+            flex-wrap: wrap;
+            align-items: start;
+            justify-content: space-between;
+            padding: 40px;
+        }
+
+        @include breakpoint(lg){
+            gap: 60px;
+        }
     }
 
 
     &__author {
-        @extend %d-flex,
-        %align-i-center;
-        gap: 15px;
+        @extend %d-grid;
+        gap: 20px;
+
+        @include breakpoint(sm){
+            display: flex;
+            flex-wrap: wrap;
+            align-items: start;
+            gap: 20px;
+        }
+        // width: calc(100% - 200px);
+
+        @include breakpoint(md){
+            gap: 28px;
+            width: calc(100% - 150px);
+        }
+        @include breakpoint(lg){
+            width: calc(100% - 200px);
+        }
 
         &-info {
             @extend %d-flex,
             %align-i-center;
-            gap: 15px;
+            margin-block-end: 8px;
+            column-gap: 15px;
 
             h5 {
-                @extend %mb-10,
+                @extend 
                 %text-bold;
                 line-height: 1.33;
             }
@@ -28,7 +59,7 @@
             span {
                 @include font-size(18px);
                 color: $text-color;
-                opacity: 0.6;;
+                opacity: 0.6;
             }
         }
 
@@ -39,12 +70,13 @@
             }
         }
 
-        &-content{
+        &-content {
             flex: 1;
         }
 
-        &-details{
-            p{
+        &-details {
+            p {
+                @extend %text-clamp-2;
                 color: $title-color;
                 line-height: 1.6;
             }
@@ -54,48 +86,50 @@
 
     &__action {
         flex: 1;
-        
+
         a {
             @extend %text-capitalize,
-            %text-medium;
+            %d-inline-flex,
+            %text-semibold;
+            align-items: flex-start;
+            gap: 8px;
             @include add-prefix(transition, $transition);
             font-family: $title-font;
-            color: $text-color;
-            @include font-size(16px);
+            color: $title-color;
+            @include font-size(18px);
+            padding: 8px 16px;
+            border-radius: 8px;
+            border: 2px solid $brand-color;
 
-            img {
-                @include add-prefix(transition, $transition);
-                margin-inline-end: 1px;
-                margin-bottom: 2px;
+            span {
+                @extend %d-inline-flex;
+                align-items: flex-start;
+
+                svg {
+                    @include add-prefix(transition, $transition);
+                    fill: $title-color;
+                }
             }
 
+            // img {
+            //     @include add-prefix(transition, $transition);
+            //     margin-inline-end: 1px;
+            //     margin-bottom: 2px;
+            // }
+            &.active, 
             &:hover {
-                color: $brand-color;
+                color: $bg-white;
+                background-color: $brand-color;
+                border: 2px solid $brand-color;
 
-                img {
-                    transform: translateX(-3px);
-                    filter: hue-rotate(3deg);
+                span {
+                    svg {
+                        fill: $bg-white;
+                        transform: translateX(-2px);
+                        filter: hue-rotate(3deg);
+                    }
                 }
             }
         }
     }
-
-    // &__body {
-    //     &-inner {
-    //         @extend %mt-15,
-    //         %p-15;
-
-    //         border-radius: 8px;
-    //         border: 1px solid $border-color;
-
-    //         @include breakpoint(lg) {
-    //             padding-block: 15px;
-    //             padding-inline: 25px;
-    //         }
-
-    //         p {
-    //             color: $text-color;
-    //         }
-    //     }
-    // }
 }
