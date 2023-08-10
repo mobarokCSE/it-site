@@ -58,14 +58,14 @@
 
   $thm-bg-color-2:#F8F9FD;
   $thm-bg-color-2-dark:#0F1B41;
-  
+
   $thm-bg-color-4-light: #fff;
   $thm-bg-color-4-dark: #1B1D2E;
 
 
-  
 
-  
+
+
   $thm-bg-color-5-light: linear-gradient(218.82deg, rgba(255, 255, 255, 0) 14.16%, #FFFFFF 101.06%);
   $thm-bg-color-5-dark:linear-gradient(150.39deg, rgba(237, 242, 248, 0.22) 15.02%, #EDF2F8 99.59%);
 
@@ -99,7 +99,7 @@
 
   $thm-black-color:#000;
   $thm-black-color-dark:#fff;
-  
+
 
   // special color
   $thm-service-bg-color: #fff;
@@ -191,8 +191,8 @@
     // --bg-color-3: #F8F9FD;
     --bg-color-3: #{$thm-bg-color-2};
     --bg-color-4:#{$thm-bg-color-4-light};
-    --bg-color-5:#F6F6F7;
-    --bg-color-6:#fff;
+    --bg-color-5: #F6F6F7;
+    --bg-color-6: #fff;
 
 
     --bg-color-7:#{$thm-bg-color-7-light};
@@ -204,9 +204,10 @@
 
     // form colors
     --form-focus-color: $brand-color;
-    --form-bg-color: #F8F9FD;
-    --form-bg-color-2: #FFF;
-    --form-border: #E6EBFA;
+    --form-bg-color: #FFF;
+    --form-bg-color-2: #F8F9FD;
+    --form-border: #D8D9E5;
+    --form-border-2: #E6EBFA;
 
     // others colors
     // --wh-color: #fff;
@@ -341,8 +342,8 @@
     // --bg-color-3: #0F1B41;
     --bg-color-3: #{$thm-bg-color-2-dark};
     --bg-color-4:#{$thm-bg-color-4-dark};
-    --bg-color-5:#151725;
-    --bg-color-6:#2A2D46;
+    --bg-color-5: #151725;
+    --bg-color-6: #2A2D46;
 
 
     --bg-color-7:#{$thm-bg-color-7-dark};
@@ -358,6 +359,10 @@
     --form-bg-color: #16203D;
     --form-bg-color-2: #16203D;
     --form-border: #36405D;
+    --form-border-2: #36405D;
+
+
+
 
     // others colors
     // --wh-color: #071231;
@@ -417,8 +422,6 @@
     --work-count-bg-color: rgba(255, 255, 255, 0.08);
     --testimonial-bg-color: rgba(42, 45, 70, 0.95);
     // --testimonial-bg-color2: #2A2D46;
-
-
 
 
     // action colors
@@ -545,6 +548,7 @@
 
   // form
   $form-border: var(--form-border);
+  $form-border-2: var(--form-border-2);
   $form-focus: var(--form-focus);
   $form-bg-color: var(--form-bg-color);
   $form-bg-color-2: var(--form-bg-color-2);

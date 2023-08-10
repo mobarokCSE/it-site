@@ -38,7 +38,6 @@
     .form-control {
         background-color: $form-bg-color;
         border-color: $form-border;
-        // bor
         padding: 13px 20px;
         border-radius: 8px;
 
@@ -48,6 +47,7 @@
 
         &--style2{
             background-color: $form-bg-color-2;
+            border-color: $form-border;
         }
 
         &:focus {

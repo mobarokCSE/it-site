@@ -326,26 +326,14 @@
 
     }
 
-    // &__commentform {
-    //     @extend %p-20;
-    //     background-color: $bg-color-1;
-    //     border-radius: 24px;
+    &__commentform {
+        @extend %mt-80;
 
-    //     @include breakpoint(sm) {
-    //         padding: 40px;
-    //     }
-
-    //     @include breakpoint(md) {
-    //         padding: 50px;
-    //     }
-
-    //     @include breakpoint(lg) {
-    //         padding: 60px;
-    //     }
-    // }
-
-
-
+        @include breakpoint(lg){
+            margin-block-start: 100px;
+        }
+        
+    }
 
     &__author {
         @extend %p-25,
