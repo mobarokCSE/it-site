@@ -233,7 +233,7 @@ ol {
   margin-block-start: 10px;
 }
 
-.error__content h2, .career--style2 .career__content-item h5, .career--style2 .career__header-name h3, .career--style1 .career__content h3, .feature--style3 .feature__item-content p, .feature--style3 .feature__item-content h5, .footer--style2 .footer__newsletter p, .footer--style2 .footer__linklist-item:not(:last-child), .footer--style2 .footer__address-item:not(:last-child), .footer--style2 .footer__contact-item:not(:last-child), .footer--style1 .footer__linklist-item:not(:last-child), .account__header h3, .account__header h2 {
+.error__content h2, .career--style2 .career__content-item h5, .career--style2 .career__header-name h3, .career--style1 .career__content h3, .feature--style3 .feature__item-content p, .feature--style3 .feature__item-content h5, .footer--style2 .footer__newsletter p, .footer--style2 .footer__linklist-item:not(:last-child), .footer--style2 .footer__address-item:not(:last-child), .footer--style2 .footer__contact-item:not(:last-child), .footer--style1 .footer__linklist-item:not(:last-child), .account__header h2 {
   margin-block-end: 10px;
 }
 
@@ -262,7 +262,7 @@ ol {
   margin-block-start: 20px;
 }
 
-.case--style2 .case__content ul li:not(:last-child), .work--style2 .work__content h4, .floating-content__item--style3 p, .floating-content__item--style3 img, .footer--style2 .footer__end-copyright, .footer--style1 .footer__end-copyright, .footer--style1 .footer__about-logo img, .banner--style2 .banner__content-inner h1 {
+.case--style2 .case__content ul li:not(:last-child), .work--style2 .work__content h4, .floating-content__item--style3 p, .floating-content__item--style3 img, .footer--style2 .footer__end-copyright, .footer--style1 .footer__end-copyright, .footer--style1 .footer__about-logo img, .account__header h3, .banner--style2 .banner__content-inner h1 {
   margin-block-end: 20px;
 }
 
@@ -5661,7 +5661,7 @@ h6 a {
 .account__content--style2 {
   max-inline-size: 800px;
   margin-inline: auto;
-  background-color: var(--account-bg-color2);
+  background-color: var(--bg-color-3);
   border-radius: 4px;
 }
 @media (min-width: 576px) {
@@ -5687,7 +5687,7 @@ h6 a {
   }
 }
 .account__inner {
-  background-color: var(--account-bg-color2);
+  background-color: var(--bg-color-3);
   border-radius: 4px;
   box-shadow: 0px -16px 48px rgba(6, 35, 63, 0.03), 0px 16px 48px rgba(6, 35, 63, 0.03);
 }
