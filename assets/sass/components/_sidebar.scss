@@ -31,12 +31,17 @@
 
     &__search {
         @extend %p-25;
-        background-color: $wh-color;
+        background-color: $bg-color-3;
         // box-shadow: 0px -16px 48px rgba(6, 35, 63, 0.03), 0px 16px 48px rgba(6, 35, 63, 0.03);
         border-radius: 8px;
 
         @include breakpoint(xl) {
             padding: 40px;
+        }
+
+        &--style2 {
+            background-color: $wh-color;
+            border-radius: 8px;
         }
 
 
@@ -221,12 +226,17 @@
 
     &__categorie {
         @extend %p-25;
-        background-color: $wh-color;
+        background-color: $bg-color-3;
         // box-shadow: 0px -16px 48px rgba(6, 35, 63, 0.03), 0px 16px 48px rgba(6, 35, 63, 0.03);
         border-radius: 8px;
 
         @include breakpoint(xl) {
             padding: 40px;
+        }
+
+        &--style2 {
+            background-color: $wh-color;
+            border-radius: 8px;
         }
 
         &-body {
@@ -275,25 +285,44 @@
                     }
                 }
             }
+
+            &--style2 {
+                ul {
+                    li {
+                        background-color: $wh-color;
+                        border-radius: 4px;
+                    }
+                }
+            }
         }
     }
 
     &__social {
         @extend %p-25;
-        background-color: $wh-color;
+        background-color: $bg-color-3;
         // trk-rgba 
         box-shadow: 0px -16px 48px rgba(6, 35, 63, 0.03), 0px 16px 48px rgba(6, 35, 63, 0.03);
         border-radius: 4px;
+
+        &--style2 {
+            background-color: $wh-color;
+            border-radius: 8px;
+        }
     }
 
     &__tags {
         @extend %p-25;
-        background-color: $wh-color;
+        background-color: $bg-color-3;
         // box-shadow: 0px -16px 48px rgba(6, 35, 63, 0.03), 0px 16px 48px rgba(6, 35, 63, 0.03);
         border-radius: 8px;
 
         @include breakpoint(xl) {
             padding: 40px;
+        }
+
+        &--style2 {
+            background-color: $wh-color;
+            border-radius: 8px;
         }
 
         &-body {
@@ -302,7 +331,7 @@
     }
 
     &__comment {
-        
+
 
         &-body {
             @extend %pt-25;
@@ -329,10 +358,10 @@
     &__commentform {
         @extend %mt-80;
 
-        @include breakpoint(lg){
+        @include breakpoint(lg) {
             margin-block-start: 100px;
         }
-        
+
     }
 
     &__author {

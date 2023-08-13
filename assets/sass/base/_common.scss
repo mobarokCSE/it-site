@@ -641,8 +641,8 @@
 
                     &.active,
                     &:hover {
-                        color: $brand-color;
-                        background-color: $pagination-bg-color;
+                        color: $bg-white;
+                        background-color: $brand-color;
                     }
 
                     &.dot {

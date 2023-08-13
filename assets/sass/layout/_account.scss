@@ -75,6 +75,10 @@
       @extend %mb-10, %text-capitalize;
       line-height: 56px;
     }
+    h3 {
+      @extend %mb-10, %text-capitalize;
+      line-height: 1.2;
+    } 
 
     p {
       @include font-size(18px);
