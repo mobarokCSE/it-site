@@ -10910,15 +10910,33 @@ textarea:focus-within {
   border-radius: 16px;
 }
 .blog-details__thumb-category {
-  top: 40px;
-  left: 40px;
+  top: 20px;
+  left: 20px;
+}
+@media (min-width: 576px) {
+  .blog-details__thumb-category {
+    top: 30px;
+    left: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .blog-details__thumb-category {
+    top: 40px;
+    left: 40px;
+  }
 }
 .blog-details__thumb-category span {
-  font-size: 1.125rem;
-  padding: 12px 32px;
+  font-size: 0.875rem;
+  padding: 12px 20px;
   border-radius: 100px;
   color: var(--bg-white);
   background-color: #111521;
+}
+@media (min-width: 576px) {
+  .blog-details__thumb-category span {
+    font-size: 1.125rem;
+    padding: 12px 32px;
+  }
 }
 .blog-details__thumb img {
   -webkit-transition: all 0.3s ease-out;
@@ -11051,6 +11069,26 @@ textarea:focus-within {
     text-align: center;
   }
 }
+@media (min-width: 992px) {
+  .blog-details__content .blockquote--style2 {
+    padding: 80px;
+  }
+}
+@media (min-width: 992px) {
+  .blog-details__content .blockquote--style2 {
+    padding: 80px 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .blog-details__content .blockquote--style2 {
+    padding: 100px 70px;
+  }
+}
+@media (min-width: 1400px) {
+  .blog-details__content .blockquote--style2 {
+    padding: 100px 80px;
+  }
+}
 .blog-details__content .blockquote--style2 .blockquote__thumb span {
   padding: 8px 14px;
   border-radius: 99px;
@@ -11072,19 +11110,19 @@ textarea:focus-within {
 }
 @media (min-width: 992px) {
   .blog-details__content .blockquote--style2 .blockquote__thumb span {
-    left: 140px;
+    left: 150px;
     top: 2px;
   }
 }
 @media (min-width: 1200px) {
   .blog-details__content .blockquote--style2 .blockquote__thumb span {
-    left: 180px;
+    left: 200px;
     top: 2px;
   }
 }
 @media (min-width: 1400px) {
   .blog-details__content .blockquote--style2 .blockquote__thumb span {
-    left: 235px;
+    left: 253px;
     top: 2px;
   }
 }
@@ -11099,6 +11137,14 @@ textarea:focus-within {
   .blog-details__action-inner {
     padding-block-start: 40px;
     margin-block-start: 100px;
+  }
+}
+.blog-details__action--style2 {
+  padding-inline-end: 80px;
+}
+@media (min-width: 992px) {
+  .blog-details__action--style2 {
+    padding-block-end: 130px;
   }
 }
 
@@ -12413,7 +12459,7 @@ textarea:focus-within {
   color: var(--text-color);
 }
 .sidebar--style2 {
-  background-color: var(--bg-color-1);
+  background-color: var(--bg-color-3);
   border-radius: 24px;
 }
 @media (min-width: 576px) {
