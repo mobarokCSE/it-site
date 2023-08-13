@@ -181,7 +181,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
 }
 
 .about--style2 .about__content-title h5, .tags--style2 ul li a, .tags--style1 ul li a, .sidebar__categorie-body ul li span,
-.sidebar__categorie-body ul li a, .blog-details__content .blockquote__content h4, .floating-content__item--style1 p, .text-btn.text-btn--small, .account__switch p a.style2, .account__switch p a, .account__switch p, .account__social-btn, .account__check-forgot a, .account__check-remember label, .banner__content-wrapper h2, .paginations ul li a {
+.sidebar__categorie-body ul li a, .blog-details__content .blockquote__content h4, .floating-content__item--style1 p, .text-btn.text-btn--small, .account__switch p, .account__social-btn, .account__check-forgot a, .account__check-remember label, .banner__content-wrapper h2, .paginations ul li a {
   font-weight: 400;
 }
 
@@ -191,7 +191,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
   font-weight: 500;
 }
 
-.about--style3 .about__content ul li, .roadmap--style1 .roadmap__item-header span, .comment__action a, .sidebar__head h6, .sidebar__head h5, .blog--style2 .blog__meta-tag, .blog--style2 .blog__writer-designation p, .blog--style2 .blog__writer-designation h6, .blog--style2 .blog__content h5, .team--details .team__content > span, .team--details .team__content h3, .team--style2 .team__item-authorinfo h6, .team--style1 .team__item-content h6, .feature--style2 .feature__item-content h6, .case--style2 .case__work-content h6, .case--style1 .case__item-content h5, .footer--style2 .footer__end-copyright a, .footer--style2 .footer__contact-item a, .footer--style1 .footer__end-copyright a, .account__divider--style1 span, .contact__item-content p, .page-header .breadcrumb-item {
+.about--style3 .about__content ul li, .roadmap--style1 .roadmap__item-header span, .comment__action a, .sidebar__head h6, .sidebar__head h5, .blog--style2 .blog__meta-tag, .blog--style2 .blog__writer-designation p, .blog--style2 .blog__writer-designation h6, .blog--style2 .blog__content h5, .team--details .team__content > span, .team--details .team__content h3, .team--style2 .team__item-authorinfo h6, .team--style1 .team__item-content h6, .feature--style2 .feature__item-content h6, .case--style2 .case__work-content h6, .case--style1 .case__item-content h5, .footer--style2 .footer__end-copyright a, .footer--style2 .footer__contact-item a, .footer--style1 .footer__end-copyright a, .account__switch p a.style2, .account__switch p a, .account__divider--style1 span, .contact__item-content p, .page-header .breadcrumb-item {
   font-weight: 600;
 }
 
@@ -10271,15 +10271,17 @@ textarea:focus-within {
 .blog--style1 .blog__item-content h5 a:hover {
   color: var(--brand-color);
 }
-.blog--style1 .blog__item:hover-inner {
-  cursor: pointer;
-}
-.blog--style1 .blog__item:hover-thumb img {
+.blog--style1 .blog__item:hover .blog__item-thumb img {
   -webkit-transform: scale(1.01);
   -moz-transform: scale(1.01);
   -ms-transform: scale(1.01);
   -o-transform: scale(1.01);
   transform: scale(1.01);
+}
+.blog--style1 .blog__item:hover .blog__item-content .trk-btn {
+  background-color: var(--brand-color);
+  border-color: var(--brand-color);
+  color: var(--bg-white);
 }
 .blog--style1 .blog__item--style2 .blog__item-inner {
   box-shadow: 0px 24px 60px 0px rgba(31, 36, 51, 0.06);

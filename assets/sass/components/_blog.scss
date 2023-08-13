@@ -117,14 +117,26 @@
                 }
 
                 &:hover {
-                    &-inner {
-                        cursor: pointer;
-                    }
+                    .blog__item{
 
-                    &-thumb {
-                        img {
-                            @include add-prefix(transform, scale(1.01));
+                        // &-inner {
+                        //     cursor: pointer;
+                        // }
+    
+                        &-thumb {
+                            img {
+                                @include add-prefix(transform, scale(1.01));
+                            }
+                            
                         }
+                        &-content{
+                            .trk-btn{
+                                background-color: $brand-color;
+                                border-color: $brand-color;
+                                color: $bg-white;
+                            }
+                        }
+
                     }
 
                 }

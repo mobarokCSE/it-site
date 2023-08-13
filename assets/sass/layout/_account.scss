@@ -229,11 +229,11 @@
       }
 
       a {
-        @extend %text-regular;
+        @extend %text-semibold;
         color: $brand-color;
 
         &.style2 {
-          @extend %text-regular;
+          @extend %text-semibold;
           @include font-size(16px);
           color: $text-color;
         }
