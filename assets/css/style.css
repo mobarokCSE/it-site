@@ -154,7 +154,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
   position: relative;
 }
 
-.about--style1 .about__shape-item, .roadmap--style2 .roadmap__upper-inner::after, .roadmap--style1 .roadmap__shape-item, .accordion__button-plusicon:before, .accordion__button-plusicon:after, .faq__shape-item--3, .faq__shape-item--2, .faq__shape-item--1, .faq__shape-item, .sidebar__search form button, .story__shape-item, .story__thumb-playbtn, .cta--style5 .cta__shape-item, .cta--style4 .cta__shape-item, .cta--style3 .cta__shape-item, .cta--style1 .cta__shape-item, .blog-details__content .blockquote--style2 .blockquote__thumb span, .blog-details__content .blockquote__content span, .blog-details__content .blockquote__thumb span, .blog-details__thumb-category, .blog--style3 .blog__shape-item, .blog--style3 .blog__item-author, .blog--style2 .blog__shape-item, .blog--style2 .blog__bg-element img, .blog--style1 .blog__shape-item, .blog--style1 .blog__item-author, .team--details .team__content-biodata li p::after, .team--style2 .team__item-shape3, .team--style2 .team__item-shape2, .team--style2 .team__item-shape1, .team--style2 .team__item-content, .team--style1 .team__item-thumb::after, .pricing__shape-item, .pricing__item-top img, .service--style2 .service__shape-item, .service--style2 .service__item-content, .service--style2 .service__item-thumb::after, .service--style1 .service__item-content, .service--style1 .service__item-thumb::after, .service--style1 .service__item-thumb::before, .service--style1 .service__wrapper::after, .feature--style3 .feature__shape-item, .feature--style2 .feature__shape-item, .feature--style1 .feature__shape-item, .case--style3 .case__shape-item, .case--style3 .case__thumb::after, .case--style3 .case__wrapper::after, .case--style3 .case__wrapper::before, .work--style3 .work__item-content, .work--style2 .work__shape-item, .work--style1 .work__item-category, .work--style1 .work__item-content, .work--style1 .work__item-thumb::after, .count--style2 .count__bg, .floating-content__bottom-right, .floating-content__bottom-left, .floating-content__left-top, .floating-content__top-right, .floating-content__top-left, .floating-content__item--style4 a::after, .floating-content__item--style3 img::after, .text-btn--style2::after, .text-btn::after, .trk-btn:after, .footer--style2 .footer__shape-item, .footer--style2 .footer__linklist-item a::after, .footer--style1 .footer__shape-item, .account__shape-item, .account__divider--style1:before, .account__divider--style1 span, .contact__shape-item, .banner--style4 .banner__bg, .banner--style3 .banner__thumb::after, .banner--style3 .banner__thumb::before, .banner--style3 .banner__thumb-playbtn, .banner--style2 .banner__shape-item, .banner--style1 .banner__shape-item, .banner__bg-element span, .banner__bg-element img, .section-header h3.shape::after, .menu-item-has-children > a::after, .header-bar span, .header-section--style3, .header-section--style2, .swiper-nav--style2 .swiper-nav__btn-next--style2, .swiper-nav--style2 .swiper-nav__btn-next, .swiper-nav--style2 .swiper-nav__btn-prev--style2, .swiper-nav--style2 .swiper-nav__btn-prev, .form-pass__ctoggle, .form-pass__toggle {
+.about--style1 .about__shape-item, .roadmap--style2 .roadmap__upper-inner::after, .roadmap--style1 .roadmap__shape-item, .accordion__button-plusicon:before, .accordion__button-plusicon:after, .faq__shape-item--3, .faq__shape-item--2, .faq__shape-item--1, .faq__shape-item, .sidebar__search form button, .story__shape-item, .story__thumb-playbtn, .cta--style5 .cta__shape-item, .cta--style4 .cta__shape-item, .cta--style3 .cta__shape-item, .cta--style1 .cta__shape-item, .blog-details__content .blockquote--style2 .blockquote__thumb span, .blog-details__content .blockquote__content span, .blog-details__content .blockquote__thumb span, .blog-details__thumb-category, .blog--style3 .blog__shape-item, .blog--style3 .blog__item-author, .blog--style2 .blog__shape-item, .blog--style2 .blog__bg-element img, .blog--style1 .blog__shape-item, .blog--style1 .blog__item-author, .team--details .team__content-biodata li p::after, .team--style2 .team__item-shape3, .team--style2 .team__item-shape2, .team--style2 .team__item-shape1, .team--style2 .team__item-content, .team--style1 .team__item-thumb::after, .pricing__shape-item, .pricing__item-top img, .service--style2 .service__shape-item, .service--style2 .service__item-content, .service--style2 .service__item-thumb::after, .service--style1 .service__item-content, .service--style1 .service__item-thumb::after, .service--style1 .service__item-thumb::before, .service--style1 .service__wrapper::after, .feature--style3 .feature__shape-item, .feature--style2 .feature__shape-item, .feature--style1 .feature__shape-item, .case--style3 .case__shape-item, .case--style3 .case__thumb::after, .case--style3 .case__wrapper::after, .case--style3 .case__wrapper::before, .work--style3 .work__item-content, .work--style2 .work__shape-item, .work--style1 .work__item-category, .work--style1 .work__item-content, .work--style1 .work__item-thumb::after, .count--style2 .count__bg, .floating-content__bottom-right, .floating-content__bottom-left, .floating-content__left-top, .floating-content__top-right, .floating-content__top-left, .floating-content__item--style4 a::after, .floating-content__item--style3 img::after, .text-btn--style2::after, .text-btn::after, .trk-btn:after, .footer--style2 .footer__shape-item, .footer--style2 .footer__linklist-item a::after, .footer--style1 .footer__shape-item, .account__shape-item, .account__divider--style1:before, .account__divider--style1 span, .contact__shape-item, .banner--style4 .banner__bg, .banner--style3 .banner__thumb::after, .banner--style3 .banner__thumb::before, .banner--style3 .banner__thumb-playbtn, .banner--style2 .banner__shape-item, .banner--style1 .banner__shape-item, .banner__bg-element span, .banner__bg-element img, .section-header h3.shape::after, .menu-item-has-children > a::after, .header-bar span, .header-section--style4, .header-section--style3, .header-section--style2, .swiper-nav--style2 .swiper-nav__btn-next--style2, .swiper-nav--style2 .swiper-nav__btn-next, .swiper-nav--style2 .swiper-nav__btn-prev--style2, .swiper-nav--style2 .swiper-nav__btn-prev, .form-pass__ctoggle, .form-pass__toggle {
   position: absolute;
 }
 
@@ -525,7 +525,7 @@ ol {
 /*=========<<Cursor property extends end>>=========*/
 /*=========<< Height-Width property extends start>>=========*/
 .accordion__button, .sidebar__info-thumb img, .sidebar__recentpost-thumb img, .blog-details__thumb img, .blog--style2 .blog__thumb img, .blog--style2 .blog__bg-element img, .blog--style1 .blog__item-thumb img, .team--details .team__skill-content, .team--details .team__thumb img, .team--style2 .team__item-thumb img, input,
-textarea, .account__social-btn, .banner__bg-element span, .banner__bg-element img, .header-bar span, .header-section.header-fixed, .header-section--style3.header-fixed, .header-section--style2.header-fixed, .header-section--style1.header-fixed {
+textarea, .account__social-btn, .banner__bg-element span, .banner__bg-element img, .header-bar span, .header-section.header-fixed, .header-section--style4.header-fixed, .header-section--style3.header-fixed, .header-section--style2.header-fixed, .header-section--style1.header-fixed {
   width: 100%;
 }
 
@@ -617,7 +617,7 @@ ol {
   --bg-color-4:#fff;
   --bg-color-5: #F6F6F7;
   --bg-color-6: #fff;
-  --bg-color-7:#F1F4FB;
+  --bg-color-7:#111117;
   --bg-color-8:#124D6D;
   --bg-color-9:white;
   --bg-white:#ffffff;
@@ -714,7 +714,7 @@ ol {
   --bg-color-4:#1B1D2E;
   --bg-color-5: #151725;
   --bg-color-6: #2A2D46;
-  --bg-color-7:rgba(255, 255, 255, 0.0392156863);
+  --bg-color-7:#111117;
   --bg-color-8:#124D6D;
   --bg-color-9:#000;
   --bg-white:#ffffff;
@@ -3962,6 +3962,23 @@ h6 a {
   box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.3);
   z-index: 999;
   background-color: #1B1D2E;
+}
+.header-section--style4 {
+  content: "";
+  width: 100%;
+}
+.header-section--style4.header-fixed {
+  -webkit-animation: fadeInDown 0.5s;
+  -moz-animation: fadeInDown 0.5s;
+  -ms-animation: fadeInDown 0.5s;
+  -o-animation: fadeInDown 0.5s;
+  animation: fadeInDown 0.5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  background-color: var(--bg-color-7);
 }
 .header-section.header-fixed {
   -webkit-animation: fadeInDown 0.5s;

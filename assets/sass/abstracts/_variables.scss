@@ -193,9 +193,9 @@
     --bg-color-4:#{$thm-bg-color-4-light};
     --bg-color-5: #F6F6F7;
     --bg-color-6: #fff;
+    --bg-color-7:#111117;
 
 
-    --bg-color-7:#{$thm-bg-color-7-light};
     --bg-color-8:#{$thm-bg-color-8-light};
     --bg-color-9:#{$thm-bg-color-9-light};
 
@@ -344,9 +344,9 @@
     --bg-color-4:#{$thm-bg-color-4-dark};
     --bg-color-5: #151725;
     --bg-color-6: #2A2D46;
+    --bg-color-7:#111117;
 
 
-    --bg-color-7:#{$thm-bg-color-7-dark};
     --bg-color-8:#{$thm-bg-color-8-dark};
     --bg-color-9:#{$thm-bg-color-9-dark};
 
@@ -498,6 +498,9 @@
   $bg-color-5: var(--bg-color-5);
   $bg-color-6: var(--bg-color-6);
   $bg-color-7: var(--bg-color-7);
+
+
+  
   $bg-color-8: var(--bg-color-8);
   $bg-color-9: var(--bg-color-9);
 
