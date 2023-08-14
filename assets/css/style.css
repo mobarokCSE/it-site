@@ -9735,13 +9735,13 @@ textarea:focus-within {
   top: -15px;
   opacity: 0;
 }
-.pricing__item.active .pricing__item-inner, .pricing__item:hover .pricing__item-inner {
+.pricing__item.active .pricing__item-inner {
   border: 3px solid var(--secondary-color);
 }
-.pricing__item.active .pricing__item-focus, .pricing__item:hover .pricing__item-focus {
+.pricing__item.active .pricing__item-focus {
   opacity: 1;
 }
-.pricing__item.active .pricing__item-top img, .pricing__item:hover .pricing__item-top img {
+.pricing__item.active .pricing__item-top img {
   opacity: 1;
 }
 .pricing__list-item {

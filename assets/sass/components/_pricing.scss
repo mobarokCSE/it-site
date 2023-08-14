@@ -103,8 +103,7 @@
             @extend %py-40;
         }
 
-        &.active,
-        &:hover {
+        &.active {
             .pricing {
                 &__item {
                     &-inner {
