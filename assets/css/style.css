@@ -9835,6 +9835,11 @@ textarea:focus-within {
   border-radius: 12px;
 }
 .team--style1 .team__item-thumb img {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
   z-index: 1;
   left: 14%;
 }
@@ -9883,6 +9888,9 @@ textarea:focus-within {
   font-size: 0.875rem;
   color: var(--title-color);
   opacity: 0.6;
+}
+.team--style1 .team__item.active .team__item-thumb img, .team--style1 .team__item:hover .team__item-thumb img {
+  left: -3px;
 }
 .team--style1 .team__item.active .team__item-thumb::after, .team--style1 .team__item:hover .team__item-thumb::after {
   background-color: var(--brand-color);

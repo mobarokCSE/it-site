@@ -12,6 +12,7 @@
 
                             img {
                                 @extend %p-rel;
+                                @include add-prefix(transition, $transition);
                                 z-index: 1;
                                 left: 14%;
 
@@ -81,6 +82,13 @@
                             .team__item {
 
                                 &-thumb {
+                                    img {
+                                        left: -3px;
+
+                                        // @include breakpoint(sm) {
+                                        //     left: auto;
+                                        // }
+                                    }
 
                                     &::after {
                                         background-color: $brand-color;
@@ -380,17 +388,21 @@
                                 padding: 40px;
                             }
                         }
-                        &-description{
+
+                        &-description {
                             @extend %mt-95;
-                            h3{
-                                @extend %text-capitalize, %mb-15;
+
+                            h3 {
+                                @extend %text-capitalize,
+                                %mb-15;
                             }
-                            p{
+
+                            p {
                                 @extend %mb-0;
                                 color: $title-color;
                                 opacity: 0.6;
 
-                                &.style2{
+                                &.style2 {
                                     @extend %mb-5;
                                     @include font-size(24px);
                                     line-height: 1.6;
@@ -528,38 +540,48 @@
                         @extend %p-40;
                         background-color: $bg-color-3;
 
-                        @include breakpoint(lg){
+                        @include breakpoint(lg) {
                             padding: 56px;
                         }
 
-                        h3{
-                            @extend %text-capitalize, %mb-25;
+                        h3 {
+                            @extend %text-capitalize,
+                            %mb-25;
                         }
 
                         &-item {
-                            &:not(:last-child){
+                            &:not(:last-child) {
                                 @extend %mb-25;
-                                @include breakpoint(lg){
+
+                                @include breakpoint(lg) {
                                     margin-block-end: 28px;
                                 }
                             }
 
                         }
-                        &-content{
-                            @extend %mb-0, %d-flex, %align-i-center, %justify-between, %w-100;
-                            p{
-                                @extend %mb-0, %text-medium, %text-capitalize;
+
+                        &-content {
+                            @extend %mb-0,
+                            %d-flex,
+                            %align-i-center,
+                            %justify-between,
+                            %w-100;
+
+                            p {
+                                @extend %mb-0,
+                                %text-medium,
+                                %text-capitalize;
                                 color: $title-color;
                             }
                         }
 
-                        .progress{
+                        .progress {
                             @extend %mt-5;
                             height: 6px;
                             border-radius: 0;
 
-                            &-bar{
-                                width: 80%; 
+                            &-bar {
+                                width: 80%;
                             }
 
                         }
