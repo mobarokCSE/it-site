@@ -1,8 +1,8 @@
 .error {
   &__inner {
     @extend %p-20;
-    background-color: $account-bg-color;
-    border-radius: 4px;
+    background-color: $bg-color-3;
+    border-radius: 16px;
 
     @include breakpoint(sm) {
       padding: 50px;

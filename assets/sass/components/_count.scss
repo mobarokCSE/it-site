@@ -119,6 +119,9 @@
                 &-number {
                     h2 {
                         color: $brand-color;
+                        @include font-size(48px);
+                        line-height: 1.2;
+                        letter-spacing: 0.96px;
                     }
                 }
 

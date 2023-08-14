@@ -30,8 +30,10 @@
                 }
 
                 &-thumb {
+                    @extend %of-hidden;
+                    border-radius: 16px;
+
                     img {
-                        border-radius: 16px;
                         @extend %w-100;
                         @include add-prefix(transition, $transition);
                         object-fit: cover;
@@ -112,6 +114,10 @@
                             }
 
                         }
+                    }
+
+                    .trk-btn{
+                        @include add-prefix(transition, $transition);
                     }
 
                 }

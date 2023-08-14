@@ -164,6 +164,7 @@
         }
 
         &-content {
+            flex: 1;
 
             p {
                 @extend %mb-0,
@@ -178,6 +179,14 @@
                     }
                 }
 
+                &.style2 {
+                    @include font-size(14px);
+                    color: $title-color;
+                    font-family: $title-font;
+                    line-height: 1.2;
+                    margin-block-end: 8px;
+                }
+
                 a {
                     @extend %text-clamp-3;
                     @include add-prefix(transition, $transition);
@@ -190,6 +199,10 @@
                 @include add-prefix(transition, $transition);
                 color: $title-color;
                 opacity: 0.6;
+
+                &.style2{
+                    @include font-size(14px);
+                }
 
             }
 
