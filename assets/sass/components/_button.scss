@@ -619,18 +619,18 @@
   %text-capitalize;
   @include add-prefix(transition, $transition);
   display: inline-flex;
-  font-weight: 600;
-  color: $brand-color;
+  font-weight: 500;
+  color: $title-color;
 
   &::after {
     @extend %p-abs;
     @include add-prefix(transition, $transition);
     content: "";
     left: 0;
-    bottom: -4px;
-    height: 2px;
+    bottom: -3px;
+    height: 1px;
     width: 0%;
-    background-color: $brand-color;
+    background-color: $secondary-color;
 
   }
 
@@ -653,7 +653,7 @@
   i,
   svg {
     @include add-prefix(transition, $transition);
-    @extend %ms-10;
+    @extend %ms-5;
   }
 
 
@@ -670,8 +670,15 @@
   }
 
   span {
-    @extend %ms-10;
+    @extend %ms-5;
     @include add-prefix(transition, $transition);
+    margin-block-end: 2px;
+
+    svg {
+      path {
+        stroke: $title-color;
+      }
+    }
   }
 
   &:hover {
@@ -684,11 +691,17 @@
 
     i,
     svg {
-      @extend %ms-15;
+      margin-inline-start: 6px;
     }
 
     span {
       @include add-prefix(transform, translateX(5px));
+
+      svg {
+        path {
+          stroke: $secondary-color;
+        }
+      }
     }
   }
 }

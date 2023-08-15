@@ -64,22 +64,8 @@
 
 
 
-
-
-  $thm-bg-color-5-light: linear-gradient(218.82deg, rgba(255, 255, 255, 0) 14.16%, #FFFFFF 101.06%);
-  $thm-bg-color-5-dark:linear-gradient(150.39deg, rgba(237, 242, 248, 0.22) 15.02%, #EDF2F8 99.59%);
-
-
-  $thm-bg-color-6-light:#F5F7FC;
-  $thm-bg-color-6-dark:#2D2C2C;
-
-
-  $thm-bg-color-7-light:#F1F4FB;
-  $thm-bg-color-7-dark:#ffffff0a;
-
-
-  $thm-bg-color-8-light:#124D6D;
-  $thm-bg-color-8-dark:#124D6D;
+  $thm-bg-color-8-light:#F0F4FF;
+  $thm-bg-color-8-dark:#061538;
 
 
   $thm-bg-color-9-light:#FFFF;
@@ -193,11 +179,10 @@
     --bg-color-4:#{$thm-bg-color-4-light};
     --bg-color-5: #F6F6F7;
     --bg-color-6: #fff;
-    --bg-color-7:#111117;
-
-
+    --bg-color-7: #111117;
     --bg-color-8:#{$thm-bg-color-8-light};
-    --bg-color-9:#{$thm-bg-color-9-light};
+    --bg-color-9: #ffff;
+
 
     --bg-white:#{$thm-bg-white-light};
     --bg-team: #fff;
@@ -266,6 +251,7 @@
     --work-count-bg-color: rgba(255, 255, 255, 0.08);
     --testimonial-bg-color: rgba(255, 255, 255, 0.95);
     --testimonial-bg-color2: #fff;
+    --hover-bg-color: #111117;
 
 
     // action colors
@@ -344,11 +330,9 @@
     --bg-color-4:#{$thm-bg-color-4-dark};
     --bg-color-5: #151725;
     --bg-color-6: #2A2D46;
-    --bg-color-7:#111117;
-
-
+    --bg-color-7: #111117;
     --bg-color-8:#{$thm-bg-color-8-dark};
-    --bg-color-9:#{$thm-bg-color-9-dark};
+    --bg-color-9: #102152;
 
     --bg-white:#{$thm-bg-white-dark};
     --bg-team: #14224D;
@@ -421,7 +405,7 @@
     --footer-border-color: rgba(255, 255, 255, 0.16);
     --work-count-bg-color: rgba(255, 255, 255, 0.08);
     --testimonial-bg-color: rgba(42, 45, 70, 0.95);
-    // --testimonial-bg-color2: #2A2D46;
+    --hover-bg-color: #537EFD;
 
 
     // action colors
@@ -498,10 +482,8 @@
   $bg-color-5: var(--bg-color-5);
   $bg-color-6: var(--bg-color-6);
   $bg-color-7: var(--bg-color-7);
-
-
-  
   $bg-color-8: var(--bg-color-8);
+
   $bg-color-9: var(--bg-color-9);
 
   $bg-white: var(--bg-white);
@@ -571,7 +553,7 @@
   $footer-border-color: var(--footer-border-color);
   $work-count-bg-color:var(--work-count-bg-color);
   $testimonial-bg-color:var(--testimonial-bg-color);
-  // $testimonial-bg-color2:var(--testimonial-bg-color2);
+  $hover-bg-color:var(--hover-bg-color);
 
   // grad color
   $grad-bg-color: #F6FFC8;
