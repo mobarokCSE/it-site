@@ -1003,16 +1003,16 @@
         @extend %p-rel,
         %of-hidden;
         @include background-cover;
-        padding-block-start: 35px;
-        padding-block-end: 40px;
-        border-bottom-left-radius: 150px;
+        padding-block-start: 130px;
+        padding-block-end: 220px;
+        border-bottom-left-radius: 100px;
 
         @include breakpoint(sm) {
-            padding-block-end: 10px;
+            padding-block-start: 150px;
+            padding-block-end: 300px;
         }
 
         @include breakpoint(md) {
-            border-bottom-left-radius: 100px;
             padding-block-start: 160px;
             padding-block-end: 80px;
         }
@@ -1072,8 +1072,18 @@
 
                 &-item {
                     &--1 {
+                        position: absolute;
+                        left: 20px;
+                        bottom: 0px;
+                        max-inline-size: 62%;
+
+                        @include breakpoint(sm) {
+                            left: 0px;
+                            bottom: 0px;
+                            max-inline-size: 54%;
+                        }
+
                         @include breakpoint(md) {
-                            position: absolute;
                             left: -95px;
                             bottom: 0px;
                             max-inline-size: 59%;
@@ -1112,8 +1122,18 @@
                     }
 
                     &--2 {
+                        position: absolute;
+                        right: 0px;
+                        bottom: 172px;
+                        max-inline-size: 33%;
+
+                        @include breakpoint(sm) {
+                            right: 0px;
+                            bottom: 179px;
+                            max-inline-size: 35%;
+                        }
+
                         @include breakpoint(md) {
-                            position: absolute;
                             right: 0px;
                             bottom: 0px;
                             max-inline-size: 17%;
@@ -1162,7 +1182,7 @@
                         line-height: 1.2;
                         letter-spacing: 4.76px;
 
-                        @include breakpoint(xl){
+                        @include breakpoint(xl) {
                             letter-spacing: 5.76px;
                         }
                     }

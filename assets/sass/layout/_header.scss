@@ -601,6 +601,23 @@
       }
     }
 
+    &.style2{
+      @include breakpoint(sm){
+        @include font-size(48px);
+        letter-spacing: -0.72px;
+      }
+
+      span{
+        &:nth-child(1){
+          color: $secondary-color;
+        }
+        &:nth-child(2){
+          font-weight: 300;
+          color: $title-color;
+        }
+      }
+    }
+
     &.shape {
       &::after {
         @extend %p-abs;
@@ -707,6 +724,26 @@
 
     @include breakpoint(max-md) {
       padding-inline: 10px;
+    }
+  }
+
+  &--max70 {
+    @extend %text-center;
+    max-inline-size: 50ch;
+    margin: 0 auto 45px auto;
+
+    @include breakpoint(max-md){
+      padding-inline: 10px;
+    }
+
+    @include breakpoint(md) {
+       max-inline-size: 55ch;
+    }
+    @include breakpoint(lg) {
+       max-inline-size: 60ch;
+    }
+    @include breakpoint(xl) {
+       max-inline-size: 70ch;
     }
   }
 

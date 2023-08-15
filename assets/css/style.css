@@ -172,7 +172,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
 
 /*=========<<Position property extends end>>=========*/
 /*=========<<Text property extends start>>=========*/
-.roadmap--style2 .roadmap__item-inner, .faq__thumb--style1, .sidebar__author, .cta--style2 .cta__form, .cta--style2 .cta__content, .cta--style2 .cta__header, .blog-details__content .blockquote--style2 .blockquote__content h4, .blog-details__content .blockquote, .team--style2 .team__item-author, .career--style1 .career__content p, .career--style1 .career__content h3, .count--style1 .count__item-inner, .floating-content__item--style4, .social__link, .trk-btn--outline4, .trk-btn--outline22, .trk-btn--outline2, .trk-btn--outline1, .trk-btn--outline, .trk-btn--defult, .trk-btn, .footer--style2 .footer__bottom, .footer--style1 .footer__bottom, .banner--style3 .banner__thumb, .banner--style2 .banner__content-playbtn, .banner--style2 .banner__content-inner, .section-header--max95, .section-header--max57, .section-header--max50, .case__slider-paginaiton, .testimonial__slider-paginaiton {
+.roadmap--style2 .roadmap__item-inner, .faq__thumb--style1, .sidebar__author, .cta--style2 .cta__form, .cta--style2 .cta__content, .cta--style2 .cta__header, .blog-details__content .blockquote--style2 .blockquote__content h4, .blog-details__content .blockquote, .team--style2 .team__item-author, .career--style1 .career__content p, .career--style1 .career__content h3, .count--style1 .count__item-inner, .floating-content__item--style4, .social__link, .trk-btn--outline4, .trk-btn--outline22, .trk-btn--outline2, .trk-btn--outline1, .trk-btn--outline, .trk-btn--defult, .trk-btn, .footer--style2 .footer__bottom, .footer--style1 .footer__bottom, .banner--style3 .banner__thumb, .banner--style2 .banner__content-playbtn, .banner--style2 .banner__content-inner, .section-header--max95, .section-header--max70, .section-header--max57, .section-header--max50, .case__slider-paginaiton, .testimonial__slider-paginaiton {
   text-align: center;
 }
 
@@ -4382,6 +4382,24 @@ h6 a {
 .section-header h3 span.style2 {
   color: var(--brand-color);
 }
+@media (min-width: 576px) {
+  .section-header h3.style2 {
+    font-size: calc(1.425rem + 1.8vw);
+    letter-spacing: -0.72px;
+  }
+}
+@media (min-width: 576px) and (min-width: 1400px) {
+  .section-header h3.style2 {
+    font-size: 3rem;
+  }
+}
+.section-header h3.style2 span:nth-child(1) {
+  color: var(--secondary-color);
+}
+.section-header h3.style2 span:nth-child(2) {
+  font-weight: 300;
+  color: var(--title-color);
+}
 .section-header h3.shape::after {
   content: "";
   height: 100%;
@@ -4453,6 +4471,30 @@ h6 a {
 @media (max-width: 767px) {
   .section-header--max57 {
     padding-inline: 10px;
+  }
+}
+.section-header--max70 {
+  max-inline-size: 50ch;
+  margin: 0 auto 45px auto;
+}
+@media (max-width: 767px) {
+  .section-header--max70 {
+    padding-inline: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .section-header--max70 {
+    max-inline-size: 55ch;
+  }
+}
+@media (min-width: 992px) {
+  .section-header--max70 {
+    max-inline-size: 60ch;
+  }
+}
+@media (min-width: 1200px) {
+  .section-header--max70 {
+    max-inline-size: 70ch;
   }
 }
 .section-header--max95 {
@@ -5528,18 +5570,18 @@ h6 a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-block-start: 35px;
-  padding-block-end: 40px;
-  border-bottom-left-radius: 150px;
+  padding-block-start: 130px;
+  padding-block-end: 220px;
+  border-bottom-left-radius: 100px;
 }
 @media (min-width: 576px) {
   .banner--style5 {
-    padding-block-end: 10px;
+    padding-block-start: 150px;
+    padding-block-end: 300px;
   }
 }
 @media (min-width: 768px) {
   .banner--style5 {
-    border-bottom-left-radius: 100px;
     padding-block-start: 160px;
     padding-block-end: 80px;
   }
@@ -5572,9 +5614,21 @@ h6 a {
     padding-block: 335px;
   }
 }
+.banner--style5 .banner__thumb-item--1 {
+  position: absolute;
+  left: 20px;
+  bottom: 0px;
+  max-inline-size: 62%;
+}
+@media (min-width: 576px) {
+  .banner--style5 .banner__thumb-item--1 {
+    left: 0px;
+    bottom: 0px;
+    max-inline-size: 54%;
+  }
+}
 @media (min-width: 768px) {
   .banner--style5 .banner__thumb-item--1 {
-    position: absolute;
     left: -95px;
     bottom: 0px;
     max-inline-size: 59%;
@@ -5615,9 +5669,21 @@ h6 a {
     max-inline-size: 52%;
   }
 }
+.banner--style5 .banner__thumb-item--2 {
+  position: absolute;
+  right: 0px;
+  bottom: 172px;
+  max-inline-size: 33%;
+}
+@media (min-width: 576px) {
+  .banner--style5 .banner__thumb-item--2 {
+    right: 0px;
+    bottom: 179px;
+    max-inline-size: 35%;
+  }
+}
 @media (min-width: 768px) {
   .banner--style5 .banner__thumb-item--2 {
-    position: absolute;
     right: 0px;
     bottom: 0px;
     max-inline-size: 17%;
