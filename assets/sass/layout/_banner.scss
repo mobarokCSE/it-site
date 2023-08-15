@@ -1,109 +1,6 @@
 .banner {
-    &__bg {
-        &-element {
-            img {
-                @extend %w-100,
-                %p-abs;
-                left: 0;
-                top: 0;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                opacity: 0.8;
-            }
-
-            span {
-                @extend %w-100,
-                %p-abs;
-                left: 0;
-                top: 0;
-                height: 100%;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                z-index: -2;
-            }
-        }
-    }
-
     &__content {
         @extend %mt-100;
-
-        // &-coin {
-        //     @extend %mb-20;
-
-        //     img {
-        //         width: 70px;
-        //         @include animation(rotate 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
-
-        //         @include breakpoint (sm) {
-        //             width: 73px;
-        //         }
-
-        //         @include breakpoint (md) {
-        //             width: 70px;
-        //         }
-
-        //         @include breakpoint (lg) {
-        //             width: 90px;
-        //         }
-
-        //         @include breakpoint (xl) {
-        //             width: auto;
-        //         }
-        //     }
-
-        //     &--style2 {
-        //         @extend %mb-30;
-
-        //         img {
-        //             width: 70px;
-        //             @include animation(left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
-
-        //             @include breakpoint (sm) {
-        //                 width: 73px;
-        //             }
-
-        //             @include breakpoint (md) {
-        //                 width: 70px;
-        //             }
-
-        //             @include breakpoint (lg) {
-        //                 width: 90px;
-        //             }
-
-        //             @include breakpoint (xl) {
-        //                 width: auto;
-        //             }
-        //         }
-        //     }
-        // }
-
-        // &-heading {
-        //     @extend %text-capitalize;
-
-        //     span {
-        //         color: $secondary-color;
-        //     }
-
-        //     &--style2 {
-        //         max-inline-size: 15ch;
-        //     }
-
-        // }
-
-        // &-moto {
-        //     @extend %mb-20;
-        //     color: $text-color;
-
-        //     @include breakpoint(sm) {
-        //         margin-block-end: 30px;
-        //     }
-
-        //     @include breakpoint(lg) {
-        //         margin-block-end: 40px;
-        //     }
-        // }
 
         &-wrapper {
             h5 {
@@ -1108,385 +1005,212 @@
         @include background-cover;
         padding-block-start: 35px;
         padding-block-end: 40px;
+        border-bottom-left-radius: 150px;
 
         @include breakpoint(sm) {
             padding-block-end: 10px;
         }
 
         @include breakpoint(md) {
-            padding-block-start: 80px;
-            padding-block-end: 100px;
+            border-bottom-left-radius: 100px;
+            padding-block-start: 160px;
+            padding-block-end: 80px;
         }
 
         @include breakpoint(lg) {
-            padding-block-start: 148px;
-            padding-block-end: 135px;
+            border-bottom-left-radius: 200px;
+            padding-block-start: 235px;
+            padding-block-end: 200px;
         }
 
         @include breakpoint(xl) {
-            padding-block-start: 148px;
-            padding-block-end: 132px;
+            padding-block-start: 250px;
+            padding-block-end: 230px;
         }
 
         @include breakpoint(xxl) {
-            padding-block-start: 148px;
-            padding-block-end: 148px;
+            padding-block: 270px;
         }
 
         @include breakpoint(xxxl) {
-            padding-block-start: 148px;
-            padding-block-end: 240px;
+            padding-block: 315px;
+        }
+
+        @include breakpoint(xxxxl) {
+            padding-block: 335px;
         }
 
         .banner {
+
+            // &__bg {
+            //     &-element {
+            //         img {
+            //             @extend %w-100,
+            //             %p-abs;
+            //             left: 0;
+            //             top: 0;
+            //             background-repeat: no-repeat;
+            //             background-size: cover;
+            //             background-position: center;
+            //         }
+
+            //         // span {
+            //         //     @extend %w-100,
+            //         //     %p-abs;
+            //         //     left: 0;
+            //         //     top: 0;
+            //         //     height: 100%;
+            //         //     background-repeat: no-repeat;
+            //         //     background-size: cover;
+            //         //     background-position: center;
+            //         //     z-index: -2;
+            //         // }
+            //     }
+            // }
+
             &__thumb {
 
-                @include breakpoint(md) {
-                    position: absolute;
-                    left: -20px;
-                    bottom: 180px;
-                    max-inline-size: 47%;
-                }
+                &-item {
+                    &--1 {
+                        @include breakpoint(md) {
+                            position: absolute;
+                            left: -95px;
+                            bottom: 0px;
+                            max-inline-size: 59%;
+                        }
 
-                @include breakpoint(lg) {
-                    left: -110px;
-                    bottom: 60px;
-                    max-inline-size: 59%;
-                }
+                        @include breakpoint(lg) {
+                            left: -110px;
+                            bottom: 0px;
+                            max-inline-size: 60%;
+                        }
 
-                @include breakpoint(xl) {
-                    left: -140px;
-                    bottom: 30px;
-                    max-inline-size: 58%;
-                }
+                        @include breakpoint(xl) {
+                            left: -140px;
+                            bottom: 0px;
+                            max-inline-size: 58%;
+                        }
 
-                @include breakpoint(xxl) {
-                    left: -105px;
-                    bottom: 0px;
-                    max-inline-size: 57%;
-                }
+                        @include breakpoint(xxl) {
+                            left: -105px;
+                            bottom: 0px;
+                            max-inline-size: 54%;
+                        }
 
-                @include breakpoint(xxxl) {
-                    left: 70px;
-                    bottom: 0px;
-                    max-inline-size: 52%;
+                        @include breakpoint(xxxl) {
+                            left: -30px;
+                            bottom: 0px;
+                            max-inline-size: 50%;
+                        }
+
+                        @include breakpoint(xxxxl) {
+                            left: 70px;
+                            bottom: 0px;
+                            max-inline-size: 52%;
+                        }
+
+                    }
+
+                    &--2 {
+                        @include breakpoint(md) {
+                            position: absolute;
+                            right: 0px;
+                            bottom: 0px;
+                            max-inline-size: 17%;
+                        }
+
+                        @include breakpoint(lg) {
+                            right: 0px;
+                            bottom: 0px;
+                            max-inline-size: 25%;
+                        }
+
+                        @include breakpoint(xl) {
+                            right: 0px;
+                            bottom: 0px;
+                            max-inline-size: 26%;
+                        }
+
+                        @include breakpoint(xxl) {
+                            right: 0px;
+                            bottom: 0px;
+                            max-inline-size: 25%;
+                        }
+
+                        @include breakpoint(xxxl) {
+                            right: 0px;
+                            bottom: 0px;
+                            max-inline-size: 52%;
+                        }
+                    }
                 }
             }
 
+            &__content {
+                margin-block-start: 0px;
 
-            // shape
-            &__shape {
-                &-item {
-                    @extend %p-abs;
-
-                    &--1 {
-                        width: 100px;
-                        bottom: 48.6%;
-                        left: -9%;
-                        z-index: 1;
-                        @include animation(light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
-
-                        @include breakpoint(sm) {
-                            width: 120px;
-                            bottom: 53.6%;
-                            left: -7%;
-
-                        }
-
-                        @include breakpoint(md) {
-                            width: 120px;
-                            bottom: 17.5%;
-                            left: -5%;
-
-                        }
-
-                        @include breakpoint(lg) {
-                            width: 120px;
-                            bottom: 21.5%;
-                            left: -4%;
-                        }
-
-
-                        @include breakpoint(xl) {
-                            width: 150px;
-                            bottom: 20.5%;
-                            left: -5%;
-                        }
-
-                        @include breakpoint(xxl) {
-                            width: 200px;
-                            bottom: 15%;
-                            left: -5%;
-                        }
-
-                        @include breakpoint(xxxl) {
-                            width: auto;
-                            bottom: 14%;
-                            left: 4.5%;
-                        }
-                    }
-
-
-                    &--2 {
-                        width: 200px;
-                        top: 69.5%;
-                        right: 55%;
-                        z-index: -1;
-                        @include animation(light 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
-
-                        @include breakpoint(sm) {
-                            width: 250px;
-                            top: 66.2%;
-                            right: 55%;
-
-                        }
-
-                        @include breakpoint(md) {
-                            top: 34%;
-                            right: 20%;
-                        }
-
-                        @include breakpoint(lg) {
-                            width: 250px;
-                            top: 29%;
-                            right: 25%;
-                        }
-
-
-                        @include breakpoint(xl) {
-                            width: 350px;
-                            top: 27%;
-                            right: 24%;
-                        }
-
-                        @include breakpoint(xxl) {
-                            top: 29%;
-                            right: 28%;
-                        }
-
-                        @include breakpoint(xxxl) {
-                            top: 29%;
-                            right: 34%;
-                        }
-                    }
-
-
-                    &--3 {
-                        width: 200px;
-                        top: 7%;
-                        left: 1%;
-                        z-index: -1;
-                        @include animation(floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
-
-                        @include breakpoint(sm) {
-                            width: 300px;
-                            top: 8%;
-                            left: 3%;
-                        }
-
-                        @include breakpoint(md) {
-                            top: 13%;
-                            left: 2%;
-                        }
-
-                        @include breakpoint(lg) {
-                            width: 300px;
-                            left: 1%;
-                            top: 16%;
-                        }
-
-
-                        @include breakpoint(xl) {
-                            width: auto;
-                            top: 16%;
-                            left: 1%;
-                        }
-
-                        @include breakpoint(xxl) {
-                            top: 16%;
-                            left: 4%;
-                        }
-
-                        @include breakpoint(xxxl) {
-                            top: 13%;
-                            left: 15%;
-                        }
-                    }
-
-                    &--4 {
-                        width: 40px;
-                        top: 16%;
-                        left: 70%;
-                        z-index: 1;
-                        @include animation(floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
-
-                        @include breakpoint(sm) {
-                            width: 60px;
-                            top: 13%;
-                            left: 57%;
-                        }
-
-                        @include breakpoint(md) {
-                            width: 80px;
-                            top: 22%;
-                            left: 50%;
-                        }
-
-                        @include breakpoint(lg) {
-                            top: 25%;
-                            left: 42%;
-                        }
-
-                        @include breakpoint(xl) {
-                            width: auto;
-                            top: 24%;
-                            left: 38%;
-                        }
-
-                        @include breakpoint(xxl) {
-                            top: 24%;
-                            left: 43%;
-                        }
-
-                        @include breakpoint(xxxl) {
-                            top: 22%;
-                            left: 45%;
-                        }
-                    }
-
-                    &--5 {
-                        width: 200px;
-                        top: 57%;
-                        right: 1%;
-                        z-index: 1;
-                        @include animation(floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
-
-                        @include breakpoint(sm) {
-                            width: 300px;
-                            top: 50%;
-                            right: 3%;
-                        }
-
-                        @include breakpoint(md) {
-                            top: 0%;
-                            right: 2%;
-                        }
-
-                        @include breakpoint(lg) {
-                            width: 300px;
-                            top: -1%;
-                            right: -7%;
-                        }
-
-
-                        @include breakpoint(xl) {
-                            width: auto;
-                            top: -1%;
-                            right: -7%;
-                        }
-
-                        @include breakpoint(xxl) {
-                            top: 0%;
-                            right: -2.5%;
-                        }
-
-                        @include breakpoint(xxxl) {
-                            z-index: -1;
-                            top: 0%;
-                            right: -1%;
-                        }
-                    }
-
-                    &--6 {
-                        width: 200px;
-                        top: 78%;
-                        right: 1%;
-                        z-index: 1;
-                        @include animation(floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
-
-                        @include breakpoint(sm) {
-                            width: 300px;
-                            top: 77%;
-                            right: 2%;
-                        }
-
-                        @include breakpoint(md) {
-                            top: 42%;
-                            right: 2%;
-                        }
-
-                        @include breakpoint(lg) {
-                            width: 300px;
-                            right: -3%;
-                            top: 36%;
-                        }
-
-
-                        @include breakpoint(xl) {
-                            width: auto;
-                            right: -3%;
-                            top: 36%;
-                        }
-
-                        @include breakpoint(xxl) {
-                            top: 36%;
-                            right: -2.5%;
-                        }
-
-                        @include breakpoint(xxxl) {
-                            z-index: -1;
-                            top: 33%;
-                            right: -1%;
-                        }
-                    }
-
-                    &--7 {
-                        width: 200px;
-                        right: 53%;
-                        bottom: 3%;
-                        z-index: -1;
-                        @include animation(floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
-
-                        @include breakpoint(sm) {
-                            width: 300px;
-                            right: 53%;
-                            bottom: 3%;
-                        }
-
-                        @include breakpoint(md) {
-                            display: none;
-                            // bottom: 2%;
-                            // right: 40%;
-                        }
-
-                        @include breakpoint(lg) {
-                            display: block;
-                            width: 300px;
-                            right: 27%;
-                            bottom: 3%;
-                        }
-
-
-                        @include breakpoint(xl) {
-                            width: auto;
-                            right: 30%;
-                            bottom: 3%;
-                        }
-
-                        @include breakpoint(xxl) {
-                            bottom: 3%;
-                            right: 35%;
-                        }
-
-                        @include breakpoint(xxxl) {
-                            bottom: 3%;
-                            right: 40%;
-                        }
-                    }
-
-
+                @include breakpoint(lg) {
+                    padding-inline-start: 15px;
                 }
 
+                &-wrapper {
+                    h5 {
+                        @extend %text-uppercase,
+                        %text-semibold,
+                        %mb-20;
+                        color: $brand-color;
+                        line-height: 1.2;
+                        letter-spacing: 4.76px;
+
+                        @include breakpoint(xl){
+                            letter-spacing: 5.76px;
+                        }
+                    }
+
+                    h2 {
+                        @extend %text-capitalize,
+                        %text-bold,
+                        %mb-20;
+                        @include font-size(48px);
+                        line-height: 1.2;
+                        letter-spacing: -0.96px;
+                        color: $bg-white;
+
+                        @include breakpoint(xl) {
+                            @include font-size(64px);
+                        }
+                    }
+
+                    p {
+                        @extend %mb-30;
+                        @include font-size(18px);
+                        color: $bg-white;
+                        opacity: 0.7;
+                        line-height: 1.4;
+
+                        @include breakpoint(md) {
+                            @include font-size(16px);
+                        }
+
+                        @include breakpoint(lg) {
+                            @include font-size(18px);
+                        }
+
+                        @include breakpoint(xl) {
+                            @include font-size(20px);
+                            line-height: 1.7;
+                        }
+                    }
+
+                }
+            }
+
+            &__btn-group {
+                margin-block-end: 0px;
+
+                &.trk-btn--defult {
+                    color: $bg-white;
+                }
             }
 
         }

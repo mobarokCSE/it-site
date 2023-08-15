@@ -122,6 +122,7 @@
     %align-i-center;
     gap: 5px;
     @include add-prefix(transition, $transition);
+    letter-spacing: 0.36px;
     color: $title-color;
 
 
@@ -155,6 +156,36 @@
         svg {
           @include add-prefix(transition, $transition);
           fill: $title-color;
+        }
+      }
+
+      &.style2 {
+        @extend %d-grid,
+        %place-i-center,
+        %me-5;
+        @include box(48px);
+        @include add-prefix(transition, $transition);
+        // border-radius: 50%;
+        // background-color: $bg-color-1;
+        border-radius: 8px;
+        background: #1F3058;
+
+        @include breakpoint(sm) {
+          @include box(52px);
+          margin-inline-end: 10px
+        }
+
+        @include breakpoint(lg) {
+          @include box(54px);
+        }
+
+        @include breakpoint(xl) {
+          @include box(55.5px);
+        }
+
+        svg {
+          @include add-prefix(transition, $transition);
+          fill: $secondary-color;
         }
       }
     }
